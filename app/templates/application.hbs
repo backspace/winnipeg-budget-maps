@@ -2,16 +2,29 @@
   <layers.tile @url="http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png" />
 
   {{#each @model as |library|}}
-    <layers.marker @location={{hash lat=library.lat lon=library.lon}} as |marker|>
+    <layers.marker
+      @location={{hash lat=library.lat lon=library.lon}}
+      @opacity={{if (or (not library.closure) (is-after library.closure this.date)) 1 0.5}}
+      as |marker|>
       <marker.popup>{{library.name}}</marker.popup>
     </layers.marker>
   {{/each}}
 </LeafletMap>
 
+<input type="range"
+  {{on "input" this.updateMonths}}
+  min={{0}}
+  max={{48}}
+  value={{this.monthsSince2020}}
+  steps="1">
+
+{{moment-format this.date "MMMM YYYY"}}
+
 <p>
   Sources (??):
   <ul>
     <li><a href="https://data.winnipeg.ca/Libraries/Library/itub-a6x4">Library positions</a></li>
+    <li><a href="https://winnipeg.ca/interhom/Budget/2020Budget/pdfs/2020-Multi-year-Budget-Presentation_Community-Services_20191116.pdf">Library closures</a></li>
   </ul>
 </p>
 
