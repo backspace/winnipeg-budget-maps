@@ -1,5 +1,18 @@
 <LeafletMap @lat={{49.865307}} @lng={{-97.153342}} @zoom={{11}} style="width: 100vh; height: 64em" as |layers|>
   <layers.tile @url="http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png" />
+
+  {{#each @model as |library|}}
+    <layers.marker @location={{hash lat=library.lat lon=library.lon}} as |marker|>
+      <marker.popup>{{library.name}}</marker.popup>
+    </layers.marker>
+  {{/each}}
 </LeafletMap>
+
+<p>
+  Sources (??):
+  <ul>
+    <li><a href="https://data.winnipeg.ca/Libraries/Library/itub-a6x4">Library positions</a></li>
+  </ul>
+</p>
 
 {{outlet}}
