@@ -2,7 +2,7 @@
   (icon iconUrl="/icons/library.svg" iconSize=(point 25 25))
   (icon iconUrl="/icons/swimming.svg" iconSize=(point 25 25))
   as |libraryIcon poolIcon|}}
-  <LeafletMap @lat={{49.865307}} @lng={{-97.153342}} @zoom={{11}} style="width: 100vh; height: 64em" as |layers|>
+  <LeafletMap @lat={{49.865307}} @lng={{-97.153342}} @zoom={{11}} class="map" as |layers|>
     <layers.tile @url="http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png" />
 
     {{#each @model.libraries as |library|}}
@@ -27,14 +27,16 @@
   </LeafletMap>
 {{/let}}
 
-<input type="range"
-  {{on "input" this.updateMonths}}
-  min={{0}}
-  max={{48}}
-  value={{this.monthsSince2020}}
-  steps="1">
+<div class="range-container">
+  <input type="range"
+    {{on "input" this.updateMonths}}
+    min={{0}}
+    max={{48}}
+    value={{this.monthsSince2020}}
+    steps="1">
 
-{{moment-format this.date "MMMM YYYY"}}
+  <span class="month">{{moment-format this.date "MMMM YYYY"}}</span>
+</div>
 
 <p>
   Sources (??):

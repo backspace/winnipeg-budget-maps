@@ -1,0 +1,17 @@
+.map {
+  width: 100%;
+  height: 16rem;
+}
+
+.range-container {
+  display: flex;
+}
+
+.range-container input {
+  flex-grow: 1;
+}
+
+.month {
+  width: 10em;
+  text-align: right;
+}
