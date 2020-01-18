@@ -13,6 +13,13 @@ module.exports = function(defaults) {
         'images/marker-shadow.png',
       ],
     },
+    postcssOptions: {
+      compile: {
+        plugins: [
+          { module: require('tailwindcss') },
+        ],
+      },
+    },
   });
 
   // Use `app.import` to add additional libraries to the generated
