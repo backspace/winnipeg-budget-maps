@@ -33,7 +33,7 @@
           @location={{hash lat=facility.lat lon=facility.lon}}
           @opacity={{if (or (not facility.closure) (is-after facility.closure this.date)) 1 0.5}}
           @icon={{if (eq facility.type 'library') libraryIcon poolIcon}}
-          @attribution="<a href='https://data.winnipeg.ca/Libraries/Library/itub-a6x4'>Libraries</a>, a href='https://data.winnipeg.ca/Recreation/Swimming-Pool-Indoor/pnd5-29qy'>Indoor</a>/<a href='https://data.winnipeg.ca/Recreation/Swimming-Pool-Outdoor/m7h5-by7s'>outdoor</a> pools"
+          @attribution="<a href='https://data.winnipeg.ca/Libraries/Library/itub-a6x4'>Libraries</a>, <a href='https://data.winnipeg.ca/Recreation/Swimming-Pool-Indoor/pnd5-29qy'>Indoor</a>/<a href='https://data.winnipeg.ca/Recreation/Swimming-Pool-Outdoor/m7h5-by7s'>outdoor</a> pools"
           @onClick={{action this.transitionToWardName facility.ward}}
           as |marker|>
           <marker.tooltip @sticky={{true}}>
