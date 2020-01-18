@@ -11,7 +11,7 @@ Wards.properties = {
   extent: geojsonBounds.extent(Wards)
 };
 
-fs.writeFileSync('app/data/wards.json', JSON.stringify(Wards));
+fs.writeFileSync('app/data/wards.json', JSON.stringify(Wards, null, 2));
 
 const inside = require('point-in-geopolygon');
 
@@ -53,4 +53,4 @@ const processedOutdoorPools = OutdoorPools.data.map(row => {
   }
 });
 
-fs.writeFileSync('app/data/facilities.json', JSON.stringify(processedLibraries.concat(processedIndoorPools, processedOutdoorPools)));
+fs.writeFileSync('app/data/facilities.json', JSON.stringify(processedLibraries.concat(processedIndoorPools, processedOutdoorPools), null, 2));
