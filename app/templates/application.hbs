@@ -18,7 +18,7 @@
       {{#each @model.wards.features as |ward|}}
         <layers.geoJSON
           @geoJSON={{ward}}
-          @stroke="blue"
+          @color={{if (eq this.activeWard ward.properties.name) "blue" "grey"}}
           @attribution="<a href='https://data.winnipeg.ca/Council-Services/Electoral-Ward/ede3-teb8'>Wards</a>"
           @onClick={{action this.transitionToWard ward}}
           as |boundary|>

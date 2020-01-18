@@ -7,6 +7,8 @@ export default class ApplicationController extends Controller {
   @tracked monthsSince2020 = 0;
   @tracked jan2020 = moment({y: 2020, m: 1, d: 1});
 
+  @tracked activeWard;
+
   emptyArray = [];
 
   get date() {
@@ -20,6 +22,7 @@ export default class ApplicationController extends Controller {
 
   @action
   transitionToWard(ward) {
-    this.transitionToRoute('ward', ward.properties.name);
+    this.activeWard = ward.properties.name;
+    this.transitionToRoute('ward', this.activeWard);
   }
 }
