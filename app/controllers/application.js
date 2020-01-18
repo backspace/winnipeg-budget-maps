@@ -15,4 +15,9 @@ export default class ApplicationController extends Controller {
   updateMonths(event) {
     this.monthsSince2020 = event.target.value;
   }
+
+  @action
+  transitionToWard(ward) {
+    this.transitionToRoute('ward', ward.properties.name);
+  }
 }

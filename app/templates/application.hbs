@@ -6,7 +6,12 @@
     <layers.tile @url="http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png" />
 
     {{#each @model.wards.features as |ward|}}
-      <layers.geoJSON @geoJSON={{ward}} @stroke="blue" @attribution="<a href='https://data.winnipeg.ca/Council-Services/Electoral-Ward/ede3-teb8'>Wards</a>" as |boundary|>
+      <layers.geoJSON
+        @geoJSON={{ward}}
+        @stroke="blue"
+        @attribution="<a href='https://data.winnipeg.ca/Council-Services/Electoral-Ward/ede3-teb8'>Wards</a>"
+        @onClick={{action this.transitionToWard ward}}
+        as |boundary|>
         <boundary.tooltip @sticky={{true}}>
           {{ward.properties.name}}
         </boundary.tooltip>
