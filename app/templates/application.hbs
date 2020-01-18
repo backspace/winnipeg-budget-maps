@@ -28,28 +28,15 @@
         </layers.geoJSON>
       {{/each}}
 
-      {{#each @model.libraries as |library|}}
+      {{#each @model.facilities as |facility|}}
         <layers.marker
-          @location={{hash lat=library.lat lon=library.lon}}
-          @opacity={{if (or (not library.closure) (is-after library.closure this.date)) 1 0.5}}
-          @icon={{libraryIcon}}
-          @attribution="<a href='https://data.winnipeg.ca/Libraries/Library/itub-a6x4'>Libraries</a>"
+          @location={{hash lat=facility.lat lon=facility.lon}}
+          @opacity={{if (or (not facility.closure) (is-after facility.closure this.date)) 1 0.5}}
+          @icon={{if (eq facility.type 'library') libraryIcon poolIcon}}
+          @attribution="<a href='https://data.winnipeg.ca/Libraries/Library/itub-a6x4'>Libraries</a>, a href='https://data.winnipeg.ca/Recreation/Swimming-Pool-Indoor/pnd5-29qy'>Indoor</a>/<a href='https://data.winnipeg.ca/Recreation/Swimming-Pool-Outdoor/m7h5-by7s'>outdoor</a> pools"
           as |marker|>
           <marker.tooltip @sticky={{true}}>
-            {{library.name}}
-          </marker.tooltip>
-        </layers.marker>
-      {{/each}}
-
-      {{#each @model.pools as |pool|}}
-        <layers.marker
-          @location={{hash lat=pool.lat lon=pool.lon}}
-          @opacity={{if (or (not pool.closure) (is-after pool.closure this.date)) 1 0.5}}
-          @icon={{poolIcon}}
-          @attribution="<a href='https://data.winnipeg.ca/Recreation/Swimming-Pool-Indoor/pnd5-29qy'>Indoor</a>/<a href='https://data.winnipeg.ca/Recreation/Swimming-Pool-Outdoor/m7h5-by7s'>outdoor</a> pools"
-          as |marker|>
-          <marker.tooltip @sticky={{true}}>
-            {{pool.name}}
+            {{facility.name}}
           </marker.tooltip>
         </layers.marker>
       {{/each}}

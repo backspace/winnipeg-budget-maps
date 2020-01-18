@@ -8,8 +8,7 @@ import insidePolygon from 'point-in-polygon';
 export default class WardRoute extends Route {
   async model({ name }) {
     const {
-      libraries,
-      pools,
+      facilities,
       wards,
     } = this.modelFor('application');
 
@@ -25,7 +24,7 @@ export default class WardRoute extends Route {
     const emailUsername = emailLink.substring(recipientIndex + 10, ampersandAfterRecipientIndex);
     const email = `${emailUsername}@winnipeg.ca`;
 
-    const closures = libraries.concat(pools)
+    const closures = facilities
       .filter(facility => facility.closure)
       .filter(facility => insidePolygon([facility.lon, facility.lat], ward.geometry.coordinates[0][0]));
 
