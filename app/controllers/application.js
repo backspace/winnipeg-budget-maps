@@ -25,4 +25,10 @@ export default class ApplicationController extends Controller {
     this.activeWard = ward.properties.name;
     this.transitionToRoute('ward', this.activeWard);
   }
+
+  @action
+  transitionToWardName(wardName) {
+    const ward = this.model.wards.features.find(ward => ward.properties.name === wardName);
+    this.transitionToWard(ward);
+  }
 }
