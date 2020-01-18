@@ -3,6 +3,12 @@
   (icon iconUrl="/icons/swimming.svg" iconSize=(point 25 25))
   as |libraryIcon poolIcon|}}
   <LeafletMap @lat={{49.865307}} @lng={{-97.153342}} @zoom={{10}} class="w-full h-64" as |layers|>
+    <layers.polyline
+      @attribution="<a href='http://map-icons.com/'>Map icons</a>, <a href='https://winnipeg.ca/interhom/Budget/2020Budget/pdfs/2020-Multi-year-Budget-Presentation_Community-Services_20191116.pdf'>Closure data</a>"
+      @locations={{this.emptyArray}}
+    />
+    {{!-- This is hackery to add more attributions --}}
+
     <layers.tile
       @url="http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png"
       @attribution='© <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors © <a href= "http://cartodb.com/attributions#basemaps">CartoDB</a>'
@@ -60,13 +66,5 @@
 
   <span class="text-right w-40">{{moment-format this.date "MMMM YYYY"}}</span>
 </div>
-
-<p>
-  Sources (??):
-  <ul>
-    <li><a href="https://winnipeg.ca/interhom/Budget/2020Budget/pdfs/2020-Multi-year-Budget-Presentation_Community-Services_20191116.pdf">Library and pool closures</a></li>
-    <li><a href="http://map-icons.com/">Map icons</a></li>
-  </ul>
-</p>
 
 {{outlet}}

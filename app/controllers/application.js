@@ -7,6 +7,8 @@ export default class ApplicationController extends Controller {
   @tracked monthsSince2020 = 0;
   @tracked jan2020 = moment({y: 2020, m: 1, d: 1});
 
+  emptyArray = [];
+
   get date() {
     return this.jan2020.clone().add(this.monthsSince2020, 'months');
   }
