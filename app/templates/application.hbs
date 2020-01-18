@@ -3,7 +3,7 @@
     (icon iconUrl="/icons/library.svg" iconSize=(point 25 25))
     (icon iconUrl="/icons/swimming.svg" iconSize=(point 25 25))
     as |libraryIcon poolIcon|}}
-    <LeafletMap @lat={{49.865307}} @lng={{-97.153342}} @zoom={{10}} class="w-full flex-grow" as |layers|>
+    <LeafletMap @bounds={{if this.activeWard this.activeWard.properties.bounds @model.wards.properties.bounds}} class="w-full flex-grow" as |layers|>
       <layers.polyline
         @attribution="<a href='http://map-icons.com/'>Map icons</a>, <a href='https://winnipeg.ca/interhom/Budget/2020Budget/pdfs/2020-Multi-year-Budget-Presentation_Community-Services_20191116.pdf'>Closure data</a>, <a href='https://winnipeg.ca/council/'>Councillor photos</a> and <a href='https://data.winnipeg.ca/resource/r4tk-7dip.json'>contacts</a>"
         @locations={{this.emptyArray}}
@@ -18,7 +18,7 @@
       {{#each @model.wards.features as |ward|}}
         <layers.geoJSON
           @geoJSON={{ward}}
-          @color={{if (eq this.activeWard ward.properties.name) "blue" "grey"}}
+          @color={{if (eq this.activeWard.properties.name ward.properties.name) "blue" "grey"}}
           @attribution="<a href='https://data.winnipeg.ca/Council-Services/Electoral-Ward/ede3-teb8'>Wards</a>"
           @onClick={{action this.transitionToWard ward}}
           as |boundary|>

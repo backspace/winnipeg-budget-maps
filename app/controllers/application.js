@@ -22,8 +22,8 @@ export default class ApplicationController extends Controller {
 
   @action
   transitionToWard(ward) {
-    this.activeWard = ward.properties.name;
-    this.transitionToRoute('ward', this.activeWard);
+    this.activeWard = ward;
+    this.transitionToRoute('ward', this.activeWard.properties.name);
   }
 
   @action
