@@ -1,1 +1,12 @@
-{{@model.properties.name}}
+<div class="flex flex-row h-64">
+  <img
+    class="max-h-full object-contain"
+    src="/councillors/{{@model.photoUrl}}"
+    alt={{@model.ward.properties.councillor}}
+  >
+  <div class="p-4">
+    {{@model.ward.properties.name}}
+    <br>
+    {{@model.ward.properties.councillor}}
+  </div>
+</div>
