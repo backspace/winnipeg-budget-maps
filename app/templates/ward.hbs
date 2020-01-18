@@ -12,5 +12,15 @@
     <a href='tel:{{@model.phone}}'>Phone</a>
     <br>
     <a href='mailto:{{@model.email}}'>Email</a>
+    {{#if @model.closures}}
+      <p>
+        Closures:
+        <ul>
+          {{#each @model.closures as |closure|}}
+            <li>{{closure.name}}: {{moment-format closure.closure "MMMM YYYY"}}</li>
+          {{/each}}
+        </ul>
+      </p>
+    {{/if}}
   </div>
 </div>
