@@ -6,7 +6,7 @@
     <layers.tile @url="http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png" />
 
     {{#each @model.wards.features as |ward|}}
-      <layers.geoJSON @geoJSON={{ward}} @stroke="blue" as |boundary|>
+      <layers.geoJSON @geoJSON={{ward}} @stroke="blue" @attribution="<a href='https://data.winnipeg.ca/Council-Services/Electoral-Ward/ede3-teb8'>Wards</a>" as |boundary|>
         <boundary.tooltip @sticky={{true}}>
           {{ward.properties.name}}
         </boundary.tooltip>
@@ -18,6 +18,7 @@
         @location={{hash lat=library.lat lon=library.lon}}
         @opacity={{if (or (not library.closure) (is-after library.closure this.date)) 1 0.5}}
         @icon={{libraryIcon}}
+        @attribution="<a href='https://data.winnipeg.ca/Libraries/Library/itub-a6x4'>Libraries</a>"
         as |marker|>
         <marker.popup>{{library.name}}</marker.popup>
       </layers.marker>
@@ -28,6 +29,7 @@
         @location={{hash lat=pool.lat lon=pool.lon}}
         @opacity={{if (or (not pool.closure) (is-after pool.closure this.date)) 1 0.5}}
         @icon={{poolIcon}}
+        @attribution="<a href='https://data.winnipeg.ca/Recreation/Swimming-Pool-Indoor/pnd5-29qy'>Indoor</a>/<a href='https://data.winnipeg.ca/Recreation/Swimming-Pool-Outdoor/m7h5-by7s'>outdoor</a> pools"
         as |marker|>
         <marker.popup>{{pool.name}}</marker.popup>
       </layers.marker>
@@ -50,11 +52,7 @@
 <p>
   Sources (??):
   <ul>
-    <li><a href="https://data.winnipeg.ca/Libraries/Library/itub-a6x4">Library positions</a></li>
-    <li><a href="https://data.winnipeg.ca/Recreation/Swimming-Pool-Indoor/pnd5-29qy">Indoor pool positions</a></li>
-    <li><a href="https://data.winnipeg.ca/Recreation/Swimming-Pool-Outdoor/m7h5-by7s">Outdoor pool positions</a></li>
     <li><a href="https://winnipeg.ca/interhom/Budget/2020Budget/pdfs/2020-Multi-year-Budget-Presentation_Community-Services_20191116.pdf">Library and pool closures</a></li>
-    <li><a href="https://data.winnipeg.ca/Council-Services/Electoral-Ward/ede3-teb8">Ward boundaries</a></li>
     <li><a href="http://map-icons.com/">Map icons</a></li>
   </ul>
 </p>
