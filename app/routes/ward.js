@@ -3,7 +3,7 @@ import Photos from '../data/councillor-photos';
 import Contacts from '../data/councillor-contacts';
 
 import resolveAsset from 'ember-cli-resolve-asset';
-import insidePolygon from 'point-in-polygon';
+import inside from 'point-in-geopolygon';
 
 export default class WardRoute extends Route {
   async model({ name }) {
@@ -26,7 +26,7 @@ export default class WardRoute extends Route {
 
     const closures = facilities
       .filter(facility => facility.closure)
-      .filter(facility => insidePolygon([facility.lon, facility.lat], ward.geometry.coordinates[0][0]));
+      .filter(facility => inside.polygon(ward.geometry.coordinates[0], [facility.lon, facility.lat]));
 
     return {
       ward,
