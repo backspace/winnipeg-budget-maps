@@ -20,7 +20,9 @@
         @icon={{libraryIcon}}
         @attribution="<a href='https://data.winnipeg.ca/Libraries/Library/itub-a6x4'>Libraries</a>"
         as |marker|>
-        <marker.popup>{{library.name}}</marker.popup>
+        <marker.tooltip @sticky={{true}}>
+          {{library.name}}
+        </marker.tooltip>
       </layers.marker>
     {{/each}}
 
@@ -31,7 +33,9 @@
         @icon={{poolIcon}}
         @attribution="<a href='https://data.winnipeg.ca/Recreation/Swimming-Pool-Indoor/pnd5-29qy'>Indoor</a>/<a href='https://data.winnipeg.ca/Recreation/Swimming-Pool-Outdoor/m7h5-by7s'>outdoor</a> pools"
         as |marker|>
-        <marker.popup>{{pool.name}}</marker.popup>
+        <marker.tooltip @sticky={{true}}>
+          {{pool.name}}
+        </marker.tooltip>
       </layers.marker>
     {{/each}}
   </LeafletMap>
