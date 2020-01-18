@@ -1,6 +1,18 @@
 const fs = require('fs');
 
 const Wards = require('../app/data/wards.json');
+const geojsonBounds = require('geojson-bounds');
+
+Wards.features.forEach(ward => {
+  ward.properties.extent = geojsonBounds.extent(ward);
+});
+
+Wards.properties = {
+  extent: geojsonBounds.extent(Wards)
+};
+
+fs.writeFileSync('app/data/wards.json', JSON.stringify(Wards));
+
 const inside = require('point-in-geopolygon');
 
 const Libraries = require('../data/libraries.json');
