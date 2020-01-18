@@ -14,6 +14,7 @@
     "build": "ember build",
     "lint:hbs": "ember-template-lint .",
     "lint:js": "eslint .",
+    "preprocess": "node scripts/preprocess-data.js",
     "start": "ember serve",
     "test": "ember test"
   },
