@@ -1,70 +1,72 @@
-{{#let
-  (icon iconUrl="/icons/library.svg" iconSize=(point 25 25))
-  (icon iconUrl="/icons/swimming.svg" iconSize=(point 25 25))
-  as |libraryIcon poolIcon|}}
-  <LeafletMap @lat={{49.865307}} @lng={{-97.153342}} @zoom={{10}} class="w-full h-64" as |layers|>
-    <layers.polyline
-      @attribution="<a href='http://map-icons.com/'>Map icons</a>, <a href='https://winnipeg.ca/interhom/Budget/2020Budget/pdfs/2020-Multi-year-Budget-Presentation_Community-Services_20191116.pdf'>Closure data</a>"
-      @locations={{this.emptyArray}}
-    />
-    {{!-- This is hackery to add more attributions --}}
+<div class="flex flex-col h-full">
+  {{#let
+    (icon iconUrl="/icons/library.svg" iconSize=(point 25 25))
+    (icon iconUrl="/icons/swimming.svg" iconSize=(point 25 25))
+    as |libraryIcon poolIcon|}}
+    <LeafletMap @lat={{49.865307}} @lng={{-97.153342}} @zoom={{10}} class="w-full flex-grow" as |layers|>
+      <layers.polyline
+        @attribution="<a href='http://map-icons.com/'>Map icons</a>, <a href='https://winnipeg.ca/interhom/Budget/2020Budget/pdfs/2020-Multi-year-Budget-Presentation_Community-Services_20191116.pdf'>Closure data</a>"
+        @locations={{this.emptyArray}}
+      />
+      {{!-- This is hackery to add more attributions --}}
 
-    <layers.tile
-      @url="http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png"
-      @attribution='© <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors © <a href= "http://cartodb.com/attributions#basemaps">CartoDB</a>'
-    />
+      <layers.tile
+        @url="http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png"
+        @attribution='© <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors © <a href= "http://cartodb.com/attributions#basemaps">CartoDB</a>'
+      />
 
-    {{#each @model.wards.features as |ward|}}
-      <layers.geoJSON
-        @geoJSON={{ward}}
-        @stroke="blue"
-        @attribution="<a href='https://data.winnipeg.ca/Council-Services/Electoral-Ward/ede3-teb8'>Wards</a>"
-        @onClick={{action this.transitionToWard ward}}
-        as |boundary|>
-        <boundary.tooltip @sticky={{true}}>
-          {{ward.properties.name}}
-        </boundary.tooltip>
-      </layers.geoJSON>
-    {{/each}}
+      {{#each @model.wards.features as |ward|}}
+        <layers.geoJSON
+          @geoJSON={{ward}}
+          @stroke="blue"
+          @attribution="<a href='https://data.winnipeg.ca/Council-Services/Electoral-Ward/ede3-teb8'>Wards</a>"
+          @onClick={{action this.transitionToWard ward}}
+          as |boundary|>
+          <boundary.tooltip @sticky={{true}}>
+            {{ward.properties.name}}
+          </boundary.tooltip>
+        </layers.geoJSON>
+      {{/each}}
 
-    {{#each @model.libraries as |library|}}
-      <layers.marker
-        @location={{hash lat=library.lat lon=library.lon}}
-        @opacity={{if (or (not library.closure) (is-after library.closure this.date)) 1 0.5}}
-        @icon={{libraryIcon}}
-        @attribution="<a href='https://data.winnipeg.ca/Libraries/Library/itub-a6x4'>Libraries</a>"
-        as |marker|>
-        <marker.tooltip @sticky={{true}}>
-          {{library.name}}
-        </marker.tooltip>
-      </layers.marker>
-    {{/each}}
+      {{#each @model.libraries as |library|}}
+        <layers.marker
+          @location={{hash lat=library.lat lon=library.lon}}
+          @opacity={{if (or (not library.closure) (is-after library.closure this.date)) 1 0.5}}
+          @icon={{libraryIcon}}
+          @attribution="<a href='https://data.winnipeg.ca/Libraries/Library/itub-a6x4'>Libraries</a>"
+          as |marker|>
+          <marker.tooltip @sticky={{true}}>
+            {{library.name}}
+          </marker.tooltip>
+        </layers.marker>
+      {{/each}}
 
-    {{#each @model.pools as |pool|}}
-      <layers.marker
-        @location={{hash lat=pool.lat lon=pool.lon}}
-        @opacity={{if (or (not pool.closure) (is-after pool.closure this.date)) 1 0.5}}
-        @icon={{poolIcon}}
-        @attribution="<a href='https://data.winnipeg.ca/Recreation/Swimming-Pool-Indoor/pnd5-29qy'>Indoor</a>/<a href='https://data.winnipeg.ca/Recreation/Swimming-Pool-Outdoor/m7h5-by7s'>outdoor</a> pools"
-        as |marker|>
-        <marker.tooltip @sticky={{true}}>
-          {{pool.name}}
-        </marker.tooltip>
-      </layers.marker>
-    {{/each}}
-  </LeafletMap>
-{{/let}}
+      {{#each @model.pools as |pool|}}
+        <layers.marker
+          @location={{hash lat=pool.lat lon=pool.lon}}
+          @opacity={{if (or (not pool.closure) (is-after pool.closure this.date)) 1 0.5}}
+          @icon={{poolIcon}}
+          @attribution="<a href='https://data.winnipeg.ca/Recreation/Swimming-Pool-Indoor/pnd5-29qy'>Indoor</a>/<a href='https://data.winnipeg.ca/Recreation/Swimming-Pool-Outdoor/m7h5-by7s'>outdoor</a> pools"
+          as |marker|>
+          <marker.tooltip @sticky={{true}}>
+            {{pool.name}}
+          </marker.tooltip>
+        </layers.marker>
+      {{/each}}
+    </LeafletMap>
+  {{/let}}
 
-<div class="flex">
-  <input type="range"
-    {{on "input" this.updateMonths}}
-    min={{0}}
-    max={{48}}
-    value={{this.monthsSince2020}}
-    steps="1"
-    class="flex-grow">
+  <div class="flex p-4">
+    <input type="range"
+      {{on "input" this.updateMonths}}
+      min={{0}}
+      max={{48}}
+      value={{this.monthsSince2020}}
+      steps="1"
+      class="flex-grow">
 
-  <span class="text-right w-40">{{moment-format this.date "MMMM YYYY"}}</span>
+    <span class="text-right w-40">{{moment-format this.date "MMMM YYYY"}}</span>
+  </div>
+
+  {{outlet}}
 </div>
-
-{{outlet}}
