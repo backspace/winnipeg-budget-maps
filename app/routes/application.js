@@ -2,6 +2,7 @@ import Route from '@ember/routing/route';
 import Libraries from '../data/libraries';
 import IndoorPools from '../data/indoor-pools';
 import OutdoorPools from '../data/outdoor-pools';
+import Wards from '../data/wards';
 
 import Closures from '../data/closures';
 
@@ -40,6 +41,7 @@ export default class ApplicationRoute extends Route {
     return {
       pools: indoorPools.concat(outdoorPools),
       libraries,
+      wards: Wards,
     };
   }
 }

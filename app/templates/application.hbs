@@ -5,6 +5,14 @@
   <LeafletMap @lat={{49.865307}} @lng={{-97.153342}} @zoom={{10}} class="map" as |layers|>
     <layers.tile @url="http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png" />
 
+    {{#each @model.wards.features as |ward|}}
+      <layers.geoJSON @geoJSON={{ward}} @stroke="blue" as |boundary|>
+        <boundary.tooltip @sticky={{true}}>
+          {{ward.properties.name}}
+        </boundary.tooltip>
+      </layers.geoJSON>
+    {{/each}}
+
     {{#each @model.libraries as |library|}}
       <layers.marker
         @location={{hash lat=library.lat lon=library.lon}}
@@ -45,6 +53,7 @@
     <li><a href="https://data.winnipeg.ca/Recreation/Swimming-Pool-Indoor/pnd5-29qy">Indoor pool positions</a></li>
     <li><a href="https://data.winnipeg.ca/Recreation/Swimming-Pool-Outdoor/m7h5-by7s">Outdoor pool positions</a></li>
     <li><a href="https://winnipeg.ca/interhom/Budget/2020Budget/pdfs/2020-Multi-year-Budget-Presentation_Community-Services_20191116.pdf">Library and pool closures</a></li>
+    <li><a href="https://data.winnipeg.ca/Council-Services/Electoral-Ward/ede3-teb8">Ward boundaries</a></li>
     <li><a href="http://map-icons.com/">Map icons</a></li>
   </ul>
 </p>
