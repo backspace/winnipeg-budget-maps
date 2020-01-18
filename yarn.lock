@@ -4478,6 +4478,15 @@ ember-cli-preprocess-registry@^3.3.0:
     debug "^3.0.1"
     process-relative-require "^1.0.0"
 
+ember-cli-resolve-asset@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/ember-cli-resolve-asset/-/ember-cli-resolve-asset-0.2.0.tgz#bd2a8ae5bbd1ba2ca79b19d877ded226bbb24fd0"
+  integrity sha512-+WaerYhiuzTMD5/tnguCf/MappbWysvQzx3S57pVIMM4EAq1TXCY+JlyUw3dI5fOLVv3xdmgIlNdF3YZyUgh9A==
+  dependencies:
+    ember-cli-babel "^7.13.0"
+    ember-fetch "^7.0.0"
+    ember-get-config "^0.2.4"
+
 ember-cli-sri@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/ember-cli-sri/-/ember-cli-sri-2.1.1.tgz#971620934a4b9183cf7923cc03e178b83aa907fd"
