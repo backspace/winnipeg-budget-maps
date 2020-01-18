@@ -20,7 +20,7 @@
           @geoJSON={{ward}}
           @color={{if (eq this.activeWard.properties.name ward.properties.name) "blue" "grey"}}
           @attribution="<a href='https://data.winnipeg.ca/Council-Services/Electoral-Ward/ede3-teb8'>Wards</a>"
-          @onClick={{action this.transitionToWard ward}}
+          @onClick={{action this.transitionToWardName ward.properties.name}}
           as |boundary|>
           <boundary.tooltip @sticky={{true}}>
             {{ward.properties.name}}

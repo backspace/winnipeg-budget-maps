@@ -1,13 +1,24 @@
 import Controller from '@ember/controller';
 import { action } from '@ember/object';
 import { tracked } from '@glimmer/tracking';
+import { inject as service } from '@ember/service';
 import moment from 'moment';
 
 export default class ApplicationController extends Controller {
+  @service router;
+
   @tracked monthsSince2020 = 0;
   @tracked jan2020 = moment({y: 2020, m: 1, d: 1});
 
-  @tracked activeWard;
+  get activeWard() {
+    const activeWardName = this.router.currentRoute.params.name;
+
+    if (activeWardName) {
+      return this.model.wards.features.find(ward => ward.properties.name === activeWardName);
+    } else {
+      return undefined;
+    }
+  }
 
   emptyArray = [];
 
@@ -21,14 +32,7 @@ export default class ApplicationController extends Controller {
   }
 
   @action
-  transitionToWard(ward) {
-    this.activeWard = ward;
-    this.transitionToRoute('ward', this.activeWard.properties.name);
-  }
-
-  @action
   transitionToWardName(wardName) {
-    const ward = this.model.wards.features.find(ward => ward.properties.name === wardName);
-    this.transitionToWard(ward);
+    this.transitionToRoute('ward', wardName);
   }
 }
