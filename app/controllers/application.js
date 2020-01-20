@@ -7,6 +7,9 @@ import moment from 'moment';
 export default class ApplicationController extends Controller {
   @service router;
 
+  @tracked hidden = [];
+  queryParams = ['hidden'];
+
   @tracked monthsSince2020 = 0;
   @tracked jan2020 = moment({y: 2020, m: 1, d: 1});
 
@@ -24,6 +27,31 @@ export default class ApplicationController extends Controller {
 
   get date() {
     return this.jan2020.clone().add(this.monthsSince2020, 'months');
+  }
+
+  get filteredFacilities() {
+    return this.model.facilities.filter(f => !this.hidden.includes(f.type));
+  }
+
+  get facilityTypeStates() {
+    return this.model.facilityTypes.map(type => {
+      return {
+        type,
+        hidden: this.hidden.includes(type)
+      };
+    });
+  }
+
+  @action
+  toggleFacilityType(type) {
+    const index = this.hidden.indexOf(type);
+
+    if (index > -1) {
+      this.hidden.splice(index, 1);
+      this.hidden = [...this.hidden];
+    } else {
+      this.hidden = [...this.hidden, type];
+    }
   }
 
   @action

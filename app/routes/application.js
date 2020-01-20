@@ -20,6 +20,7 @@ export default class ApplicationRoute extends Route {
         f.closure = Closures[f.name];
         return f;
       }),
+      facilityTypes: facilities.mapBy('type').uniq(),
       wards: Wards,
     };
   }
