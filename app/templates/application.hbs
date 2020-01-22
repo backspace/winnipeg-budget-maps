@@ -2,7 +2,8 @@
   {{#let
     (icon iconUrl="/icons/library.svg" iconSize=(point 25 25))
     (icon iconUrl="/icons/swimming.svg" iconSize=(point 25 25))
-    as |libraryIcon poolIcon|}}
+    (icon iconUrl="/icons/x.svg" iconSize=(point 25 25))
+    as |libraryIcon poolIcon xIcon|}}
     <LeafletMap @bounds={{if this.activeWard this.activeWard.properties.bounds @model.wards.properties.bounds}} class="w-full flex-grow" as |layers|>
       <layers.polyline
         @attribution="<a href='http://map-icons.com/'>Map icons</a>, <a href='https://winnipeg.ca/interhom/Budget/2020Budget/pdfs/2020-Multi-year-Budget-Presentation_Community-Services_20191116.pdf'>Closure data</a>, <a href='https://winnipeg.ca/council/'>Councillor photos</a> and <a href='https://data.winnipeg.ca/resource/r4tk-7dip.json'>contacts</a>"
@@ -31,7 +32,6 @@
       {{#each this.filteredFacilities as |facility|}}
         <layers.marker
           @location={{hash lat=facility.lat lon=facility.lon}}
-          @opacity={{if (or (not facility.closure) (is-after facility.closure this.date)) 1 0.5}}
           @icon={{if (eq facility.type 'library') libraryIcon poolIcon}}
           @attribution="<a href='https://data.winnipeg.ca/Libraries/Library/itub-a6x4'>Libraries</a>, <a href='https://data.winnipeg.ca/Recreation/Swimming-Pool-Indoor/pnd5-29qy'>Indoor</a>/<a href='https://data.winnipeg.ca/Recreation/Swimming-Pool-Outdoor/m7h5-by7s'>outdoor</a> pools"
           @onClick={{action this.transitionToWardName facility.ward}}
@@ -41,6 +41,13 @@
             {{#if facility.closure}}<br>proposed closure {{moment-format facility.closure "MMMM YYYY"}}{{/if}}
           </marker.tooltip>
         </layers.marker>
+        {{#if (and facility.closure (is-same-or-before facility.closure this.date))}}
+          <layers.marker
+            @location={{hash lat=facility.lat lon=facility.lon}}
+            @icon={{xIcon}}
+            @interactive={{false}}
+          />
+        {{/if}}
       {{/each}}
     </LeafletMap>
   {{/let}}
