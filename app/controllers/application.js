@@ -15,7 +15,7 @@ export default class ApplicationController extends Controller {
   @tracked monthsSince2020 = 0;
   @tracked jan2020 = moment({y: 2020, m: 1, d: 1});
 
-  maximumMonth = 48;
+  maximumMonth = 35;
 
   @tracked zoom = 12;
 
