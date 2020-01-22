@@ -38,6 +38,7 @@
           as |marker|>
           <marker.tooltip @sticky={{true}}>
             {{facility.name}}
+            {{#if facility.closure}}<br>proposed closure {{moment-format facility.closure "MMMM YYYY"}}{{/if}}
           </marker.tooltip>
         </layers.marker>
       {{/each}}
