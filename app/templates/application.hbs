@@ -2,7 +2,7 @@
   {{#let
     (icon iconUrl="/icons/library.svg" iconSize=(point 25 25))
     (icon iconUrl="/icons/swimming.svg" iconSize=(point 25 25))
-    (icon iconUrl="/icons/x.svg" iconSize=(point 25 25))
+    (div-icon html="<img src='/icons/x.svg' class='rotate-scale-up'>" iconSize=(point 25 25))
     as |libraryIcon poolIcon xIcon|}}
     <LeafletMap @bounds={{if this.activeWard this.activeWard.properties.bounds @model.wards.properties.bounds}} class="w-full flex-grow" as |layers|>
       <layers.polyline
@@ -46,6 +46,7 @@
             @location={{hash lat=facility.lat lon=facility.lon}}
             @icon={{xIcon}}
             @interactive={{false}}
+            @class="rotate-scale-up"
           />
         {{/if}}
       {{/each}}
