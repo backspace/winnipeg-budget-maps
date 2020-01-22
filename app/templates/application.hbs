@@ -55,10 +55,13 @@
   </div>
 
   <div class="flex p-4">
+    <button type="button" class="mr-2 p-1 border border-black" {{on "click" (perform this.playTimeline)}}>
+      {{if this.playTimeline.isRunning "…" "Play"}}
+    </button>
     <input type="range"
       {{on "input" this.updateMonths}}
       min={{0}}
-      max={{48}}
+      max={{this.maximumMonth}}
       value={{this.monthsSince2020}}
       steps="1"
       class="flex-grow">

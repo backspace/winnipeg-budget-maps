@@ -4723,6 +4723,15 @@ ember-composability-tools@^0.0.12:
     ember-cli-htmlbars "^3.1.0"
     ember-in-element-polyfill "^0.2.0"
 
+ember-concurrency@^1.1.5:
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/ember-concurrency/-/ember-concurrency-1.1.5.tgz#d07421617d14a038a2d29c994335866061a8107c"
+  integrity sha512-2YgvPJKULUmEDLxlXiWwmOXKCd6FSp7V/L9t77y07f99+CU5cejCsUUjkYNTqlgb8gjifcuOjBq1Cyim3hhuPg==
+  dependencies:
+    ember-cli-babel "^7.7.3"
+    ember-compatibility-helpers "^1.2.0"
+    ember-maybe-import-regenerator "^0.1.6"
+
 ember-data@~3.15.0:
   version "3.15.0"
   resolved "https://registry.yarnpkg.com/ember-data/-/ember-data-3.15.0.tgz#8521d75945098b66385c5c88acc2ef56fa23d4f5"

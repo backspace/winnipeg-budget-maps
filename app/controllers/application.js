@@ -2,6 +2,8 @@ import Controller from '@ember/controller';
 import { action } from '@ember/object';
 import { tracked } from '@glimmer/tracking';
 import { inject as service } from '@ember/service';
+
+import { task, timeout } from 'ember-concurrency';
 import moment from 'moment';
 
 export default class ApplicationController extends Controller {
@@ -12,6 +14,8 @@ export default class ApplicationController extends Controller {
 
   @tracked monthsSince2020 = 0;
   @tracked jan2020 = moment({y: 2020, m: 1, d: 1});
+
+  maximumMonth = 48;
 
   get activeWard() {
     const activeWardName = this.router.currentRoute.params.name;
@@ -63,4 +67,14 @@ export default class ApplicationController extends Controller {
   transitionToWardName(wardName) {
     this.transitionToRoute('ward', wardName);
   }
+
+  @task(function*() {
+    this.monthsSince2020 = 0;
+
+    while (this.monthsSince2020 < this.maximumMonth) {
+      this.monthsSince2020++;
+      yield timeout(200);
+    }
+  })
+  playTimeline;
 }
