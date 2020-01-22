@@ -17,6 +17,8 @@ export default class ApplicationController extends Controller {
 
   maximumMonth = 48;
 
+  @tracked zoom = 12;
+
   get activeWard() {
     const activeWardName = this.router.currentRoute.params.name;
 
@@ -24,6 +26,16 @@ export default class ApplicationController extends Controller {
       return this.model.wards.features.find(ward => ward.properties.name === activeWardName);
     } else {
       return undefined;
+    }
+  }
+
+  get markerLength() {
+    if (this.zoom < 12) {
+      return 12;
+    } else if (this.zoom < 14) {
+      return 20;
+    } else {
+      return 25;
     }
   }
 
@@ -44,6 +56,11 @@ export default class ApplicationController extends Controller {
         hidden: this.hidden.includes(type)
       };
     });
+  }
+
+  @action
+  zoomChanged({target}) {
+    this.zoom = target.getZoom();
   }
 
   @action
