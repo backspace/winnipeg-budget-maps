@@ -19,7 +19,7 @@
         @attribution='© <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors © <a href= "http://cartodb.com/attributions#basemaps">CartoDB</a>'
       />
 
-      {{#each @model.wards.features as |ward|}}
+      {{#each this.sortedWards as |ward|}}
         <layers.geoJSON
           @geoJSON={{ward}}
           @color={{if (eq this.activeWard.properties.name ward.properties.name) "#2E368F" "#F9AE3A"}}

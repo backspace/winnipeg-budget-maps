@@ -29,6 +29,17 @@ export default class ApplicationController extends Controller {
     }
   }
 
+  get sortedWards() {
+    const allWards = [...this.model.wards.features];
+
+    if (this.activeWard) {
+      allWards.splice(allWards.indexOf(this.activeWard), 1);
+      allWards.push(this.activeWard);
+    }
+
+    return allWards;
+  }
+
   get markerLength() {
     if (this.zoom < 12) {
       return 12;
