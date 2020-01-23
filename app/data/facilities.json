@@ -299,5 +299,201 @@
     "lon": -97.10022737450974,
     "type": "outdoor-pool",
     "ward": "St. Vital"
+  },
+  {
+    "name": "Bertrand Arena",
+    "lat": 49.8835250439414,
+    "lon": -97.1146040094391,
+    "type": "arena",
+    "ward": "St. Boniface"
+  },
+  {
+    "name": "Century Arena",
+    "lat": 49.831510962659806,
+    "lon": -97.1688990321022,
+    "type": "arena",
+    "ward": "River Heights - Fort Garry"
+  },
+  {
+    "name": "Richmond  Kings Arena",
+    "lat": 49.799011966121284,
+    "lon": -97.13663095662025,
+    "type": "arena",
+    "ward": "St. Norbert - Seine River"
+  },
+  {
+    "name": "Gateway Recreation Centre Arena",
+    "lat": 49.94523191780285,
+    "lon": -97.04763390911855,
+    "type": "arena",
+    "ward": "North Kildonan"
+  },
+  {
+    "name": "Seven Oaks Arena",
+    "lat": 49.94839120098217,
+    "lon": -97.1388169909093,
+    "type": "arena",
+    "ward": "Old Kildonan"
+  },
+  {
+    "name": "Kinsmen Allard Arena",
+    "lat": 49.87835932465351,
+    "lon": -97.30434333485313,
+    "type": "arena",
+    "ward": "Charleswood - Tuxedo - Westwood"
+  },
+  {
+    "name": "River Heights Community Centre Arena",
+    "lat": 49.865400007719046,
+    "lon": -97.18163396669881,
+    "type": "arena",
+    "ward": "River Heights - Fort Garry"
+  },
+  {
+    "name": "St. James Civic Centre Arena",
+    "lat": 49.886496984794036,
+    "lon": -97.23425319081282,
+    "type": "arena",
+    "ward": "St. James"
+  },
+  {
+    "name": "Billy Mosienko Arena",
+    "lat": 49.934731018809195,
+    "lon": -97.19447705368107,
+    "type": "arena",
+    "ward": "Point Douglas"
+  },
+  {
+    "name": "St. Norbert  Arena",
+    "lat": 49.76813220942469,
+    "lon": -97.15421637436859,
+    "type": "arena",
+    "ward": "St. Norbert - Seine River"
+  },
+  {
+    "name": "West Kildonan Memorial Community Centre Arena",
+    "lat": 49.93725625949393,
+    "lon": -97.12645275235353,
+    "type": "arena",
+    "ward": "Mynarski"
+  },
+  {
+    "name": "River East Arena",
+    "lat": 49.94397499516448,
+    "lon": -97.0770050020946,
+    "type": "arena",
+    "ward": "North Kildonan"
+  },
+  {
+    "name": "Charles A. Barbour Arena",
+    "lat": 49.855373981950564,
+    "lon": -97.16879703938869,
+    "type": "arena",
+    "ward": "River Heights - Fort Garry"
+  },
+  {
+    "name": "Jonathon Toews Sportplex",
+    "lat": 49.81925820676075,
+    "lon": -97.10165378770068,
+    "type": "arena",
+    "ward": "St. Norbert - Seine River"
+  },
+  {
+    "name": "Terry Sawchuk Arena",
+    "lat": 49.91764800065462,
+    "lon": -97.0708419767021,
+    "type": "arena",
+    "ward": "Elmwood - East Kildonan"
+  },
+  {
+    "name": "Glenwood Community Centre Arena",
+    "lat": 49.86578695897699,
+    "lon": -97.10787701853803,
+    "type": "arena",
+    "ward": "St. Vital"
+  },
+  {
+    "name": "Pioneer Arena",
+    "lat": 49.91019802803041,
+    "lon": -97.15747900752979,
+    "type": "arena",
+    "ward": "Point Douglas"
+  },
+  {
+    "name": "Sam Southern Arena",
+    "lat": 49.86350599262236,
+    "lon": -97.13549987481032,
+    "type": "arena",
+    "ward": "Fort Rouge - East Fort Garry"
+  },
+  {
+    "name": "Maples Multiplex Arena",
+    "lat": 49.95354300265174,
+    "lon": -97.1763679539023,
+    "type": "arena",
+    "ward": "Old Kildonan"
+  },
+  {
+    "name": "Eric Coy Arena",
+    "lat": 49.8575844641071,
+    "lon": -97.27016379469632,
+    "type": "arena",
+    "ward": "Charleswood - Tuxedo - Westwood"
+  },
+  {
+    "name": "Southdale Arena",
+    "lat": 49.8458078138069,
+    "lon": -97.07782424160075,
+    "type": "arena",
+    "ward": "St. Boniface"
+  },
+  {
+    "name": "Notre Dame Recreation Centre Arena",
+    "lat": 49.89107146317146,
+    "lon": -97.11671346492723,
+    "type": "arena",
+    "ward": "St. Boniface"
+  },
+  {
+    "name": "Keith Bodley Arena",
+    "lat": 49.87578390173794,
+    "lon": -97.30318596508486,
+    "type": "arena",
+    "ward": "Charleswood - Tuxedo - Westwood"
+  },
+  {
+    "name": "Maginot Arena",
+    "lat": 49.87268499533244,
+    "lon": -97.08022298698845,
+    "type": "arena",
+    "ward": "St. Boniface"
+  },
+  {
+    "name": "East End Arena & Community Club",
+    "lat": 49.89466603589417,
+    "lon": -96.99160195145335,
+    "type": "arena",
+    "ward": "Transcona"
+  },
+  {
+    "name": "St. Vital Centennial Arena",
+    "lat": 49.83314208206833,
+    "lon": -97.09204904483501,
+    "type": "arena",
+    "ward": "St. Vital"
+  },
+  {
+    "name": "Sargent Park Arena",
+    "lat": 49.899344024420415,
+    "lon": -97.18079795474522,
+    "type": "arena",
+    "ward": "Daniel McIntyre"
+  },
+  {
+    "name": "Varsity View Sportsplex Arena",
+    "lat": 49.843089760955046,
+    "lon": -97.27079623376599,
+    "type": "arena",
+    "ward": "Charleswood - Tuxedo - Westwood"
   }
 ]

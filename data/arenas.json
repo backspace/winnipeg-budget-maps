@@ -1,0 +1,762 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "t3cz-kh3n",
+      "name" : "Arena",
+      "attribution" : "City of Winnipeg",
+      "averageRating" : 0,
+      "category" : "Recreation",
+      "createdAt" : 1403199306,
+      "description" : "Locations of ice arenas owned by the City of Winnipeg.",
+      "displayType" : "map",
+      "downloadCount" : 900,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1575200754,
+      "licenseId" : "OGL_CANADA",
+      "newBackend" : true,
+      "numberOfComments" : 0,
+      "oid" : 22080414,
+      "previewImageId" : "7711edd6-e00c-442b-95c1-2b76ef03f1b0",
+      "provenance" : "official",
+      "publicationAppendEnabled" : true,
+      "publicationDate" : 1467382750,
+      "publicationGroup" : 1622220,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1577879396,
+      "rowsUpdatedBy" : "9x28-xwwt",
+      "tableId" : 11658388,
+      "totalTimesRated" : 0,
+      "viewCount" : 651,
+      "viewLastModified" : 1504812147,
+      "viewType" : "tabular",
+      "approvals" : [ {
+        "reviewedAt" : 1467382750,
+        "reviewedAutomatically" : true,
+        "state" : "approved",
+        "submissionId" : 649496,
+        "submissionObject" : "public_audience_request",
+        "submissionOutcome" : "change_audience",
+        "submittedAt" : 1467382750,
+        "workflowId" : 2018,
+        "submissionDetails" : {
+          "permissionType" : "READ"
+        },
+        "submissionOutcomeApplication" : {
+          "failureCount" : 0,
+          "status" : "success"
+        },
+        "submitter" : {
+          "id" : "2mb6-i6j3",
+          "displayName" : "Open Data Admin"
+        }
+      } ],
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 261348626,
+        "name" : "Name",
+        "dataTypeName" : "text",
+        "fieldName" : "name",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 20358331,
+        "width" : 334,
+        "cachedContents" : {
+          "null" : "0",
+          "top" : [ {
+            "item" : "Varsity View Sportsplex Arena",
+            "count" : "1"
+          }, {
+            "item" : "Sam Southern Arena",
+            "count" : "1"
+          }, {
+            "item" : "St. Norbert  Arena",
+            "count" : "1"
+          }, {
+            "item" : "Keith Bodley Arena",
+            "count" : "1"
+          }, {
+            "item" : "Terry Sawchuk Arena",
+            "count" : "1"
+          }, {
+            "item" : "Billy Mosienko Arena",
+            "count" : "1"
+          }, {
+            "item" : "Eric Coy Arena",
+            "count" : "1"
+          }, {
+            "item" : "Sargent Park Arena",
+            "count" : "1"
+          }, {
+            "item" : "Gateway Recreation Centre Arena",
+            "count" : "1"
+          }, {
+            "item" : "Richmond  Kings Arena",
+            "count" : "1"
+          }, {
+            "item" : "Pioneer Arena",
+            "count" : "1"
+          }, {
+            "item" : "West Kildonan Memorial Community Centre Arena",
+            "count" : "1"
+          }, {
+            "item" : "Notre Dame Recreation Centre Arena",
+            "count" : "1"
+          }, {
+            "item" : "St. Vital Centennial Arena",
+            "count" : "1"
+          }, {
+            "item" : "St. James Civic Centre Arena",
+            "count" : "1"
+          }, {
+            "item" : "Bertrand Arena",
+            "count" : "1"
+          }, {
+            "item" : "Southdale Arena",
+            "count" : "1"
+          }, {
+            "item" : "Kinsmen Allard Arena",
+            "count" : "1"
+          }, {
+            "item" : "Jonathon Toews Sportplex",
+            "count" : "1"
+          }, {
+            "item" : "Maginot Arena",
+            "count" : "1"
+          } ],
+          "cardinality" : "28"
+        },
+        "format" : { }
+      }, {
+        "id" : 261348627,
+        "name" : "Address",
+        "dataTypeName" : "text",
+        "fieldName" : "address",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 20358332,
+        "width" : 184,
+        "cachedContents" : {
+          "null" : "0",
+          "top" : [ {
+            "item" : "454 Adsum Dr",
+            "count" : "1"
+          }, {
+            "item" : "165 Sansome Ave",
+            "count" : "1"
+          }, {
+            "item" : "1188 Dakota St",
+            "count" : "1"
+          }, {
+            "item" : "4230 Ridgewood Ave",
+            "count" : "1"
+          }, {
+            "item" : "666 Silverstone Ave",
+            "count" : "1"
+          }, {
+            "item" : "294 Bertrand St",
+            "count" : "1"
+          }, {
+            "item" : "1717 Gateway Rd",
+            "count" : "1"
+          }, {
+            "item" : "517 Pandora Ave E",
+            "count" : "1"
+          }, {
+            "item" : "3450 Pembina Hwy",
+            "count" : "1"
+          }, {
+            "item" : "625 Osborne St",
+            "count" : "1"
+          }, {
+            "item" : "27 Overton St",
+            "count" : "1"
+          }, {
+            "item" : "1377 Clarence Ave",
+            "count" : "1"
+          }, {
+            "item" : "535 Oakdale Dr",
+            "count" : "1"
+          }, {
+            "item" : "1370 Grosvenor Ave",
+            "count" : "1"
+          }, {
+            "item" : "580 St Anne's Rd",
+            "count" : "1"
+          }, {
+            "item" : "271 De La Cathedrale Ave",
+            "count" : "1"
+          }, {
+            "item" : "254 Lakewood Blvd",
+            "count" : "1"
+          }, {
+            "item" : "1111 Wall St",
+            "count" : "1"
+          }, {
+            "item" : "346 Perth Ave",
+            "count" : "1"
+          }, {
+            "item" : "500 Nathaniel St",
+            "count" : "1"
+          } ],
+          "cardinality" : "28"
+        },
+        "format" : { }
+      }, {
+        "id" : 261348628,
+        "name" : "Ice Surface Count",
+        "dataTypeName" : "number",
+        "fieldName" : "ice_surface_count",
+        "position" : 3,
+        "renderTypeName" : "number",
+        "tableColumnId" : 20358333,
+        "width" : 204,
+        "cachedContents" : {
+          "average" : "1.178571428571429",
+          "null" : "0",
+          "top" : [ {
+            "item" : "1",
+            "count" : "23"
+          }, {
+            "item" : "2",
+            "count" : "5"
+          } ],
+          "sum" : "33",
+          "cardinality" : "2"
+        },
+        "format" : { }
+      }, {
+        "id" : 261348629,
+        "name" : "Website",
+        "dataTypeName" : "url",
+        "fieldName" : "website",
+        "position" : 4,
+        "renderTypeName" : "url",
+        "tableColumnId" : 20358334,
+        "width" : 430,
+        "cachedContents" : {
+          "largest" : {
+            "url" : "http://www.wkmcc.webs.com/"
+          },
+          "non_null" : 28,
+          "null" : 0,
+          "top" : [ {
+            "item" : {
+              "url" : "http://www.winnipeg.ca/cms/recreation/facilities/arenas/StJamesCivicCentre.stm"
+            },
+            "count" : 20
+          }, {
+            "item" : {
+              "url" : "http://www.winnipeg.ca/cms/recreation/facilities/arenas/SargentPark.stm"
+            },
+            "count" : 19
+          }, {
+            "item" : {
+              "url" : "http://www.winnipeg.ca/cms/recreation/facilities/arenas/Century.stm"
+            },
+            "count" : 18
+          }, {
+            "item" : {
+              "url" : "http://www.winnipeg.ca/cms/recreation/facilities/arenas/RiverEast.stm"
+            },
+            "count" : 17
+          }, {
+            "item" : {
+              "url" : "http://www.corydoncc.com/"
+            },
+            "count" : 16
+          }, {
+            "item" : {
+              "url" : "http://www.gatewayrec.com/"
+            },
+            "count" : 15
+          }, {
+            "item" : {
+              "url" : "http://www.winnipeg.ca/cms/recreation/facilities/arenas/stvital.stm"
+            },
+            "count" : 14
+          }, {
+            "item" : {
+              "url" : "http://www.winnipeg.ca/cms/recreation/facilities/arenas/EricCoy.stm"
+            },
+            "count" : 13
+          }, {
+            "item" : {
+              "url" : "http://www.winnipeg.ca/cms/recreation/facilities/arenas/SamSouthern.stm"
+            },
+            "count" : 12
+          }, {
+            "item" : {
+              "url" : "http://www.winnipeg.ca/cms/recreation/facilities/arenas/BillyMosienko.stm"
+            },
+            "count" : 11
+          }, {
+            "item" : {
+              "url" : "http://www.winnipeg.ca/cms/recreation/facilities/arenas/Pioneer.stm"
+            },
+            "count" : 10
+          }, {
+            "item" : {
+              "url" : "http://www.winnipeg.ca/cms/recreation/facilities/arenas/TerrySawchuk.stm"
+            },
+            "count" : 9
+          }, {
+            "item" : {
+              "url" : "http://www.winnipeg.ca/cms/recreation/facilities/arenas/Maginot.stm"
+            },
+            "count" : 8
+          }, {
+            "item" : {
+              "url" : "http://www.sjamha.ca/"
+            },
+            "count" : 7
+          }, {
+            "item" : {
+              "url" : "http://www.maplescc.ca/"
+            },
+            "count" : 6
+          }, {
+            "item" : {
+              "url" : "http://www.glenwoodcommunitycentre.com/"
+            },
+            "count" : 5
+          }, {
+            "item" : {
+              "url" : "http://www.varsityview.org/"
+            },
+            "count" : 4
+          }, {
+            "item" : {
+              "url" : "http://www.kirkfieldwestwoodcc.ca/"
+            },
+            "count" : 3
+          }, {
+            "item" : {
+              "url" : "http://www.winnipeg.ca/cms/recreation/facilities/arenas/Bertrand.stm"
+            },
+            "count" : 2
+          }, {
+            "item" : {
+              "url" : "http://www.winnipeg.ca/cms/recreation/facilities/arenas/CharlesABarbour.stm"
+            },
+            "count" : 1
+          } ],
+          "smallest" : {
+            "url" : "http://www.corydoncc.com/"
+          }
+        },
+        "format" : { },
+        "subColumnTypes" : [ "url", "description" ]
+      }, {
+        "id" : 261348630,
+        "name" : "Operated By",
+        "dataTypeName" : "text",
+        "fieldName" : "operated_by",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 20358335,
+        "width" : 232,
+        "cachedContents" : {
+          "null" : "0",
+          "top" : [ {
+            "item" : "GCWCC",
+            "count" : "13"
+          }, {
+            "item" : "City",
+            "count" : "12"
+          }, {
+            "item" : "St. James Minor Hockey",
+            "count" : "1"
+          }, {
+            "item" : "St. Vital Minor Hockey Association",
+            "count" : "1"
+          }, {
+            "item" : "West Kildonan Memorial Community Centre",
+            "count" : "1"
+          } ],
+          "cardinality" : "5"
+        },
+        "format" : { }
+      }, {
+        "id" : 261348631,
+        "name" : "Is Open",
+        "dataTypeName" : "checkbox",
+        "fieldName" : "is_open",
+        "position" : 6,
+        "renderTypeName" : "checkbox",
+        "tableColumnId" : 20358336,
+        "width" : 132,
+        "cachedContents" : {
+          "null" : "0",
+          "top" : [ {
+            "item" : true,
+            "count" : "15"
+          }, {
+            "item" : false,
+            "count" : "13"
+          } ],
+          "cardinality" : "2"
+        },
+        "format" : { }
+      }, {
+        "id" : 261348632,
+        "name" : "Complex ID",
+        "dataTypeName" : "number",
+        "fieldName" : "complexid",
+        "position" : 7,
+        "renderTypeName" : "number",
+        "tableColumnId" : 20358337,
+        "width" : 208,
+        "cachedContents" : {
+          "average" : "96.17857142857143",
+          "null" : "0",
+          "top" : [ {
+            "item" : "58",
+            "count" : "2"
+          }, {
+            "item" : "106",
+            "count" : "1"
+          }, {
+            "item" : "125",
+            "count" : "1"
+          }, {
+            "item" : "29",
+            "count" : "1"
+          }, {
+            "item" : "69",
+            "count" : "1"
+          }, {
+            "item" : "155",
+            "count" : "1"
+          }, {
+            "item" : "130",
+            "count" : "1"
+          }, {
+            "item" : "36",
+            "count" : "1"
+          }, {
+            "item" : "33",
+            "count" : "1"
+          }, {
+            "item" : "150",
+            "count" : "1"
+          }, {
+            "item" : "107",
+            "count" : "1"
+          }, {
+            "item" : "68",
+            "count" : "1"
+          }, {
+            "item" : "12",
+            "count" : "1"
+          }, {
+            "item" : "138",
+            "count" : "1"
+          }, {
+            "item" : "104",
+            "count" : "1"
+          }, {
+            "item" : "162",
+            "count" : "1"
+          }, {
+            "item" : "102",
+            "count" : "1"
+          }, {
+            "item" : "140",
+            "count" : "1"
+          }, {
+            "item" : "146",
+            "count" : "1"
+          }, {
+            "item" : "65",
+            "count" : "1"
+          } ],
+          "sum" : "2693",
+          "cardinality" : "27"
+        },
+        "format" : { }
+      }, {
+        "id" : 261348633,
+        "name" : "Location 1",
+        "dataTypeName" : "location",
+        "fieldName" : "location_1",
+        "position" : 8,
+        "renderTypeName" : "location",
+        "tableColumnId" : 20358338,
+        "width" : 220,
+        "format" : { },
+        "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+      }, {
+        "id" : 406530433,
+        "name" : "Wards",
+        "dataTypeName" : "number",
+        "fieldName" : ":@computed_region_6rfj_69jf",
+        "position" : 13,
+        "renderTypeName" : "number",
+        "tableColumnId" : 80243485,
+        "computationStrategy" : {
+          "source_columns" : [ "location_1" ],
+          "type" : "georegion_match_on_point",
+          "parameters" : {
+            "region" : "_6rfj-69jf",
+            "primary_key" : "_feature_id"
+          }
+        },
+        "format" : { }
+      }, {
+        "id" : 406530434,
+        "name" : "Neighborhoods",
+        "dataTypeName" : "number",
+        "fieldName" : ":@computed_region_38v8_cedi",
+        "position" : 14,
+        "renderTypeName" : "number",
+        "tableColumnId" : 80243486,
+        "computationStrategy" : {
+          "source_columns" : [ "location_1" ],
+          "type" : "georegion_match_on_point",
+          "parameters" : {
+            "region" : "_38v8-cedi",
+            "primary_key" : "_feature_id"
+          }
+        },
+        "format" : { }
+      }, {
+        "id" : 406530435,
+        "name" : "Zip Codes",
+        "dataTypeName" : "number",
+        "fieldName" : ":@computed_region_4h47_8kp6",
+        "position" : 15,
+        "renderTypeName" : "number",
+        "tableColumnId" : 80243487,
+        "computationStrategy" : {
+          "source_columns" : [ "location_1" ],
+          "type" : "georegion_match_on_point",
+          "parameters" : {
+            "region" : "_4h47-8kp6",
+            "primary_key" : "_feature_id"
+          }
+        },
+        "format" : { }
+      } ],
+      "displayFormat" : {
+        "bkgdLayers" : [ {
+          "layerKey" : "Google Roadmap",
+          "opacity" : 1
+        } ],
+        "disableGeolocator" : false,
+        "exclusiveLayers" : false,
+        "legendDetails" : {
+          "showConditional" : true,
+          "position" : "bottomLeft"
+        },
+        "viewDefinitions" : [ {
+          "uid" : "self",
+          "highlightColor" : "#ddeaf0",
+          "color" : "#0000ff",
+          "plot" : {
+            "locationId" : 20358338,
+            "titleId" : 20358331,
+            "descriptionColumns" : [ {
+              "tableColumnId" : 20358332
+            }, {
+              "tableColumnId" : 20358335
+            }, {
+              "tableColumnId" : 20358333
+            }, {
+              "tableColumnId" : 20358334
+            } ]
+          },
+          "flyoutsNoLabel" : false,
+          "alias" : "Arena",
+          "opacity" : 1,
+          "plotStyle" : "point"
+        } ]
+      },
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Canada Open Government Licence",
+        "termsLink" : "http://open.canada.ca/en/open-government-licence-canada"
+      },
+      "metadata" : {
+        "rdfSubject" : "0",
+        "rdfClass" : "",
+        "conditionalFormatting" : [ {
+          "condition" : {
+            "tableColumnId" : 20358336,
+            "_key" : "(20358336|IS_NOT_BLANK|undefined)",
+            "operator" : "IS_NOT_BLANK"
+          },
+          "color" : "#00ff00",
+          "description" : "Open"
+        }, {
+          "condition" : {
+            "tableColumnId" : 20358336,
+            "_key" : "(20358336|IS_BLANK|undefined)",
+            "operator" : "IS_BLANK"
+          },
+          "color" : "#ea9999",
+          "description" : "Closed"
+        } ],
+        "custom_fields" : {
+          "Department" : {
+            "Group" : "Information",
+            "Department" : "Community Services"
+          },
+          "Update Frequency" : {
+            "Interval" : "Monthly"
+          },
+          "Licence" : {
+            "Licence" : "Open Government Licence - Winnipeg",
+            "Name" : "Open Government Licence - Winnipeg"
+          }
+        },
+        "rowIdentifier" : "0",
+        "availableDisplayTypes" : [ "map", "table", "fatrow", "page" ],
+        "renderTypeConfig" : {
+          "visible" : {
+            "map" : true,
+            "table" : true
+          },
+          "active" : {
+            "table" : {
+              "id" : "self"
+            }
+          }
+        }
+      },
+      "owner" : {
+        "id" : "2mb6-i6j3",
+        "displayName" : "Open Data Admin",
+        "screenName" : "Open Data Admin",
+        "type" : "interactive",
+        "userSegment" : "site_member",
+        "flags" : [ "acceptedEula" ]
+      },
+      "query" : {
+        "orderBys" : [ {
+          "ascending" : true,
+          "expression" : {
+            "columnId" : 261348626,
+            "type" : "column"
+          }
+        } ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "2mb6-i6j3",
+        "displayName" : "Open Data Admin",
+        "screenName" : "Open Data Admin",
+        "type" : "interactive",
+        "userSegment" : "site_member",
+        "flags" : [ "acceptedEula" ]
+      },
+      "tags" : [ "arena", "hockey", "public facility" ],
+      "flags" : [ "unsaved" ]
+    }
+  },
+  "data" : [ [ "row-z32v_bmkk~ku8z", "00000000-0000-0000-A287-0FA1100349C2", 0, 1559395677, null, 1559395678, null, "{ }", "Bertrand Arena", "294 Bertrand St", "1", [ "http://www.winnipeg.ca/cms/recreation/facilities/arenas/Bertrand.stm", null ], "City", true, "138", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.8835250439414", "-97.1146040094391", null, false ], "8", "178", null ]
+, [ "row-r3fe~b6bj~4agb", "00000000-0000-0000-CBDC-BA5399F92936", 0, 1572601032, null, 1572601034, null, "{ }", "Century Arena", "1377 Clarence Ave", "1", [ "http://www.winnipeg.ca/cms/recreation/facilities/arenas/Century.stm", null ], "City", false, "178", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.831510962659806", "-97.1688990321022", null, false ], "5", "111", null ]
+, [ "row-bpd2_c32k-j8g2", "00000000-0000-0000-1746-04118F3700E3", 0, 1572601032, null, 1572601034, null, "{ }", "Richmond  Kings Arena", "666 Silverstone Ave", "1", [ "http://www.rkcc.ca/", null ], "GCWCC", false, "30", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.799011966121284", "-97.13663095662025", null, false ], "7", "201", null ]
+, [ "row-n4q3_kuag~4h8a", "00000000-0000-0000-75A7-B736F372A24C", 0, 1572601032, null, 1572601034, null, "{ }", "Gateway Recreation Centre Arena", "1717 Gateway Rd", "2", [ "http://www.gatewayrec.com/", null ], "GCWCC", true, "104", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.94523191780285", "-97.04763390911855", null, false ], "10", "31", null ]
+, [ "row-ptke_uy5s.2ss8", "00000000-0000-0000-D51A-43F43D28DE22", 0, 1572601032, null, 1572601034, null, "{ }", "Seven Oaks Arena", "745 Kingsbury Ave", "2", [ "http://www.gardencitycc.com/", null ], "GCWCC", true, "69", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.94839120098217", "-97.1388169909093", null, false ], "2", "128", null ]
+, [ "row-a8ay-mepd-2x45", "00000000-0000-0000-D711-74B4B2C4A3CA", 0, 1572601032, null, 1572601034, null, "{ }", "Kinsmen Allard Arena", "80 Allard Ave", "1", [ "http://www.sjamha.ca/", null ], "St. James Minor Hockey", false, "58", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.87835932465351", "-97.30434333485313", null, false ], "14", "63", null ]
+, [ "row-ajg5_3mxw-tze4", "00000000-0000-0000-D36A-2A20A6A6FC0F", 0, 1572601032, null, 1572601034, null, "{ }", "River Heights Community Centre Arena", "1370 Grosvenor Ave", "1", [ "http://www.corydoncc.com/", null ], "GCWCC", false, "31", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.865400007719046", "-97.18163396669881", null, false ], "5", "162", null ]
+, [ "row-kjq2.vkg3.bjmc", "00000000-0000-0000-AAEA-4E2A15217375", 0, 1572601032, null, 1572601034, null, "{ }", "St. James Civic Centre Arena", "2055 Ness Ave", "1", [ "http://www.winnipeg.ca/cms/recreation/facilities/arenas/StJamesCivicCentre.stm", null ], "City", true, "162", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.886496984794036", "-97.23425319081282", null, false ], "13", "165", null ]
+, [ "row-66y3-btdd.xpwi", "00000000-0000-0000-4FA5-1C8A322BD75B", 0, 1572601032, null, 1572601034, null, "{ }", "Billy Mosienko Arena", "709 Keewatin St", "1", [ "http://www.winnipeg.ca/cms/recreation/facilities/arenas/BillyMosienko.stm", null ], "City", false, "107", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.934731018809195", "-97.19447705368107", null, false ], "12", "15", null ]
+, [ "row-tde2-wx32~qvd8", "00000000-0000-0000-9007-0F1317ADE0F5", 0, 1572601032, null, 1572601034, null, "{ }", "St. Norbert  Arena", "3450 Pembina Hwy", "1", [ "http://www.stnorbertcc.ca/", null ], "GCWCC", true, "155", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.76813220942469", "-97.15421637436859", null, false ], "7", "80", null ]
+, [ "row-s7cb_ysze-9ctp", "00000000-0000-0000-C308-BCC461D28ECE", 0, 1572601032, null, 1572601034, null, "{ }", "West Kildonan Memorial Community Centre Arena", "346 Perth Ave", "1", [ "http://www.wkmcc.webs.com/", null ], "West Kildonan Memorial Community Centre", true, "65", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.93725625949393", "-97.12645275235353", null, false ], "4", "102", null ]
+, [ "row-sfni~83cf.54zi", "00000000-0000-0000-332E-CE935D3A9D98", 0, 1572601032, null, 1572601034, null, "{ }", "River East Arena", "1410 Rothesay St", "1", [ "http://www.winnipeg.ca/cms/recreation/facilities/arenas/RiverEast.stm", null ], "City", false, "102", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.94397499516448", "-97.0770050020946", null, false ], "10", "12", null ]
+, [ "row-8rku~t63j_jgam", "00000000-0000-0000-2518-762C6FD1E7D1", 0, 1572601032, null, 1572601034, null, "{ }", "Charles A. Barbour Arena", "500 Nathaniel St", "1", [ "http://www.winnipeg.ca/cms/recreation/facilities/arenas/CharlesABarbour.stm", null ], "City", true, "150", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.855373981950564", "-97.16879703938869", null, false ], "5", "78", null ]
+, [ "row-s2qd_kg63_4yc3", "00000000-0000-0000-34A4-F05F7C022868", 0, 1572601032, null, 1572601034, null, "{ }", "Jonathon Toews Sportplex", "1188 Dakota St", "2", [ "http://www.dakotacc.com/", null ], "GCWCC", true, "68", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.81925820676075", "-97.10165378770068", null, false ], "7", "88", null ]
+, [ "row-7bar_i7uy.vx2c", "00000000-0000-0000-6C3C-D3C6321C20F9", 0, 1572601032, null, 1572601034, null, "{ }", "Terry Sawchuk Arena", "901 Kimberly Ave", "1", [ "http://www.winnipeg.ca/cms/recreation/facilities/arenas/TerrySawchuk.stm", null ], "City", false, "98", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.91764800065462", "-97.0708419767021", null, false ], "1", "13", null ]
+, [ "row-nt5d-hevr_rwyv", "00000000-0000-0000-3785-7F1027CD660E", 0, 1572601032, null, 1572601034, null, "{ }", "Glenwood Community Centre Arena", "27 Overton St", "1", [ "http://www.glenwoodcommunitycentre.com/", null ], "GCWCC", true, "140", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.86578695897699", "-97.10787701853803", null, false ], "11", "124", null ]
+, [ "row-uhq3-yvst.jd9w", "00000000-0000-0000-2C90-901C462F90C3", 0, 1572601032, null, 1572601034, null, "{ }", "Pioneer Arena", "799 Logan Ave", "1", [ "http://www.winnipeg.ca/cms/recreation/facilities/arenas/Pioneer.stm", null ], "City", false, "12", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.91019802803041", "-97.15747900752979", null, false ], "12", "100", null ]
+, [ "row-huwq-m9yj.ygxa", "00000000-0000-0000-B351-E3B939E0300A", 0, 1572601032, null, 1572601034, null, "{ }", "Sam Southern Arena", "625 Osborne St", "1", [ "http://www.winnipeg.ca/cms/recreation/facilities/arenas/SamSouthern.stm", null ], "City", false, "51", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.86350599262236", "-97.13549987481032", null, false ], "6", "99", null ]
+, [ "row-fbti-ei8h-qtfr", "00000000-0000-0000-B270-9207EEAD8070", 0, 1572601032, null, 1572601034, null, "{ }", "Maples Multiplex Arena", "454 Adsum Dr", "1", [ "http://www.maplescc.ca/", null ], "GCWCC", true, "33", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.95354300265174", "-97.1763679539023", null, false ], "2", "136", null ]
+, [ "row-cc58-z4nq_efut", "00000000-0000-0000-8C6E-9CC2CC772786", 0, 1572601032, null, 1572601034, null, "{ }", "Eric Coy Arena", "535 Oakdale Dr", "1", [ "http://www.winnipeg.ca/cms/recreation/facilities/arenas/EricCoy.stm", null ], "City", false, "146", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.8575844641071", "-97.27016379469632", null, false ], "15", "219", null ]
+, [ "row-f442~6euy-avsn", "00000000-0000-0000-540F-2E99ACF1B329", 0, 1572601032, null, 1572601034, null, "{ }", "Southdale Arena", "254 Lakewood Blvd", "2", [ "http://www.southdale.ca/", null ], "GCWCC", true, "128", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.8458078138069", "-97.07782424160075", null, false ], "8", "61", null ]
+, [ "row-pgh9~xwpw~j4rb", "00000000-0000-0000-5C50-865852665605", 0, 1572601032, null, 1572601034, null, "{ }", "Notre Dame Recreation Centre Arena", "271 De La Cathedrale Ave", "1", [ "http://www.ndrc.ca/", null ], "GCWCC", true, "36", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.89107146317146", "-97.11671346492723", null, false ], "8", "178", null ]
+, [ "row-reqm-v2cf~6amj", "00000000-0000-0000-B405-6B24ABA50367", 0, 1572601032, null, 1572601034, null, "{ }", "Keith Bodley Arena", "165 Sansome Ave", "1", [ "http://www.kirkfieldwestwoodcc.ca/", null ], "GCWCC", true, "58", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.87578390173794", "-97.30318596508486", null, false ], "14", "63", null ]
+, [ "row-wydd-wtvi.i9a2", "00000000-0000-0000-0B87-C2B0A743FC06", 0, 1572601032, null, 1572601034, null, "{ }", "Maginot Arena", "910 Maginot St", "1", [ "http://www.winnipeg.ca/cms/recreation/facilities/arenas/Maginot.stm", null ], "City", false, "130", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.87268499533244", "-97.08022298698845", null, false ], "8", "65", null ]
+, [ "row-q67p.umcu~iqjc", "00000000-0000-0000-8231-A1B086414679", 0, 1572601032, null, 1572601034, null, "{ }", "East End Arena & Community Club", "517 Pandora Ave E", "2", [ "http://www.eastendarena.ca/", null ], "GCWCC", true, "106", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.89466603589417", "-96.99160195145335", null, false ], "9", "174", null ]
+, [ "row-cbc6_cqhw_gist", "00000000-0000-0000-242E-9D12E73BC6D0", 0, 1572601032, null, 1572601034, null, "{ }", "St. Vital Centennial Arena", "580 St Anne's Rd", "1", [ "http://www.winnipeg.ca/cms/recreation/facilities/arenas/stvital.stm", null ], "St. Vital Minor Hockey Association", false, "125", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.83314208206833", "-97.09204904483501", null, false ], "11", "207", null ]
+, [ "row-cmry~979i~aht3", "00000000-0000-0000-D4E5-4FE461C11133", 0, 1572601032, null, 1572601034, null, "{ }", "Sargent Park Arena", "1111 Wall St", "1", [ "http://www.winnipeg.ca/cms/recreation/facilities/arenas/SargentPark.stm", null ], "City", false, "29", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.899344024420415", "-97.18079795474522", null, false ], "3", "70", null ]
+, [ "row-ru6g_i4nh.e4ck", "00000000-0000-0000-2356-057286793057", 0, 1572601032, null, 1572601034, null, "{ }", "Varsity View Sportsplex Arena", "4230 Ridgewood Ave", "1", [ "http://www.varsityview.org/", null ], "GCWCC", true, "184", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.843089760955046", "-97.27079623376599", null, false ], "15", "77", null ]
+ ]
+}

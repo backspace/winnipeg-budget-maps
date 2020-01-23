@@ -53,4 +53,17 @@ const processedOutdoorPools = OutdoorPools.data.map(row => {
   }
 });
 
-fs.writeFileSync('app/data/facilities.json', JSON.stringify(processedLibraries.concat(processedIndoorPools, processedOutdoorPools), null, 2));
+const Arenas = require('../data/arenas.json');
+
+const processedArenas = Arenas.data.map(row => {
+  const name = row[8], lat = parseFloat(row[15][1]), lon = parseFloat(row[15][2]);
+  return {
+    name,
+    lat,
+    lon,
+    type: 'arena',
+    ward: Wards.features.find(ward => inside.polygon(ward.geometry.coordinates[0], [lon, lat])).properties.name,
+  }
+});
+
+fs.writeFileSync('app/data/facilities.json', JSON.stringify(processedLibraries.concat(processedIndoorPools, processedOutdoorPools, processedArenas), null, 2));
