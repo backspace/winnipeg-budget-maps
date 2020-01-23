@@ -3,8 +3,9 @@
     (icon iconUrl="/icons/arena.svg" iconSize=(point this.markerLength this.markerLength))
     (icon iconUrl="/icons/library.svg" iconSize=(point this.markerLength this.markerLength))
     (icon iconUrl="/icons/swimming.svg" iconSize=(point this.markerLength this.markerLength))
+    (icon iconUrl="/icons/wading-pool.svg" iconSize=(point this.markerLength this.markerLength))
     (div-icon html="<img src='/icons/x.svg' class='rotate-scale-up'>" iconSize=(point this.markerLength this.markerLength))
-    as |arenaIcon libraryIcon poolIcon xIcon|}}
+    as |arenaIcon libraryIcon poolIcon wadingPoolIcon xIcon|}}
     <LeafletMap
       @bounds={{if this.activeWard this.activeWard.properties.bounds @model.wards.properties.bounds}}
       class="w-full flex-grow"
@@ -38,13 +39,13 @@
       {{#each this.filteredFacilities as |facility|}}
         <layers.marker
           @location={{hash lat=facility.lat lon=facility.lon}}
-          @icon={{if (eq facility.type 'library') libraryIcon (if (eq facility.type 'arena') arenaIcon poolIcon)}}
-          @attribution="<a href='https://data.winnipeg.ca/Recreation/Arena/t3cz-kh3n'>Arenas</a>, <a href='https://data.winnipeg.ca/Libraries/Library/itub-a6x4'>Libraries</a>, <a href='https://data.winnipeg.ca/Recreation/Swimming-Pool-Indoor/pnd5-29qy'>Indoor</a>/<a href='https://data.winnipeg.ca/Recreation/Swimming-Pool-Outdoor/m7h5-by7s'>outdoor</a> pools"
+          @icon={{if (eq facility.type 'library') libraryIcon (if (eq facility.type 'arena') arenaIcon (if (eq facility.type 'wading-pool') wadingPoolIcon poolIcon))}}
+          @attribution="<a href='https://data.winnipeg.ca/Recreation/Arena/t3cz-kh3n'>Arenas</a>, <a href='https://data.winnipeg.ca/Libraries/Library/itub-a6x4'>Libraries</a>, <a href='https://data.winnipeg.ca/Recreation/Swimming-Pool-Indoor/pnd5-29qy'>Indoor</a>/<a href='https://data.winnipeg.ca/Recreation/Swimming-Pool-Outdoor/m7h5-by7s'>outdoor</a>/<a href='https://data.winnipeg.ca/Recreation/Swimming-Pool-Wading/fe7p-u4s6'>wading</a> pools"
           @onClick={{action this.transitionToWardName facility.ward}}
           as |marker|>
           <marker.tooltip @sticky={{true}}>
             {{facility.name}}
-            {{#if facility.closure}}<br>proposed closure {{moment-format facility.closure "MMMM YYYY"}}{{/if}}
+            {{#if facility.closure}}<br>{{if facility.syntheticClosure 'possible' 'proposed'}} closure {{moment-format facility.closure "MMMM YYYY"}}{{/if}}
           </marker.tooltip>
         </layers.marker>
         {{#if (and facility.closure (is-same-or-before facility.closure this.date))}}

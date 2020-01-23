@@ -17,7 +17,12 @@ export default class ApplicationRoute extends Route {
 
     return {
       facilities: facilities.map(f => {
-        f.closure = Closures[f.name];
+        if (f.syntheticClosureDateString) {
+          f.closure = new Date(Date.parse(f.syntheticClosureDateString));
+          f.syntheticClosure = true;
+        } else {
+          f.closure = Closures[f.name];
+        }
         return f;
       }),
       facilityTypes: facilities.mapBy('type').uniq(),

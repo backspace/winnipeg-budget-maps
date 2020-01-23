@@ -301,6 +301,611 @@
     "ward": "St. Vital"
   },
   {
+    "name": "Beryl Watts Park Wading Pool",
+    "lat": 49.95073295524996,
+    "lon": -97.11750346188441,
+    "type": "wading-pool",
+    "ward": "Mynarski"
+  },
+  {
+    "name": "Happyland Wading Pool",
+    "lat": 49.88173781975416,
+    "lon": -97.10168184370126,
+    "type": "wading-pool",
+    "ward": "St. Boniface"
+  },
+  {
+    "name": "Magnus Eliason Recreation Centre Wading Pool",
+    "lat": 49.89164245760756,
+    "lon": -97.15641848649322,
+    "type": "wading-pool",
+    "ward": "Daniel McIntyre",
+    "syntheticClosureDateString": "2023-07-01 23:00:00"
+  },
+  {
+    "name": "William Whyte School Wading Pool",
+    "lat": 49.91770306265705,
+    "lon": -97.14361524693749,
+    "type": "wading-pool",
+    "ward": "Mynarski",
+    "syntheticClosureDateString": "2022-07-01 23:00:00"
+  },
+  {
+    "name": "Valour Community Centre - Isaac Brock site Wading Pool",
+    "lat": 49.88826043383068,
+    "lon": -97.1867802825869,
+    "type": "wading-pool",
+    "ward": "Daniel McIntyre"
+  },
+  {
+    "name": "St. Charles Park Wading Pool",
+    "lat": 49.88867771729147,
+    "lon": -97.31340212536873,
+    "type": "wading-pool",
+    "ward": "St. James"
+  },
+  {
+    "name": "John Yuzyk Park  Wading Pool",
+    "lat": 49.93488787810326,
+    "lon": -97.15981211838822,
+    "type": "wading-pool",
+    "ward": "Mynarski",
+    "syntheticClosureDateString": "2023-07-01 23:00:00"
+  },
+  {
+    "name": "Sturgeon Heights Community Centre Wading Pool",
+    "lat": 49.87630128516083,
+    "lon": -97.25844535184824,
+    "type": "wading-pool",
+    "ward": "St. James"
+  },
+  {
+    "name": "Dakota Park Wading Pool",
+    "lat": 49.81872007721585,
+    "lon": -97.10174351679566,
+    "type": "wading-pool",
+    "ward": "St. Norbert - Seine River"
+  },
+  {
+    "name": "Boyd Park Wading Pool",
+    "lat": 49.928919085841216,
+    "lon": -97.16366035246422,
+    "type": "wading-pool",
+    "ward": "Point Douglas",
+    "syntheticClosureDateString": "2020-07-01 23:00:00"
+  },
+  {
+    "name": "Elmwood Park Wading Pool",
+    "lat": 49.91816479215255,
+    "lon": -97.11354812774319,
+    "type": "wading-pool",
+    "ward": "Elmwood - East Kildonan",
+    "syntheticClosureDateString": "2023-07-01 23:00:00"
+  },
+  {
+    "name": "Clara Hughes Park Wading Pool",
+    "lat": 49.93196927936996,
+    "lon": -97.1326573861011,
+    "type": "wading-pool",
+    "ward": "Mynarski",
+    "syntheticClosureDateString": "2020-07-01 23:00:00"
+  },
+  {
+    "name": "McKittrick Park Wading Pool",
+    "lat": 49.85704506421516,
+    "lon": -97.14544274777957,
+    "type": "wading-pool",
+    "ward": "Fort Rouge - East Fort Garry",
+    "syntheticClosureDateString": "2021-07-01 23:00:00"
+  },
+  {
+    "name": "Lomond Park Wading Pool",
+    "lat": 49.85913799495187,
+    "lon": -97.0603650465931,
+    "type": "wading-pool",
+    "ward": "St. Boniface",
+    "syntheticClosureDateString": "2021-07-01 23:00:00"
+  },
+  {
+    "name": "Norwood Community Centre Wading Pool",
+    "lat": 49.87912632696142,
+    "lon": -97.1291197128972,
+    "type": "wading-pool",
+    "ward": "St. Boniface"
+  },
+  {
+    "name": "Robert A Steen Memorial Community Centre Wading Pool",
+    "lat": 49.87714063094603,
+    "lon": -97.17282263706062,
+    "type": "wading-pool",
+    "ward": "Daniel McIntyre",
+    "syntheticClosureDateString": "2021-07-01 23:00:00"
+  },
+  {
+    "name": "Braeside Park Wading Pool",
+    "lat": 49.9105690648001,
+    "lon": -97.07154403205492,
+    "type": "wading-pool",
+    "ward": "Elmwood - East Kildonan",
+    "syntheticClosureDateString": "2020-07-01 23:00:00"
+  },
+  {
+    "name": "Machray Park Wading Pool",
+    "lat": 49.92462544770564,
+    "lon": -97.13721176369974,
+    "type": "wading-pool",
+    "ward": "Mynarski",
+    "syntheticClosureDateString": "2023-07-01 23:00:00"
+  },
+  {
+    "name": "Earl Grey Community Centre Wading Pool",
+    "lat": 49.86689679989561,
+    "lon": -97.15084685552841,
+    "type": "wading-pool",
+    "ward": "Fort Rouge - East Fort Garry",
+    "syntheticClosureDateString": "2020-07-01 23:00:00"
+  },
+  {
+    "name": "Ducharme Park Wading Pool",
+    "lat": 49.85385718016455,
+    "lon": -97.09860539219756,
+    "type": "wading-pool",
+    "ward": "St. Vital"
+  },
+  {
+    "name": "Victor Valde Park Wading Pool",
+    "lat": 49.884537030007564,
+    "lon": -97.00090865604233,
+    "type": "wading-pool",
+    "ward": "Transcona"
+  },
+  {
+    "name": "Michaëlle Jean Park (Norquay Community Centre) Wading Pool",
+    "lat": 49.90989299748023,
+    "lon": -97.1265874784302,
+    "type": "wading-pool",
+    "ward": "Mynarski",
+    "syntheticClosureDateString": "2022-07-01 23:00:00"
+  },
+  {
+    "name": "Elmwood Winter Club Wading Pool",
+    "lat": 49.909491488253686,
+    "lon": -97.11354774658297,
+    "type": "wading-pool",
+    "ward": "Elmwood - East Kildonan"
+  },
+  {
+    "name": "Shaughnessy Park Wading Pool",
+    "lat": 49.93476351549268,
+    "lon": -97.1888054680931,
+    "type": "wading-pool",
+    "ward": "Point Douglas",
+    "syntheticClosureDateString": "2020-07-01 23:00:00"
+  },
+  {
+    "name": "Bronx Park Community Centre Wading Pool",
+    "lat": 49.927009183196986,
+    "lon": -97.10528983688295,
+    "type": "wading-pool",
+    "ward": "North Kildonan"
+  },
+  {
+    "name": "Valour Community Centre - Clifton site Wading Pool",
+    "lat": 49.90164925165612,
+    "lon": -97.18959968793219,
+    "type": "wading-pool",
+    "ward": "Daniel McIntyre",
+    "syntheticClosureDateString": "2021-07-01 23:00:00"
+  },
+  {
+    "name": "Vermillion Park Wading Pool",
+    "lat": 49.85300365564019,
+    "lon": -97.06564328446673,
+    "type": "wading-pool",
+    "ward": "St. Boniface"
+  },
+  {
+    "name": "Southdale Community Centre Wading Pool",
+    "lat": 49.84543597930898,
+    "lon": -97.076612491441,
+    "type": "wading-pool",
+    "ward": "St. Boniface"
+  },
+  {
+    "name": "Aberdeen Recreation Centre Wading Pool",
+    "lat": 49.913582524194034,
+    "lon": -97.14446319589916,
+    "type": "wading-pool",
+    "ward": "Mynarski",
+    "syntheticClosureDateString": "2023-07-01 23:00:00"
+  },
+  {
+    "name": "Winakwa Community Centre Wading Pool",
+    "lat": 49.86325756904041,
+    "lon": -97.07501011172238,
+    "type": "wading-pool",
+    "ward": "St. Boniface"
+  },
+  {
+    "name": "Riverview Community Centre Wading Pool",
+    "lat": 49.86507696149414,
+    "lon": -97.11857867065396,
+    "type": "wading-pool",
+    "ward": "Fort Rouge - East Fort Garry",
+    "syntheticClosureDateString": "2022-07-01 23:00:00"
+  },
+  {
+    "name": "Lions Wading Pool",
+    "lat": 49.840904989927765,
+    "lon": -97.14991174320456,
+    "type": "wading-pool",
+    "ward": "Fort Rouge - East Fort Garry"
+  },
+  {
+    "name": "Home Playground Wading Pool",
+    "lat": 49.896546995523536,
+    "lon": -97.16677897786002,
+    "type": "wading-pool",
+    "ward": "Daniel McIntyre",
+    "syntheticClosureDateString": "2021-07-01 23:00:00"
+  },
+  {
+    "name": "King Edward Park Wading Pool",
+    "lat": 49.90621756467926,
+    "lon": -97.09020205746383,
+    "type": "wading-pool",
+    "ward": "Elmwood - East Kildonan",
+    "syntheticClosureDateString": "2022-07-01 23:00:00"
+  },
+  {
+    "name": "Berkshire Park Wading Pool",
+    "lat": 49.8723639655066,
+    "lon": -97.08949896745216,
+    "type": "wading-pool",
+    "ward": "St. Boniface"
+  },
+  {
+    "name": "Walsall Park Wading Pool",
+    "lat": 49.93395800079289,
+    "lon": -97.21195295291763,
+    "type": "wading-pool",
+    "ward": "Point Douglas",
+    "syntheticClosureDateString": "2022-07-01 23:00:00"
+  },
+  {
+    "name": "Broadway Park Wading Pool",
+    "lat": 49.88388014154437,
+    "lon": -97.155216173433,
+    "type": "wading-pool",
+    "ward": "Fort Rouge - East Fort Garry",
+    "syntheticClosureDateString": "2023-07-01 23:00:00"
+  },
+  {
+    "name": "Weston Park Wading Pool",
+    "lat": 49.92069877447578,
+    "lon": -97.19000984762071,
+    "type": "wading-pool",
+    "ward": "Point Douglas",
+    "syntheticClosureDateString": "2020-07-01 23:00:00"
+  },
+  {
+    "name": "Central Corydon CC- Sir John Franklin site",
+    "lat": 49.86586583750233,
+    "lon": -97.19654030211801,
+    "type": "wading-pool",
+    "ward": "River Heights - Fort Garry",
+    "syntheticClosureDateString": "2021-07-01 23:00:00"
+  },
+  {
+    "name": "Turtle Island Recreation Centre Wading Pool",
+    "lat": 49.91044922741412,
+    "lon": -97.13607006591653,
+    "type": "wading-pool",
+    "ward": "Mynarski",
+    "syntheticClosureDateString": "2021-07-01 23:00:00"
+  },
+  {
+    "name": "Kapyong Park Wading Pool",
+    "lat": 49.883946918160994,
+    "lon": -97.22240163602835,
+    "type": "wading-pool",
+    "ward": "St. James",
+    "syntheticClosureDateString": "2020-07-01 23:00:00"
+  },
+  {
+    "name": "Pritchard Park Wading Pool",
+    "lat": 49.91426116213934,
+    "lon": -97.13600704896913,
+    "type": "wading-pool",
+    "ward": "Mynarski",
+    "syntheticClosureDateString": "2020-07-01 23:00:00"
+  },
+  {
+    "name": "Lizzie Park Wading Pool",
+    "lat": 49.90378901584974,
+    "lon": -97.14172903462955,
+    "type": "wading-pool",
+    "ward": "Point Douglas",
+    "syntheticClosureDateString": "2021-07-01 23:00:00"
+  },
+  {
+    "name": "Tomlinson Park Wading Pool",
+    "lat": 49.9194363743172,
+    "lon": -97.06013723951537,
+    "type": "wading-pool",
+    "ward": "Elmwood - East Kildonan"
+  },
+  {
+    "name": "Central Corydon Community Centre- Crescentwood Site Wading Pool",
+    "lat": 49.864545306039886,
+    "lon": -97.17091854975209,
+    "type": "wading-pool",
+    "ward": "River Heights - Fort Garry",
+    "syntheticClosureDateString": "2023-07-01 23:00:00"
+  },
+  {
+    "name": "Valour Community Centre - Orioles site Wading Pool",
+    "lat": 49.89128730815621,
+    "lon": -97.17091565373795,
+    "type": "wading-pool",
+    "ward": "Daniel McIntyre",
+    "syntheticClosureDateString": "2022-07-01 23:00:00"
+  },
+  {
+    "name": "Northwood CC: Frank Whyte site Wading Pool",
+    "lat": 49.938445752499895,
+    "lon": -97.16689472109658,
+    "type": "wading-pool",
+    "ward": "Point Douglas"
+  },
+  {
+    "name": "Tyndall Park School Wading Pool",
+    "lat": 49.93730491610665,
+    "lon": -97.20449300455282,
+    "type": "wading-pool",
+    "ward": "Point Douglas"
+  },
+  {
+    "name": "T R Hodgeson Park Wading Pool",
+    "lat": 49.86828802562749,
+    "lon": -97.20374901037702,
+    "type": "wading-pool",
+    "ward": "River Heights - Fort Garry"
+  },
+  {
+    "name": "John Steel Park Wading Pool",
+    "lat": 49.87281197105547,
+    "lon": -97.29452296565401,
+    "type": "wading-pool",
+    "ward": "Charleswood - Tuxedo - Westwood"
+  },
+  {
+    "name": "William Osler Park Wading Pool",
+    "lat": 49.85427379268317,
+    "lon": -97.19002139859418,
+    "type": "wading-pool",
+    "ward": "River Heights - Fort Garry",
+    "syntheticClosureDateString": "2022-07-01 23:00:00"
+  },
+  {
+    "name": "Luxton Community Centre Wading Pool",
+    "lat": 49.92483937709672,
+    "lon": -97.11874540771902,
+    "type": "wading-pool",
+    "ward": "Mynarski",
+    "syntheticClosureDateString": "2023-07-01 23:00:00"
+  },
+  {
+    "name": "Marjorie Park Wading Pool",
+    "lat": 49.88084100258067,
+    "lon": -97.21322998870988,
+    "type": "wading-pool",
+    "ward": "St. James",
+    "syntheticClosureDateString": "2020-07-01 23:00:00"
+  },
+  {
+    "name": "Strathcona Recreation Centre Wading Pool",
+    "lat": 49.92030919253891,
+    "lon": -97.14795913438404,
+    "type": "wading-pool",
+    "ward": "Mynarski"
+  },
+  {
+    "name": "River Osborne Wading Pool",
+    "lat": 49.87455211089644,
+    "lon": -97.14326392063467,
+    "type": "wading-pool",
+    "ward": "Fort Rouge - East Fort Garry",
+    "syntheticClosureDateString": "2021-07-01 23:00:00"
+  },
+  {
+    "name": "Westdale Wading Pool",
+    "lat": 49.86133850189606,
+    "lon": -97.31535536483725,
+    "type": "wading-pool",
+    "ward": "Charleswood - Tuxedo - Westwood"
+  },
+  {
+    "name": "Central Park Wading Pool",
+    "lat": 49.89701594373563,
+    "lon": -97.14927363338634,
+    "type": "wading-pool",
+    "ward": "Daniel McIntyre",
+    "syntheticClosureDateString": "2022-07-01 23:00:00"
+  },
+  {
+    "name": "East End Cultural & Leisure Centre Wading Pool",
+    "lat": 49.913241920786,
+    "lon": -97.09817440574714,
+    "type": "wading-pool",
+    "ward": "Elmwood - East Kildonan"
+  },
+  {
+    "name": "Cordova Park Wading Pool",
+    "lat": 49.86567585476028,
+    "lon": -97.1892063825687,
+    "type": "wading-pool",
+    "ward": "River Heights - Fort Garry",
+    "syntheticClosureDateString": "2023-07-01 23:00:00"
+  },
+  {
+    "name": "Morse Place Community Centre Wading Pool",
+    "lat": 49.91278622150586,
+    "lon": -97.08422364852079,
+    "type": "wading-pool",
+    "ward": "Elmwood - East Kildonan",
+    "syntheticClosureDateString": "2021-07-01 23:00:00"
+  },
+  {
+    "name": "Pascoe Park Wading Pool",
+    "lat": 49.91471257813159,
+    "lon": -97.18319533591436,
+    "type": "wading-pool",
+    "ward": "Point Douglas"
+  },
+  {
+    "name": "West Kildonan Memorial Community Centre Wading Pool",
+    "lat": 49.93714558562278,
+    "lon": -97.12578695617155,
+    "type": "wading-pool",
+    "ward": "Mynarski"
+  },
+  {
+    "name": "Champlain Community Centre Wading Pool",
+    "lat": 49.87551700861631,
+    "lon": -97.11423843208637,
+    "type": "wading-pool",
+    "ward": "St. Boniface"
+  },
+  {
+    "name": "Burton Cummings Community Centre Wading Pool",
+    "lat": 49.90624597531002,
+    "lon": -97.16671896863652,
+    "type": "wading-pool",
+    "ward": "Point Douglas",
+    "syntheticClosureDateString": "2022-07-01 23:00:00"
+  },
+  {
+    "name": "Marcy Beaucage Park Wading Pool",
+    "lat": 49.854076340026104,
+    "lon": -97.28853656921902,
+    "type": "wading-pool",
+    "ward": "Charleswood - Tuxedo - Westwood"
+  },
+  {
+    "name": "Rotary Centenary Park Wading Pool",
+    "lat": 49.898739975419524,
+    "lon": -97.02470305088318,
+    "type": "wading-pool",
+    "ward": "Transcona"
+  },
+  {
+    "name": "Northwood Community Centre Wading Pool",
+    "lat": 49.93037722717319,
+    "lon": -97.17854066813018,
+    "type": "wading-pool",
+    "ward": "Point Douglas"
+  },
+  {
+    "name": "Harrow Park Wading Pool",
+    "lat": 49.8637229876301,
+    "lon": -97.16202898759181,
+    "type": "wading-pool",
+    "ward": "River Heights - Fort Garry"
+  },
+  {
+    "name": "St. John’s Park Wading Pool",
+    "lat": 49.91918178225654,
+    "lon": -97.12649501785228,
+    "type": "wading-pool",
+    "ward": "Mynarski"
+  },
+  {
+    "name": "Jacob Penner Park Wading Pool",
+    "lat": 49.90157376828667,
+    "lon": -97.16151200469477,
+    "type": "wading-pool",
+    "ward": "Daniel McIntyre",
+    "syntheticClosureDateString": "2020-07-01 23:00:00"
+  },
+  {
+    "name": "Dufferin Park Wading Pool",
+    "lat": 49.906926994672354,
+    "lon": -97.15130204250767,
+    "type": "wading-pool",
+    "ward": "Point Douglas"
+  },
+  {
+    "name": "McFadyen Park Wading Pool",
+    "lat": 49.8836656233804,
+    "lon": -97.14194385134039,
+    "type": "wading-pool",
+    "ward": "Fort Rouge - East Fort Garry"
+  },
+  {
+    "name": "Pacific Dee Park Wading Pool",
+    "lat": 49.921698843502774,
+    "lon": -97.1996784705046,
+    "type": "wading-pool",
+    "ward": "Point Douglas"
+  },
+  {
+    "name": "Bruce Park Wading Pool",
+    "lat": 49.87726018699298,
+    "lon": -97.22519233596753,
+    "type": "wading-pool",
+    "ward": "St. James"
+  },
+  {
+    "name": "Vimy Ridge Memorial Park Wading Pool",
+    "lat": 49.88436654344726,
+    "lon": -97.16795472900527,
+    "type": "wading-pool",
+    "ward": "Daniel McIntyre"
+  },
+  {
+    "name": "Sargent Park Wading Pool",
+    "lat": 49.899099011300535,
+    "lon": -97.17896766324115,
+    "type": "wading-pool",
+    "ward": "Daniel McIntyre"
+  },
+  {
+    "name": "Keenleyside Park Wading Pool",
+    "lat": 49.906834631709835,
+    "lon": -97.07215535167362,
+    "type": "wading-pool",
+    "ward": "Elmwood - East Kildonan"
+  },
+  {
+    "name": "Centennial Park Wading Pool",
+    "lat": 49.924155804671216,
+    "lon": -97.08176607237111,
+    "type": "wading-pool",
+    "ward": "Elmwood - East Kildonan"
+  },
+  {
+    "name": "King Edward and Ness Playground Wading Pool",
+    "lat": 49.88416598549612,
+    "lon": -97.20899597001494,
+    "type": "wading-pool",
+    "ward": "St. James"
+  },
+  {
+    "name": "John M King School Wading Pool",
+    "lat": 49.89394564108604,
+    "lon": -97.16101512122773,
+    "type": "wading-pool",
+    "ward": "Daniel McIntyre"
+  },
+  {
+    "name": "Montrose Park Wading Pool",
+    "lat": 49.85916499794158,
+    "lon": -97.18019995144198,
+    "type": "wading-pool",
+    "ward": "River Heights - Fort Garry"
+  },
+  {
     "name": "Bertrand Arena",
     "lat": 49.8835250439414,
     "lon": -97.1146040094391,

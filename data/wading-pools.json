@@ -1,0 +1,893 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "fe7p-u4s6",
+      "name" : "Swimming Pool - Wading",
+      "attribution" : "City of Winnipeg",
+      "averageRating" : 0,
+      "category" : "Recreation",
+      "createdAt" : 1403287153,
+      "description" : "Location and amenities of wading pools.",
+      "displayType" : "map",
+      "downloadCount" : 727,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1575201751,
+      "licenseId" : "OGL_CANADA",
+      "newBackend" : true,
+      "numberOfComments" : 0,
+      "oid" : 22080754,
+      "provenance" : "official",
+      "publicationAppendEnabled" : true,
+      "publicationDate" : 1467383588,
+      "publicationGroup" : 1623646,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1577880133,
+      "rowsUpdatedBy" : "9x28-xwwt",
+      "tableId" : 11658597,
+      "totalTimesRated" : 0,
+      "viewCount" : 447,
+      "viewLastModified" : 1504812185,
+      "viewType" : "tabular",
+      "approvals" : [ {
+        "reviewedAt" : 1467383588,
+        "reviewedAutomatically" : true,
+        "state" : "approved",
+        "submissionId" : 649505,
+        "submissionObject" : "public_audience_request",
+        "submissionOutcome" : "change_audience",
+        "submittedAt" : 1467383588,
+        "workflowId" : 2018,
+        "submissionDetails" : {
+          "permissionType" : "READ"
+        },
+        "submissionOutcomeApplication" : {
+          "failureCount" : 0,
+          "status" : "success"
+        },
+        "submitter" : {
+          "id" : "2mb6-i6j3",
+          "displayName" : "Open Data Admin"
+        }
+      } ],
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 261351405,
+        "name" : "Name",
+        "dataTypeName" : "text",
+        "fieldName" : "name",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 20380607,
+        "width" : 148,
+        "cachedContents" : {
+          "null" : "0",
+          "top" : [ {
+            "item" : "Vermillion Park Wading Pool",
+            "count" : "1"
+          }, {
+            "item" : "Elmwood Park Wading Pool",
+            "count" : "1"
+          }, {
+            "item" : "Lizzie Park Wading Pool",
+            "count" : "1"
+          }, {
+            "item" : "Clara Hughes Park Wading Pool",
+            "count" : "1"
+          }, {
+            "item" : "Central Corydon CC- Sir John Franklin site",
+            "count" : "1"
+          }, {
+            "item" : "McKittrick Park Wading Pool",
+            "count" : "1"
+          }, {
+            "item" : "Valour Community Centre - Clifton site Wading Pool",
+            "count" : "1"
+          }, {
+            "item" : "Magnus Eliason Recreation Centre Wading Pool",
+            "count" : "1"
+          }, {
+            "item" : "Aberdeen Recreation Centre Wading Pool",
+            "count" : "1"
+          }, {
+            "item" : "Ducharme Park Wading Pool",
+            "count" : "1"
+          }, {
+            "item" : "Shaughnessy Park Wading Pool",
+            "count" : "1"
+          }, {
+            "item" : "Valour Community Centre - Isaac Brock site Wading Pool",
+            "count" : "1"
+          }, {
+            "item" : "St. John’s Park Wading Pool",
+            "count" : "1"
+          }, {
+            "item" : "Elmwood Winter Club Wading Pool",
+            "count" : "1"
+          }, {
+            "item" : "Lions Wading Pool",
+            "count" : "1"
+          }, {
+            "item" : "Broadway Park Wading Pool",
+            "count" : "1"
+          }, {
+            "item" : "Sargent Park Wading Pool",
+            "count" : "1"
+          }, {
+            "item" : "Earl Grey Community Centre Wading Pool",
+            "count" : "1"
+          }, {
+            "item" : "Central Park Wading Pool",
+            "count" : "1"
+          }, {
+            "item" : "Montrose Park Wading Pool",
+            "count" : "1"
+          } ],
+          "cardinality" : "81"
+        },
+        "format" : { }
+      }, {
+        "id" : 261351406,
+        "name" : "Address",
+        "dataTypeName" : "text",
+        "fieldName" : "address",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 20380608,
+        "width" : 184,
+        "cachedContents" : {
+          "null" : "0",
+          "top" : [ {
+            "item" : "416 Assiniboine Ave",
+            "count" : "1"
+          }, {
+            "item" : "980 Palmerston Ave",
+            "count" : "1"
+          }, {
+            "item" : "980 Winakwa Rd",
+            "count" : "1"
+          }, {
+            "item" : "415 Stella Ave",
+            "count" : "1"
+          }, {
+            "item" : "700 Munroe Ave",
+            "count" : "1"
+          }, {
+            "item" : "1887 Pacific Ave W",
+            "count" : "1"
+          }, {
+            "item" : "65 Morrow Ave",
+            "count" : "1"
+          }, {
+            "item" : "210 St Cross St",
+            "count" : "1"
+          }, {
+            "item" : "210 Rita St",
+            "count" : "1"
+          }, {
+            "item" : "1245 Fife St",
+            "count" : "1"
+          }, {
+            "item" : "303 Lockwood St",
+            "count" : "1"
+          }, {
+            "item" : "631 Montrose St",
+            "count" : "1"
+          }, {
+            "item" : "254 Lakewood Blvd",
+            "count" : "1"
+          }, {
+            "item" : "380 Henderson Hwy",
+            "count" : "1"
+          }, {
+            "item" : "790 Rathgar Ave",
+            "count" : "1"
+          }, {
+            "item" : "1199 Paterson St",
+            "count" : "1"
+          }, {
+            "item" : "360 Cockburn St N",
+            "count" : "1"
+          }, {
+            "item" : "510 King St",
+            "count" : "1"
+          }, {
+            "item" : "1188 Dakota St",
+            "count" : "1"
+          }, {
+            "item" : "595 Louelda St",
+            "count" : "1"
+          } ],
+          "cardinality" : "81"
+        },
+        "format" : { }
+      }, {
+        "id" : 261351407,
+        "name" : "Is Open",
+        "dataTypeName" : "checkbox",
+        "fieldName" : "is_open",
+        "position" : 3,
+        "renderTypeName" : "checkbox",
+        "tableColumnId" : 20380609,
+        "width" : 184,
+        "cachedContents" : {
+          "null" : "0",
+          "top" : [ {
+            "item" : false,
+            "count" : "81"
+          } ],
+          "cardinality" : "1"
+        },
+        "format" : { }
+      }, {
+        "id" : 261351408,
+        "name" : "Supervised",
+        "dataTypeName" : "checkbox",
+        "fieldName" : "supervised",
+        "position" : 4,
+        "renderTypeName" : "checkbox",
+        "tableColumnId" : 20380610,
+        "width" : 220,
+        "cachedContents" : {
+          "null" : "81",
+          "cardinality" : "0"
+        },
+        "format" : { }
+      }, {
+        "id" : 261351409,
+        "name" : "Spray Park",
+        "dataTypeName" : "checkbox",
+        "fieldName" : "spray_park",
+        "position" : 5,
+        "renderTypeName" : "checkbox",
+        "tableColumnId" : 20380611,
+        "width" : 220,
+        "cachedContents" : {
+          "null" : "81",
+          "cardinality" : "0"
+        },
+        "format" : { }
+      }, {
+        "id" : 261351410,
+        "name" : "Sprayer",
+        "dataTypeName" : "checkbox",
+        "fieldName" : "sprayer",
+        "position" : 6,
+        "renderTypeName" : "checkbox",
+        "tableColumnId" : 20380612,
+        "width" : 184,
+        "cachedContents" : {
+          "null" : "0",
+          "top" : [ {
+            "item" : false,
+            "count" : "67"
+          }, {
+            "item" : true,
+            "count" : "14"
+          } ],
+          "cardinality" : "2"
+        },
+        "format" : { }
+      }, {
+        "id" : 261351411,
+        "name" : "Liner",
+        "dataTypeName" : "checkbox",
+        "fieldName" : "liner",
+        "position" : 7,
+        "renderTypeName" : "checkbox",
+        "tableColumnId" : 20380613,
+        "width" : 160,
+        "cachedContents" : {
+          "null" : "0",
+          "top" : [ {
+            "item" : false,
+            "count" : "78"
+          }, {
+            "item" : true,
+            "count" : "3"
+          } ],
+          "cardinality" : "2"
+        },
+        "format" : { }
+      }, {
+        "id" : 261351412,
+        "name" : "Fee",
+        "dataTypeName" : "checkbox",
+        "fieldName" : "fee",
+        "position" : 8,
+        "renderTypeName" : "checkbox",
+        "tableColumnId" : 20380614,
+        "width" : 136,
+        "cachedContents" : {
+          "null" : "81",
+          "cardinality" : "0"
+        },
+        "format" : { }
+      }, {
+        "id" : 261351413,
+        "name" : "Wheelchair",
+        "dataTypeName" : "checkbox",
+        "fieldName" : "wheelchair",
+        "position" : 9,
+        "renderTypeName" : "checkbox",
+        "tableColumnId" : 20380615,
+        "width" : 220,
+        "cachedContents" : {
+          "null" : "0",
+          "top" : [ {
+            "item" : false,
+            "count" : "71"
+          }, {
+            "item" : true,
+            "count" : "10"
+          } ],
+          "cardinality" : "2"
+        },
+        "format" : { }
+      }, {
+        "id" : 261351414,
+        "name" : "Playground",
+        "dataTypeName" : "checkbox",
+        "fieldName" : "playground",
+        "position" : 10,
+        "renderTypeName" : "checkbox",
+        "tableColumnId" : 20380616,
+        "width" : 220,
+        "cachedContents" : {
+          "null" : "0",
+          "top" : [ {
+            "item" : true,
+            "count" : "75"
+          }, {
+            "item" : false,
+            "count" : "6"
+          } ],
+          "cardinality" : "2"
+        },
+        "format" : { }
+      }, {
+        "id" : 261351415,
+        "name" : "Pool Slide",
+        "dataTypeName" : "checkbox",
+        "fieldName" : "pool_slide",
+        "position" : 11,
+        "renderTypeName" : "checkbox",
+        "tableColumnId" : 20380617,
+        "width" : 220,
+        "cachedContents" : {
+          "null" : "0",
+          "top" : [ {
+            "item" : false,
+            "count" : "74"
+          }, {
+            "item" : true,
+            "count" : "7"
+          } ],
+          "cardinality" : "2"
+        },
+        "format" : { }
+      }, {
+        "id" : 261351416,
+        "name" : "Water Play Equipment",
+        "dataTypeName" : "checkbox",
+        "fieldName" : "water_play_equipment",
+        "position" : 12,
+        "renderTypeName" : "checkbox",
+        "tableColumnId" : 20380618,
+        "width" : 340,
+        "cachedContents" : {
+          "null" : "81",
+          "cardinality" : "0"
+        },
+        "format" : { }
+      }, {
+        "id" : 261351417,
+        "name" : "Spray Park Info",
+        "dataTypeName" : "text",
+        "fieldName" : "spray_park_info",
+        "position" : 13,
+        "renderTypeName" : "text",
+        "tableColumnId" : 20380619,
+        "width" : 280,
+        "cachedContents" : {
+          "null" : "81",
+          "cardinality" : "0"
+        },
+        "format" : { }
+      }, {
+        "id" : 261351418,
+        "name" : "Water Play Equipment Info",
+        "dataTypeName" : "text",
+        "fieldName" : "water_play_equipment_info",
+        "position" : 14,
+        "renderTypeName" : "text",
+        "tableColumnId" : 20380620,
+        "width" : 400,
+        "cachedContents" : {
+          "null" : "81",
+          "cardinality" : "0"
+        },
+        "format" : { }
+      }, {
+        "id" : 261351419,
+        "name" : "Sprayer Info",
+        "dataTypeName" : "text",
+        "fieldName" : "sprayer_info",
+        "position" : 15,
+        "renderTypeName" : "text",
+        "tableColumnId" : 20380622,
+        "width" : 244,
+        "cachedContents" : {
+          "null" : "81",
+          "cardinality" : "0"
+        },
+        "format" : { }
+      }, {
+        "id" : 261351420,
+        "name" : "Fee Info",
+        "dataTypeName" : "text",
+        "fieldName" : "fee_info",
+        "position" : 16,
+        "renderTypeName" : "text",
+        "tableColumnId" : 20380624,
+        "width" : 196,
+        "cachedContents" : {
+          "null" : "81",
+          "cardinality" : "0"
+        },
+        "format" : { }
+      }, {
+        "id" : 261351421,
+        "name" : "Pool Slide Info",
+        "dataTypeName" : "text",
+        "fieldName" : "pool_slide_info",
+        "position" : 17,
+        "renderTypeName" : "text",
+        "tableColumnId" : 20380625,
+        "width" : 280,
+        "cachedContents" : {
+          "null" : "74",
+          "top" : [ {
+            "item" : "1",
+            "count" : "7"
+          } ],
+          "cardinality" : "1"
+        },
+        "format" : { }
+      }, {
+        "id" : 261351422,
+        "name" : "Facility Info",
+        "dataTypeName" : "text",
+        "fieldName" : "facility_info",
+        "position" : 18,
+        "renderTypeName" : "text",
+        "tableColumnId" : 20380627,
+        "width" : 256,
+        "cachedContents" : {
+          "null" : "78",
+          "top" : [ {
+            "item" : "3",
+            "count" : "1"
+          }, {
+            "item" : "Football field",
+            "count" : "1"
+          }, {
+            "item" : "Recreation Centre",
+            "count" : "1"
+          } ],
+          "cardinality" : "3"
+        },
+        "format" : { }
+      }, {
+        "id" : 261351423,
+        "name" : "Website",
+        "dataTypeName" : "url",
+        "fieldName" : "website",
+        "position" : 19,
+        "renderTypeName" : "url",
+        "tableColumnId" : 20380629,
+        "width" : 184,
+        "cachedContents" : {
+          "largest" : {
+            "url" : "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm"
+          },
+          "non_null" : 81,
+          "null" : 0,
+          "top" : [ {
+            "item" : {
+              "url" : "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm"
+            },
+            "count" : 20
+          } ],
+          "smallest" : {
+            "url" : "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm"
+          }
+        },
+        "format" : { },
+        "subColumnTypes" : [ "url", "description" ]
+      }, {
+        "id" : 261351424,
+        "name" : "Complex ID",
+        "dataTypeName" : "number",
+        "fieldName" : "complex_id",
+        "position" : 20,
+        "renderTypeName" : "number",
+        "tableColumnId" : 20380631,
+        "width" : 220,
+        "cachedContents" : {
+          "average" : "83.92592592592593",
+          "null" : "0",
+          "top" : [ {
+            "item" : "88",
+            "count" : "1"
+          }, {
+            "item" : "154",
+            "count" : "1"
+          }, {
+            "item" : "21",
+            "count" : "1"
+          }, {
+            "item" : "129",
+            "count" : "1"
+          }, {
+            "item" : "82",
+            "count" : "1"
+          }, {
+            "item" : "97",
+            "count" : "1"
+          }, {
+            "item" : "74",
+            "count" : "1"
+          }, {
+            "item" : "66",
+            "count" : "1"
+          }, {
+            "item" : "132",
+            "count" : "1"
+          }, {
+            "item" : "5",
+            "count" : "1"
+          }, {
+            "item" : "26",
+            "count" : "1"
+          }, {
+            "item" : "34",
+            "count" : "1"
+          }, {
+            "item" : "94",
+            "count" : "1"
+          }, {
+            "item" : "61",
+            "count" : "1"
+          }, {
+            "item" : "181",
+            "count" : "1"
+          }, {
+            "item" : "127",
+            "count" : "1"
+          }, {
+            "item" : "65",
+            "count" : "1"
+          }, {
+            "item" : "15",
+            "count" : "1"
+          }, {
+            "item" : "13",
+            "count" : "1"
+          }, {
+            "item" : "96",
+            "count" : "1"
+          } ],
+          "sum" : "6798",
+          "cardinality" : "81"
+        },
+        "format" : { }
+      }, {
+        "id" : 261351425,
+        "name" : "Location 1",
+        "dataTypeName" : "location",
+        "fieldName" : "location_1",
+        "position" : 21,
+        "renderTypeName" : "location",
+        "tableColumnId" : 20380632,
+        "width" : 220,
+        "format" : { },
+        "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+      }, {
+        "id" : 406531701,
+        "name" : "Wards",
+        "dataTypeName" : "number",
+        "fieldName" : ":@computed_region_6rfj_69jf",
+        "position" : 26,
+        "renderTypeName" : "number",
+        "tableColumnId" : 80244184,
+        "computationStrategy" : {
+          "source_columns" : [ "location_1" ],
+          "type" : "georegion_match_on_point",
+          "parameters" : {
+            "region" : "_6rfj-69jf",
+            "primary_key" : "_feature_id"
+          }
+        },
+        "format" : { }
+      }, {
+        "id" : 406531702,
+        "name" : "Neighborhoods",
+        "dataTypeName" : "number",
+        "fieldName" : ":@computed_region_38v8_cedi",
+        "position" : 27,
+        "renderTypeName" : "number",
+        "tableColumnId" : 80244185,
+        "computationStrategy" : {
+          "source_columns" : [ "location_1" ],
+          "type" : "georegion_match_on_point",
+          "parameters" : {
+            "region" : "_38v8-cedi",
+            "primary_key" : "_feature_id"
+          }
+        },
+        "format" : { }
+      }, {
+        "id" : 406531703,
+        "name" : "Zip Codes",
+        "dataTypeName" : "number",
+        "fieldName" : ":@computed_region_4h47_8kp6",
+        "position" : 28,
+        "renderTypeName" : "number",
+        "tableColumnId" : 80244186,
+        "computationStrategy" : {
+          "source_columns" : [ "location_1" ],
+          "type" : "georegion_match_on_point",
+          "parameters" : {
+            "region" : "_4h47-8kp6",
+            "primary_key" : "_feature_id"
+          }
+        },
+        "format" : { }
+      } ],
+      "displayFormat" : {
+        "bkgdLayers" : [ {
+          "layerKey" : "Google Roadmap",
+          "opacity" : 1
+        } ],
+        "disableGeolocator" : false,
+        "exclusiveLayers" : false,
+        "viewDefinitions" : [ {
+          "uid" : "self",
+          "highlightColor" : "#ddeaf0",
+          "color" : "#0000ff",
+          "plot" : {
+            "locationId" : 20380632,
+            "titleId" : 20380607,
+            "descriptionColumns" : [ {
+              "tableColumnId" : 20380608
+            }, { } ]
+          },
+          "flyoutsNoLabel" : false,
+          "alias" : "Wading Pool",
+          "opacity" : 1,
+          "plotStyle" : "point"
+        } ]
+      },
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Canada Open Government Licence",
+        "termsLink" : "http://open.canada.ca/en/open-government-licence-canada"
+      },
+      "metadata" : {
+        "rdfSubject" : "0",
+        "rdfClass" : "",
+        "conditionalFormatting" : [ {
+          "condition" : {
+            "tableColumnId" : 20380609,
+            "_key" : "(20380609|IS_BLANK|undefined)",
+            "operator" : "IS_BLANK"
+          },
+          "color" : "#ff9900"
+        } ],
+        "custom_fields" : {
+          "Department" : {
+            "Group" : "City Services",
+            "Department" : "Community Services"
+          },
+          "Update Frequency" : {
+            "Interval" : "Monthly"
+          },
+          "Licence" : {
+            "Licence" : "Open Government Licence - Winnipeg"
+          }
+        },
+        "rowIdentifier" : "0",
+        "availableDisplayTypes" : [ "map", "table", "fatrow", "page" ],
+        "renderTypeConfig" : {
+          "visible" : {
+            "map" : true
+          },
+          "active" : {
+            "table" : {
+              "id" : "self"
+            }
+          }
+        }
+      },
+      "owner" : {
+        "id" : "2mb6-i6j3",
+        "displayName" : "Open Data Admin",
+        "screenName" : "Open Data Admin",
+        "type" : "interactive",
+        "userSegment" : "site_member",
+        "flags" : [ "acceptedEula" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "2mb6-i6j3",
+        "displayName" : "Open Data Admin",
+        "screenName" : "Open Data Admin",
+        "type" : "interactive",
+        "userSegment" : "site_member",
+        "flags" : [ "acceptedEula" ]
+      },
+      "tags" : [ "wading pool", "swimming", "public facility" ],
+      "flags" : [ "unsaved" ]
+    }
+  },
+  "data" : [ [ "row-d5hd~p5h4.9v63", "00000000-0000-0000-BE72-FFC85533F7A3", 0, 1572601870, null, 1572601871, null, "{ }", "Beryl Watts Park Wading Pool", "1295 Salter St", false, null, null, false, false, null, false, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "66", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.95073295524996", "-97.11750346188441", null, false ], "4", "1", null ]
+, [ "row-qgyj-m4me-zwrk", "00000000-0000-0000-6D6A-4140F582D89C", 0, 1572601870, null, 1572601871, null, "{ }", "Happyland Wading Pool", "520 Marion St", false, null, null, false, false, null, false, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "132", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.88173781975416", "-97.10168184370126", null, false ], "8", "172", null ]
+, [ "row-vywf_8g3z~assy", "00000000-0000-0000-4654-F931EF1BD27D", 0, 1572601870, null, 1572601871, null, "{ }", "Magnus Eliason Recreation Centre Wading Pool", "430 Langside St", false, null, null, true, false, null, false, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "189", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.89164245760756", "-97.15641848649322", null, false ], "3", "59", null ]
+, [ "row-2ujn~wxxz.q5bi", "00000000-0000-0000-AFE9-8975D0687DAF", 0, 1572601870, null, 1572601871, null, "{ }", "William Whyte School Wading Pool", "200 Powers St", false, null, null, false, false, null, false, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "62", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.91770306265705", "-97.14361524693749", null, false ], "4", "138", null ]
+, [ "row-qprv_xhyi~i4sx", "00000000-0000-0000-F08E-9E17641CED80", 0, 1572601870, null, 1572601871, null, "{ }", "Valour Community Centre - Isaac Brock site Wading Pool", "715 Telfer St N", false, null, null, false, false, null, false, true, true, null, null, null, null, null, "1", null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "53", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.88826043383068", "-97.1867802825869", null, false ], "3", "51", null ]
+, [ "row-e3e4_5azh~mvdb", "00000000-0000-0000-1760-2506C83CCFCF", 0, 1572601870, null, 1572601871, null, "{ }", "St. Charles Park Wading Pool", "3684 Ness Ave", false, null, null, false, false, null, true, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "55", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.88867771729147", "-97.31340212536873", null, false ], "14", "106", null ]
+, [ "row-pdph-s3kv.ak4t", "00000000-0000-0000-4D20-E6EEB59757CD", 0, 1572601870, null, 1572601871, null, "{ }", "John Yuzyk Park  Wading Pool", "665 Radford St", false, null, null, false, false, null, false, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "82", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.93488787810326", "-97.15981211838822", null, false ], "12", "158", null ]
+, [ "row-27bb.xhj7-9age", "00000000-0000-0000-2A61-7EB290C022D7", 0, 1572601870, null, 1572601871, null, "{ }", "Sturgeon Heights Community Centre Wading Pool", "210 Rita St", false, null, null, false, false, null, false, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "54", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.87630128516083", "-97.25844535184824", null, false ], "13", "35", null ]
+, [ "row-3gju-i8f6.bdwk", "00000000-0000-0000-4E32-00EA817F3D57", 0, 1572601870, null, 1572601871, null, "{ }", "Dakota Park Wading Pool", "1188 Dakota St", false, null, null, false, false, null, true, false, true, null, null, null, null, null, "1", null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "68", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.81872007721585", "-97.10174351679566", null, false ], "7", "88", null ]
+, [ "row-8w3a_qdrt~jin4", "00000000-0000-0000-7676-2999CFD4F25C", 0, 1572601870, null, 1572601871, null, "{ }", "Boyd Park Wading Pool", "1100 College Ave", false, null, null, true, false, null, false, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "80", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.928919085841216", "-97.16366035246422", null, false ], "12", "64", null ]
+, [ "row-y64v.9z52~2u22", "00000000-0000-0000-4227-E2DE804101EF", 0, 1572601870, null, 1572601871, null, "{ }", "Elmwood Park Wading Pool", "380 Henderson Hwy", false, null, null, true, false, null, false, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "116", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.91816479215255", "-97.11354812774319", null, false ], "1", "81", null ]
+, [ "row-2eqr-5ajp-tta9", "00000000-0000-0000-B660-2C1C0D59ED92", 0, 1572601870, null, 1572601871, null, "{ }", "Clara Hughes Park Wading Pool", "400 Matheson Ave", false, null, null, false, false, null, false, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "88", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.93196927936996", "-97.1326573861011", null, false ], "4", "102", null ]
+, [ "row-9cmg-ii6g_czem", "00000000-0000-0000-FBEA-9045061B5CE1", 0, 1572601870, null, 1572601871, null, "{ }", "McKittrick Park Wading Pool", "790 Rathgar Ave", false, null, null, false, false, null, false, true, true, null, null, null, null, null, "1", "3", [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "183", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.85704506421516", "-97.14544274777957", null, false ], "6", "99", null ]
+, [ "row-zt7x~9q8p_qfw8", "00000000-0000-0000-6382-95AA6801E1D9", 0, 1572601870, null, 1572601871, null, "{ }", "Lomond Park Wading Pool", "1199 Paterson St", false, null, null, false, false, null, false, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "137", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.85913799495187", "-97.0603650465931", null, false ], "8", "157", null ]
+, [ "row-d4cd.jn2d-jwp9", "00000000-0000-0000-638E-312F15965677", 0, 1572601870, null, 1572601871, null, "{ }", "Norwood Community Centre Wading Pool", "87 Walmer St", false, null, null, false, false, null, false, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "139", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.87912632696142", "-97.1291197128972", null, false ], "8", "179", null ]
+, [ "row-ufmp-92ha_frvg", "00000000-0000-0000-3D52-76F8BA465C8C", 0, 1572601870, null, 1572601871, null, "{ }", "Robert A Steen Memorial Community Centre Wading Pool", "980 Palmerston Ave", false, null, null, false, true, null, false, false, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "28", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.87714063094603", "-97.17282263706062", null, false ], "3", "14", null ]
+, [ "row-r4nb~6rq3~f9qs", "00000000-0000-0000-04AB-856C89E6C0F7", 0, 1572601870, null, 1572601871, null, "{ }", "Braeside Park Wading Pool", "595 Louelda St", false, null, null, false, false, null, false, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "97", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.9105690648001", "-97.07154403205492", null, false ], "1", "89", null ]
+, [ "row-wmpr.ihps~yq4k", "00000000-0000-0000-70CB-799BE1E0E023", 0, 1572601870, null, 1572601871, null, "{ }", "Machray Park Wading Pool", "475 Anderson Ave", false, null, null, false, false, null, true, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "83", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.92462544770564", "-97.13721176369974", null, false ], "4", "121", null ]
+, [ "row-w3wx~m3i8.ddin", "00000000-0000-0000-3857-FAF90A9B8311", 0, 1572601870, null, 1572601871, null, "{ }", "Earl Grey Community Centre Wading Pool", "360 Cockburn St N", false, null, null, false, false, null, false, true, true, null, null, null, null, null, "1", null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "39", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.86689679989561", "-97.15084685552841", null, false ], "6", "20", null ]
+, [ "row-n4sv.vq7b~a4fp", "00000000-0000-0000-9054-F7A4BC3E0948", 0, 1572601870, null, 1572601871, null, "{ }", "Ducharme Park Wading Pool", "65 Morrow Ave", false, null, null, true, false, null, false, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "142", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.85385718016455", "-97.09860539219756", null, false ], "11", "104", null ]
+, [ "row-dzr9.h75d_wcwr", "00000000-0000-0000-ADB0-A29F5B90DE0D", 0, 1572601870, null, 1572601871, null, "{ }", "Victor Valde Park Wading Pool", "124 Borden Ave", false, null, null, false, false, null, false, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "115", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.884537030007564", "-97.00090865604233", null, false ], "9", "79", null ]
+, [ "row-sr9u~uvup-fucy", "00000000-0000-0000-E47C-5CF1373F27A3", 0, 1572601870, null, 1572601871, null, "{ }", "Michaëlle Jean Park (Norquay Community Centre) Wading Pool", "65 Granville St", false, null, null, true, false, null, true, false, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "70", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.90989299748023", "-97.1265874784302", null, false ], "4", "85", null ]
+, [ "row-rfj2~59c7~du38", "00000000-0000-0000-4B25-8C2ED2F656F7", 0, 1572601870, null, 1572601871, null, "{ }", "Elmwood Winter Club Wading Pool", "75 Brazier St", false, null, null, false, false, null, false, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "123", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.909491488253686", "-97.11354774658297", null, false ], "1", "197", null ]
+, [ "row-7rfk_9su9_gg84", "00000000-0000-0000-3479-8E53BA89DB99", 0, 1572601870, null, 1572601871, null, "{ }", "Shaughnessy Park Wading Pool", "74 Tyndall Ave", false, null, null, false, false, null, false, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "107", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.93476351549268", "-97.1888054680931", null, false ], "12", "15", null ]
+, [ "row-u36e.iqfh~j8np", "00000000-0000-0000-A4F1-F3F1B685A72C", 0, 1572601870, null, 1572601871, null, "{ }", "Bronx Park Community Centre Wading Pool", "720 Henderson Hwy", false, null, null, false, false, null, false, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "92", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.927009183196986", "-97.10528983688295", null, false ], "10", "4", null ]
+, [ "row-fghw_c8a3-yfan", "00000000-0000-0000-EFD5-000B7CCA9DE2", 0, 1572601870, null, 1572601871, null, "{ }", "Valour Community Centre - Clifton site Wading Pool", "1315 Strathcona St", false, null, null, false, false, null, false, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "52", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.90164925165612", "-97.18959968793219", null, false ], "3", "70", null ]
+, [ "row-pnj8_cksb~srsn", "00000000-0000-0000-BDD5-02942F2AED43", 0, 1572601870, null, 1572601871, null, "{ }", "Vermillion Park Wading Pool", "990 Beaverhill Blvd", false, null, null, false, false, null, false, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "129", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.85300365564019", "-97.06564328446673", null, false ], "8", "61", null ]
+, [ "row-79gy_fnfw~re22", "00000000-0000-0000-F8AA-52A7A2EAF8EF", 0, 1572601870, null, 1572601871, null, "{ }", "Southdale Community Centre Wading Pool", "254 Lakewood Blvd", false, null, null, false, false, null, false, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "128", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.84543597930898", "-97.076612491441", null, false ], "8", "61", null ]
+, [ "row-6y6j_fgfa-vxig", "00000000-0000-0000-971B-A1E89F3A6941", 0, 1572601870, null, 1572601871, null, "{ }", "Aberdeen Recreation Centre Wading Pool", "415 Stella Ave", false, null, null, false, false, null, false, true, false, null, null, null, null, null, null, "Recreation Centre", [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "61", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.913582524194034", "-97.14446319589916", null, false ], "4", "139", null ]
+, [ "row-iecm-tm9h_hpep", "00000000-0000-0000-D93D-4D67F13B0D73", 0, 1572601870, null, 1572601871, null, "{ }", "Winakwa Community Centre Wading Pool", "980 Winakwa Rd", false, null, null, false, false, null, false, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "134", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.86325756904041", "-97.07501011172238", null, false ], "8", "157", null ]
+, [ "row-g4ws~g9g8-nahz", "00000000-0000-0000-415B-873AC199ADB6", 0, 1572601870, null, 1572601871, null, "{ }", "Riverview Community Centre Wading Pool", "90 Ashland Ave", false, null, null, true, false, null, false, true, true, null, null, null, null, null, "1", null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "182", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.86507696149414", "-97.11857867065396", null, false ], "6", "169", null ]
+, [ "row-4sfn-uvkb~hgmx", "00000000-0000-0000-F884-7B1DAE8E6DF1", 0, 1572601870, null, 1572601871, null, "{ }", "Lions Wading Pool", "969 Dowker Ave", false, null, null, false, false, null, false, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "181", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.840904989927765", "-97.14991174320456", null, false ], "6", "109", null ]
+, [ "row-u6p4.vxed.e5sv", "00000000-0000-0000-317E-ED7F0C87C0C1", 0, 1572601870, null, 1572601871, null, "{ }", "Home Playground Wading Pool", "772 Sargent Ave", false, null, null, false, false, null, false, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "2", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.896546995523536", "-97.16677897786002", null, false ], "3", "29", null ]
+, [ "row-b73w-9fad~344m", "00000000-0000-0000-706A-ABC9ACB918EC", 0, 1572601870, null, 1572601871, null, "{ }", "King Edward Park Wading Pool", "709 Manhattan Ave", false, null, null, false, false, null, false, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "124", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.90621756467926", "-97.09020205746383", null, false ], "1", "42", null ]
+, [ "row-nykq-e3v7_ac8h", "00000000-0000-0000-EF89-47649386EC6D", 0, 1572601870, null, 1572601871, null, "{ }", "Berkshire Park Wading Pool", "40 Berkshire Bay", false, null, null, false, false, null, false, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "131", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.8723639655066", "-97.08949896745216", null, false ], "8", "65", null ]
+, [ "row-f7rx-rs5c.9nzc", "00000000-0000-0000-B2E5-CBE62F34E8EB", 0, 1572601870, null, 1572601871, null, "{ }", "Walsall Park Wading Pool", "2099 Manitoba Ave", false, null, null, false, false, null, false, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "90", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.93395800079289", "-97.21195295291763", null, false ], "12", "127", null ]
+, [ "row-xvht~xwqm.7irx", "00000000-0000-0000-3837-0732CBD51F09", 0, 1572601870, null, 1572601871, null, "{ }", "Broadway Park Wading Pool", "185 Young St", false, null, null, true, false, null, false, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "185", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.88388014154437", "-97.155216173433", null, false ], "6", "228", null ]
+, [ "row-yhvp~82cz_ta2p", "00000000-0000-0000-9A4D-B713D82B5EF7", 0, 1572601870, null, 1572601871, null, "{ }", "Weston Park Wading Pool", "299 Lock St", false, null, null, false, false, null, false, true, true, null, null, null, null, null, "1", null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "13", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.92069877447578", "-97.19000984762071", null, false ], "13", "28", null ]
+, [ "row-ciap-cfhn-s4ne", "00000000-0000-0000-3038-D461B73D7EB8", 0, 1572601870, null, 1572601871, null, "{ }", "Central Corydon CC- Sir John Franklin site", "1 Sir John Franklin Rd", false, null, null, false, false, null, false, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "186", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.86586583750233", "-97.19654030211801", null, false ], "5", "202", null ]
+, [ "row-grku~9c7t_gbxt", "00000000-0000-0000-2CB9-021F7C750C63", 0, 1572601870, null, 1572601871, null, "{ }", "Turtle Island Recreation Centre Wading Pool", "510 King St", false, null, null, false, false, null, false, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "71", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.91044922741412", "-97.13607006591653", null, false ], "4", "37", null ]
+, [ "row-i2ub-c27k-bp3c", "00000000-0000-0000-531A-CB9BDD25FE36", 0, 1572601870, null, 1572601871, null, "{ }", "Kapyong Park Wading Pool", "340 Amherst St", false, null, null, false, false, null, false, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "21", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.883946918160994", "-97.22240163602835", null, false ], "13", "131", null ]
+, [ "row-3cyd.i5a6-x2vs", "00000000-0000-0000-7C7E-A562F5EA0797", 0, 1572601870, null, 1572601871, null, "{ }", "Pritchard Park Wading Pool", "295 Pritchard Ave", false, null, null, false, false, null, false, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "73", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.91426116213934", "-97.13600704896913", null, false ], "4", "138", null ]
+, [ "row-5znv.sza5~yxsy", "00000000-0000-0000-4041-9CB37623279F", 0, 1572601870, null, 1572601871, null, "{ }", "Lizzie Park Wading Pool", "242 Lizzie St", false, null, null, true, false, null, false, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "10", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.90378901584974", "-97.14172903462955", null, false ], "12", "38", null ]
+, [ "row-4xv9.9q92_s9vm", "00000000-0000-0000-8D65-29DBF85B3DE1", 0, 1572601870, null, 1572601871, null, "{ }", "Tomlinson Park Wading Pool", "111 Lemmen Dr", false, null, null, false, false, null, false, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "105", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.9194363743172", "-97.06013723951537", null, false ], "1", "13", null ]
+, [ "row-6qas_2tnh~pjqf", "00000000-0000-0000-3DA1-511FA7142963", 0, 1572601870, null, 1572601871, null, "{ }", "Central Corydon Community Centre- Crescentwood Site Wading Pool", "1170 Corydon Ave", false, null, null, false, false, null, false, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "126", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.864545306039886", "-97.17091854975209", null, false ], "5", "58", null ]
+, [ "row-vcyw~ifu7_aa58", "00000000-0000-0000-076F-2A73B962910E", 0, 1572601870, null, 1572601871, null, "{ }", "Valour Community Centre - Orioles site Wading Pool", "448 Burnell St", false, null, null, false, false, null, false, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "1", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.89128730815621", "-97.17091565373795", null, false ], "3", "168", null ]
+, [ "row-yi8y.qbk8.5u7u", "00000000-0000-0000-22D4-84C9FBC97492", 0, 1572601870, null, 1572601871, null, "{ }", "Northwood CC: Frank Whyte site Wading Pool", "1245 Fife St", false, null, null, false, false, null, false, true, false, null, null, null, null, null, null, "Football field", [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "87", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.938445752499895", "-97.16689472109658", null, false ], "12", "122", null ]
+, [ "row-tdqc~9rzs-62kz", "00000000-0000-0000-A0A1-1AF78ABDBF94", 0, 1572601870, null, 1572601871, null, "{ }", "Tyndall Park School Wading Pool", "2221 King Edward St", false, null, null, false, false, null, false, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "91", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.93730491610665", "-97.20449300455282", null, false ], "12", "127", null ]
+, [ "row-5mxj_n9ww.ghgt", "00000000-0000-0000-C68C-5035CAF99927", 0, 1572601870, null, 1572601871, null, "{ }", "T R Hodgeson Park Wading Pool", "303 Lockwood St", false, null, null, false, false, null, false, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "154", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.86828802562749", "-97.20374901037702", null, false ], "5", "202", null ]
+, [ "row-wjws.e7u9-s7xk", "00000000-0000-0000-1C9F-B5BF63E9792C", 0, 1572601870, null, 1572601871, null, "{ }", "John Steel Park Wading Pool", "300 Westwood Dr", false, null, null, false, false, null, false, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "59", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.87281197105547", "-97.29452296565401", null, false ], "14", "63", null ]
+, [ "row-rzng~5q5t~ssge", "00000000-0000-0000-4BA6-4BAFECE850C4", 0, 1572601870, null, 1572601871, null, "{ }", "William Osler Park Wading Pool", "787 Brock St", false, null, null, false, false, null, false, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "152", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.85427379268317", "-97.19002139859418", null, false ], "5", "19", null ]
+, [ "row-2xr3~pbpz.c8ag", "00000000-0000-0000-6CAD-C39090FA25AE", 0, 1572601870, null, 1572601871, null, "{ }", "Luxton Community Centre Wading Pool", "210 St Cross St", false, null, null, false, false, null, false, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "85", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.92483937709672", "-97.11874540771902", null, false ], "4", "116", null ]
+, [ "row-6az9~k8ks.5wju", "00000000-0000-0000-86EC-388D9F9E8D40", 0, 1572601870, null, 1572601871, null, "{ }", "Marjorie Park Wading Pool", "245 Marjorie St", false, null, null, false, false, null, false, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "16", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.88084100258067", "-97.21322998870988", null, false ], "13", "131", null ]
+, [ "row-8rut-3tv4-dkri", "00000000-0000-0000-CA54-7AE8CAB39E0E", 0, 1572601870, null, 1572601871, null, "{ }", "Strathcona Recreation Centre Wading Pool", "233 McKenzie St", false, null, null, false, false, null, false, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "74", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.92030919253891", "-97.14795913438404", null, false ], "4", "138", null ]
+, [ "row-i3pi_s6ai-dp5v", "00000000-0000-0000-6B03-C0765DE25BE8", 0, 1572601870, null, 1572601871, null, "{ }", "River Osborne Wading Pool", "466 Gertrude Ave", false, null, null, false, true, null, false, false, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "40", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.87455211089644", "-97.14326392063467", null, false ], "6", "156", null ]
+, [ "row-4f2a.rdsq-iidk", "00000000-0000-0000-A2F7-EBE4D4DC07DB", 0, 1572601870, null, 1572601871, null, "{ }", "Westdale Wading Pool", "550 Dale Blvd", false, null, null, false, false, null, true, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "148", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.86133850189606", "-97.31535536483725", null, false ], "15", "223", null ]
+, [ "row-yydp-zck3_8m2h", "00000000-0000-0000-5731-93FA7CA23EF2", 0, 1572601870, null, 1572601871, null, "{ }", "Central Park Wading Pool", "400 Cumberland Ave", false, null, null, false, false, null, true, false, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "27", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.89701594373563", "-97.14927363338634", null, false ], "3", "212", null ]
+, [ "row-a4uy_8twb_c8tc", "00000000-0000-0000-1FCC-DD402821068C", 0, 1572601870, null, 1572601871, null, "{ }", "East End Cultural & Leisure Centre Wading Pool", "575 Larsen Ave", false, null, null, true, false, null, false, false, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "94", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.913241920786", "-97.09817440574714", null, false ], "1", "197", null ]
+, [ "row-7s3p~ndum~3p2w", "00000000-0000-0000-6301-E3992BE79B38", 0, 1572601870, null, 1572601871, null, "{ }", "Cordova Park Wading Pool", "372 Cordova St", false, null, null, false, false, null, false, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "153", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.86567585476028", "-97.1892063825687", null, false ], "5", "162", null ]
+, [ "row-3qx4.zc74.qe6j", "00000000-0000-0000-CFDE-DB268A7AD303", 0, 1572601870, null, 1572601871, null, "{ }", "Morse Place Community Centre Wading Pool", "700 Munroe Ave", false, null, null, false, false, null, false, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "95", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.91278622150586", "-97.08422364852079", null, false ], "1", "89", null ]
+, [ "row-hsry_92dw~qagu", "00000000-0000-0000-1B77-046BB3073D21", 0, 1572601870, null, 1572601871, null, "{ }", "Pascoe Park Wading Pool", "155 Jordan St", false, null, null, true, false, null, false, true, true, null, null, null, null, null, "1", null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "4", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.91471257813159", "-97.18319533591436", null, false ], "13", "28", null ]
+, [ "row-qz7p-45b3~r66c", "00000000-0000-0000-2B94-D099FF5D3D73", 0, 1572601870, null, 1572601871, null, "{ }", "West Kildonan Memorial Community Centre Wading Pool", "346 Perth Ave", false, null, null, false, false, null, true, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "65", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.93714558562278", "-97.12578695617155", null, false ], "4", "102", null ]
+, [ "row-zkd3_bvaz-bvjf", "00000000-0000-0000-8B42-BEE2F5DADC74", 0, 1572601870, null, 1572601871, null, "{ }", "Champlain Community Centre Wading Pool", "282 Niverville Ave", false, null, null, false, false, null, false, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "26", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.87551700861631", "-97.11423843208637", null, false ], "8", "49", null ]
+, [ "row-m2n2-3ftm~cx4h", "00000000-0000-0000-6256-4CA118B9BFEE", 0, 1572601870, null, 1572601871, null, "{ }", "Burton Cummings Community Centre Wading Pool", "960 Arlington St", false, null, null, false, false, null, false, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "5", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.90624597531002", "-97.16671896863652", null, false ], "12", "213", null ]
+, [ "row-kgwp_8atv.66pp", "00000000-0000-0000-7502-C9931D59AA5D", 0, 1572601870, null, 1572601871, null, "{ }", "Marcy Beaucage Park Wading Pool", "640 Pepperloaf Cres", false, null, null, true, false, null, false, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "32", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.854076340026104", "-97.28853656921902", null, false ], "15", "195", null ]
+, [ "row-w53e-xanw_77ve", "00000000-0000-0000-5060-171AD6496707", 0, 1572601870, null, 1572601871, null, "{ }", "Rotary Centenary Park Wading Pool", "761 Rosseau Ave W", false, null, null, false, true, null, false, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "113", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.898739975419524", "-97.02470305088318", null, false ], "9", "176", null ]
+, [ "row-xb8r.vjef-6et5", "00000000-0000-0000-7B57-50CCE41201EC", 0, 1572601870, null, 1572601871, null, "{ }", "Northwood Community Centre Wading Pool", "1415 Burrows Ave", false, null, null, false, false, null, false, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "34", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.93037722717319", "-97.17854066813018", null, false ], "12", "193", null ]
+, [ "row-t49j-ptcw~chx7", "00000000-0000-0000-5BE8-631A82ACF2A0", 0, 1572601870, null, 1572601871, null, "{ }", "Harrow Park Wading Pool", "1000 Fleet Ave", false, null, null, false, false, null, false, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "151", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.8637229876301", "-97.16202898759181", null, false ], "5", "58", null ]
+, [ "row-7ivc-cuzh_z8ss", "00000000-0000-0000-1307-904CD3B0FE98", 0, 1572601870, null, 1572601871, null, "{ }", "St. John’s Park Wading Pool", "1 Fowler St", false, null, null, false, false, null, false, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "81", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.91918178225654", "-97.12649501785228", null, false ], "4", "87", null ]
+, [ "row-tgac.uyvp~wvsh", "00000000-0000-0000-3012-006019E9063B", 0, 1572601870, null, 1572601871, null, "{ }", "Jacob Penner Park Wading Pool", "780 McGee St", false, null, null, false, false, null, false, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "3", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.90157376828667", "-97.16151200469477", null, false ], "3", "29", null ]
+, [ "row-j74g.exb3.n3rq", "00000000-0000-0000-C63C-C9BE2D7D7A2D", 0, 1572601870, null, 1572601871, null, "{ }", "Dufferin Park Wading Pool", "605 Alexander Ave", false, null, null, false, false, null, false, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "11", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.906926994672354", "-97.15130204250767", null, false ], "12", "38", null ]
+, [ "row-49q3-y9v6.989x", "00000000-0000-0000-0FCB-5BC4F10DF83F", 0, 1572601870, null, 1572601871, null, "{ }", "McFadyen Park Wading Pool", "416 Assiniboine Ave", false, null, null, false, false, null, false, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "50", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.8836656233804", "-97.14194385134039", null, false ], "6", "50", null ]
+, [ "row-cy6i-2zyn.ifrk", "00000000-0000-0000-86F8-7424EE80345E", 0, 1572601870, null, 1572601871, null, "{ }", "Pacific Dee Park Wading Pool", "1887 Pacific Ave W", false, null, null, true, false, null, false, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "38", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.921698843502774", "-97.1996784705046", null, false ], "13", "191", null ]
+, [ "row-umkj~i693~j2vd", "00000000-0000-0000-848C-8D7EB4F89335", 0, 1572601870, null, 1572601871, null, "{ }", "Bruce Park Wading Pool", "1966 Portage Ave", false, null, null, false, false, null, true, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "19", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.87726018699298", "-97.22519233596753", null, false ], "13", "32", null ]
+, [ "row-pjd2_kfv9.cntw", "00000000-0000-0000-6CC6-C082BDA829D9", 0, 1572601870, null, 1572601871, null, "{ }", "Vimy Ridge Memorial Park Wading Pool", "821 Preston Ave", false, null, null, true, false, null, true, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "49", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.88436654344726", "-97.16795472900527", null, false ], "3", "14", null ]
+, [ "row-qt5f.ty3x_he6b", "00000000-0000-0000-B67E-2B3F9B32EA76", 0, 1572601870, null, 1572601871, null, "{ }", "Sargent Park Wading Pool", "1106 Downing St", false, null, null, false, false, null, false, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "29", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.899099011300535", "-97.17896766324115", null, false ], "3", "70", null ]
+, [ "row-2b62.gfe3-dkgj", "00000000-0000-0000-496A-67136B4EE4A0", 0, 1572601870, null, 1572601871, null, "{ }", "Keenleyside Park Wading Pool", "480 Keenleyside St", false, null, null, true, false, null, true, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "96", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.906834631709835", "-97.07215535167362", null, false ], "1", "89", null ]
+, [ "row-rkir-m9dy~keec", "00000000-0000-0000-ADDE-90A58BCF5AD3", 0, 1572601870, null, 1572601871, null, "{ }", "Centennial Park Wading Pool", "802 Raleigh St", false, null, null, false, false, null, false, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "93", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.924155804671216", "-97.08176607237111", null, false ], "1", "11", null ]
+, [ "row-8kpv-3nb9-jee8", "00000000-0000-0000-F1CA-55D1617E4ED7", 0, 1572601870, null, 1572601871, null, "{ }", "King Edward and Ness Playground Wading Pool", "334 King Edward St", false, null, null, false, false, null, false, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "15", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.88416598549612", "-97.20899597001494", null, false ], "13", "131", null ]
+, [ "row-mvue_pw8p-byf4", "00000000-0000-0000-EAB3-468B273512FD", 0, 1572601870, null, 1572601871, null, "{ }", "John M King School Wading Pool", "525 Agnes St", false, null, null, false, false, null, false, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "77", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.89394564108604", "-97.16101512122773", null, false ], "3", "29", null ]
+, [ "row-tj95_gz55-y666", "00000000-0000-0000-9FAF-1DE41895AE88", 0, 1572601870, null, 1572601871, null, "{ }", "Montrose Park Wading Pool", "631 Montrose St", false, null, null, false, false, null, false, true, false, null, null, null, null, null, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/pools/wading_pools/wadingpools.stm", null ], "127", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.85916499794158", "-97.18019995144198", null, false ], "5", "66", null ]
+ ]
+}
