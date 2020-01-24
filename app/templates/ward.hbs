@@ -9,9 +9,9 @@
     <br>
     {{@model.ward.properties.councillor}}
     <br>
-    <a href='tel:{{@model.phone}}'>{{@model.phone}}</a>
+    <a class="underline" href='tel:{{@model.phone}}'>{{@model.phone}}</a>
     <br>
-    <a href='mailto:{{@model.email}}'>{{@model.email}}</a>
+    <a class="underline" href='mailto:{{@model.email}}'>{{@model.email}}</a>
     {{#if @model.closures}}
       <p>
         Closures:
