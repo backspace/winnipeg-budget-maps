@@ -89,21 +89,34 @@
     <span class="text-right w-40">{{moment-format this.date "MMMM YYYY"}}</span>
   </div>
 
-  <div class="flex h-24">
-    <div class="bg-blu p-4 h-full">
-      {{svg-jar "noun_streetlight_1345226" alt="streetlight" class="h-full inline streetlight"}}
-      {{svg-jar "noun_streetlight_1345226" alt="streetlight" class="h-full inline streetlight"}}
-      {{svg-jar "noun_streetlight_1345226" alt="streetlight" class="h-full inline streetlight dimmed"}}
-      {{svg-jar "noun_streetlight_1345226" alt="streetlight" class="h-full inline streetlight"}}
-      {{svg-jar "noun_streetlight_1345226" alt="streetlight" class="h-full inline streetlight dimmed"}}
-    </div>
-    <div class="pl-4 bg-gold text-blu h-full flex-grow flex items-center">
-      <span>
-        <span class="font-headline text-2xl pr-2">cut</span>
-        turning off two out of every five streetlights
-      </span>
-    </div>
-  </div>
+    <SwiperContainer @pagination={{true}} @loop={{true}} @class="flex h-24 w-full">
+      <SwiperSlide @class="flex h-full">
+        <div class="bg-blu p-4 h-full">
+          {{svg-jar "noun_streetlight_1345226" alt="streetlight" class="h-full inline streetlight"}}
+          {{svg-jar "noun_streetlight_1345226" alt="streetlight" class="h-full inline streetlight"}}
+          {{svg-jar "noun_streetlight_1345226" alt="streetlight" class="h-full inline streetlight dimmed"}}
+          {{svg-jar "noun_streetlight_1345226" alt="streetlight" class="h-full inline streetlight"}}
+          {{svg-jar "noun_streetlight_1345226" alt="streetlight" class="h-full inline streetlight dimmed"}}
+        </div>
+        <div class="pl-4 bg-gold text-blu h-full flex-grow flex items-center">
+          <span>
+            <span class="font-headline text-2xl pr-2">cut</span>
+            turning off two out of every five streetlights
+          </span>
+        </div>
+      </SwiperSlide>
+      <SwiperSlide @class="flex h-full">
+        <div class="bg-blu p-4 h-full text-gold">
+          {{svg-jar "noun_Bus_1540233" alt="bus" class="h-full inline stroke-current"}}
+        </div>
+        <div class="pl-4 bg-gold text-blu h-full flex-grow flex items-center">
+          <span>
+            <span class="font-headline text-2xl pr-2">cut</span>
+            ending bus service an hour earlier on Saturdays and Sundays
+          </span>
+        </div>
+      </SwiperSlide>
+    </SwiperContainer>
 
   {{outlet}}
 </div>
