@@ -3,7 +3,7 @@ export default {
   'Bertrand Arena': new Date(2022, 0, 1),
   'Maginot Arena': new Date(2022, 0, 1),
   'Sargent Park Arena': new Date(2021, 0, 1),
-  'Terry Sawchuk Arena': new Date(2020, 0, 1),
+  'Terry Sawchuk Arena': new Date(2019, 7, 30),
 
   'Fort Garry Library': new Date(2022, 0, 1),
   'West Kildonan Library': new Date(2020, 8, 1),
