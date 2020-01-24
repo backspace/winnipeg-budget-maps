@@ -23,8 +23,11 @@ export default class WardRoute extends Route {
     const emailUsername = emailLink.substring(recipientIndex + 10, ampersandAfterRecipientIndex);
     const email = `${emailUsername}@winnipeg.ca`;
 
-    const closures = facilities
-      .filter(facility => facility.closure && facility.ward === name)
+    const unsortedClosures = facilities
+      .filter(facility => facility.closure && facility.ward === name);
+
+    const closures = [...unsortedClosures];
+    closures.sort((a, b) => a.closure.unix() - b.closure.unix());
 
     return {
       ward,

@@ -21,8 +21,8 @@ export default class ApplicationRoute extends Route {
         if (f.syntheticClosureDateString) {
           f.closure = moment(f.syntheticClosureDateString);
           f.syntheticClosure = true;
-        } else {
-          f.closure = Closures[f.name];
+        } else if (Closures[f.name]) {
+          f.closure = moment(Closures[f.name]);
         }
         return f;
       }),
