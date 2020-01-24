@@ -22,7 +22,7 @@ module.exports = function(defaults) {
     postcssOptions: {
       compile: {
         plugins: [
-          { module: require('tailwindcss') },
+          require('tailwindcss')('./app/styles/tailwind.js'),
         ],
       },
     },

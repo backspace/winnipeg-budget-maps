@@ -4,6 +4,26 @@
 
 @tailwind utilities;
 
+.streetlight .ray {
+  fill: #F9AE3A;
+}
+
+.streetlight .cover {
+  fill: #F9AE3A;
+}
+
+.streetlight.dimmed path {
+  fill: black;
+}
+
+.streetlight.dimmed .cover {
+  fill: black;
+}
+
+.streetlight.dimmed .ray {
+  display: none;
+}
+
 .leaflet-div-icon {
   background: transparent;
   border: 0;
