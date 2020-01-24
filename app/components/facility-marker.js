@@ -12,10 +12,18 @@ export default class FacilityMarkerComponent extends Component {
     }[this.args.facility.type];
   }
 
+  get length() {
+    if (this.args.facility.type === 'wading-pool') {
+      return this.args.markerLength/2;
+    } else {
+      return this.args.markerLength;
+    }
+  }
+
   get icon() {
     return L.icon({
       iconUrl: `/icons/${this.svgFilename}.svg`,
-      iconSize: L.point(this.args.markerLength, this.args.markerLength),
+      iconSize: L.point(this.length, this.length),
     });
   }
 }

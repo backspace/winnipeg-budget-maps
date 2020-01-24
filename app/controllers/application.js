@@ -50,6 +50,10 @@ export default class ApplicationController extends Controller {
     }
   }
 
+  get halfMarkerLength() {
+    return this.markerLength/2;
+  }
+
   emptyArray = [];
 
   get date() {
