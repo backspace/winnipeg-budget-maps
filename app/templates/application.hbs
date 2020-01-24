@@ -33,13 +33,15 @@
           @markerLength={{this.markerLength}}
           @onClick={{action this.transitionToWardName facility.ward}}
         />
-        {{#if (and facility.closure (is-same-or-before facility.closure this.date))}}
-          <layers.marker
-            @location={{hash lat=facility.lat lon=facility.lon}}
-            @icon={{if (eq facility.type 'wading-pool') smallXIcon xIcon}}
-            @interactive={{false}}
-            @class="rotate-scale-up"
-          />
+        {{#if facility.closure}}
+          {{#if (is-same-or-before facility.closure this.date)}}
+            <layers.marker
+              @location={{hash lat=facility.lat lon=facility.lon}}
+              @icon={{if (eq facility.type 'wading-pool') smallXIcon xIcon}}
+              @interactive={{false}}
+              @class="rotate-scale-up"
+            />
+          {{/if}}
         {{/if}}
       {{/each}}
     </LeafletMap>
