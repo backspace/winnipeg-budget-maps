@@ -52,7 +52,7 @@
           {{#each this.facilityTypeStates as |typeAndState|}}
             <label class="pr-1">
               <Input @type="checkbox" @checked={{not typeAndState.hidden}} {{on "change" (fn this.toggleFacilityType typeAndState.type)}} />
-              {{typeAndState.type}}
+              {{lowercase (pluralize (humanize typeAndState.type))}}
             </label>
             <br>
           {{/each}}
