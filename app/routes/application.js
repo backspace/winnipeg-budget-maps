@@ -5,6 +5,7 @@ import Wards from '../data/wards';
 import Closures from '../data/closures';
 
 import L from 'leaflet';
+import moment from 'moment';
 
 export default class ApplicationRoute extends Route {
   model() {
@@ -18,7 +19,7 @@ export default class ApplicationRoute extends Route {
     return {
       facilities: facilities.map(f => {
         if (f.syntheticClosureDateString) {
-          f.closure = new Date(Date.parse(f.syntheticClosureDateString));
+          f.closure = moment(f.syntheticClosureDateString);
           f.syntheticClosure = true;
         } else {
           f.closure = Closures[f.name];
