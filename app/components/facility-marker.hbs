@@ -8,7 +8,11 @@
     as |marker|>
     <marker.tooltip @sticky={{true}}>
       {{@facility.name}}
-      {{#if @facility.closure}}<br>{{if @facility.syntheticClosure 'possible' 'proposed'}} closure {{moment-format @facility.closure "MMMM YYYY"}}{{/if}}
+      {{#if @facility.notes}}
+        <br>{{@facility.notes}}
+      {{else if @facility.closure}}
+        <br>{{if @facility.syntheticClosure 'possible' 'proposed'}} closure {{moment-format @facility.closure "MMMM YYYY"}}
+      {{/if}}
     </marker.tooltip>
   </marker>
 {{/let}}

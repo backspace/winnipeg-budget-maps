@@ -11,6 +11,8 @@ Wards.properties = {
   extent: geojsonBounds.extent(Wards)
 };
 
+const Notes = require('../data/notes.json');
+
 fs.writeFileSync('app/data/wards.json', JSON.stringify(Wards, null, 2));
 
 const inside = require('point-in-geopolygon');
@@ -71,6 +73,7 @@ function extractRows(rows, type, positionColumn) {
       lat,
       lon,
       type,
+      notes: Notes[name],
       ward: Wards.features.find(ward => inside.polygon(ward.geometry.coordinates[0], [lon, lat])).properties.name,
     };
   });}
