@@ -22,7 +22,7 @@ export default class FacilityMarkerComponent extends Component {
 
   get icon() {
     return L.icon({
-      iconUrl: `/icons/${this.svgFilename}.svg`,
+      iconUrl: `/markers/${this.svgFilename}.svg`,
       iconSize: L.point(this.length, this.length),
     });
   }

@@ -1,7 +1,7 @@
 <div class="flex flex-col h-full">
   {{#let
-    (div-icon html="<img src='/icons/x.svg' class='rotate-scale-up'>" iconSize=(point this.markerLength this.markerLength))
-    (div-icon html="<img src='/icons/x.svg' class='rotate-scale-up'>" iconSize=(point this.halfMarkerLength this.halfMarkerLength))
+    (div-icon html="<img src='/markers/x.svg' class='rotate-scale-up'>" iconSize=(point this.markerLength this.markerLength))
+    (div-icon html="<img src='/markers/x.svg' class='rotate-scale-up'>" iconSize=(point this.halfMarkerLength this.halfMarkerLength))
     as |xIcon smallXIcon|}}
     <LeafletMap
       @bounds={{if this.activeWard this.activeWard.properties.bounds @model.wards.properties.bounds}}
@@ -11,7 +11,7 @@
     >
       <layers.tile
         @url="http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png"
-        @attribution='<a href="/sources">Data sources</a> | © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors © <a href= "http://cartodb.com/attributions#basemaps">CartoDB</a>'
+        @attribution='<a href="/sources">Sources</a> | © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors © <a href= "http://cartodb.com/attributions#basemaps">CartoDB</a>'
       />
 
       {{#each this.sortedWards as |ward|}}
@@ -45,13 +45,25 @@
     </LeafletMap>
   {{/let}}
 
-  <div class="flex p-4">
-    {{#each this.facilityTypeStates as |typeAndState|}}
-      <label class="pr-1">
-        <Input @type="checkbox" @checked={{not typeAndState.hidden}} {{on "change" (fn this.toggleFacilityType typeAndState.type)}} />
-        {{typeAndState.type}}
-      </label>
-    {{/each}}
+  <div class="leaflet-top leaflet-right">
+    <div class="leaflet-control leaflet-bar bg-white">
+      {{#if this.showMarkerControls}}
+        <div class="p-2">
+          {{#each this.facilityTypeStates as |typeAndState|}}
+            <label class="pr-1">
+              <Input @type="checkbox" @checked={{not typeAndState.hidden}} {{on "change" (fn this.toggleFacilityType typeAndState.type)}} />
+              {{typeAndState.type}}
+            </label>
+            <br>
+          {{/each}}
+          <button type="button" class="border border-black p-1 mt-2 w-full" {{on "click" (fn (mut this.showMarkerControls) false)}}>Okay</button>
+        </div>
+      {{else}}
+        <button type="button" class="p-1 w-8 h-8" {{on "click" (fn (mut this.showMarkerControls) true)}}>
+          <img class="w-full h-full" alt="toggle facility types" src="/icons/noun_toggles_972191.svg">
+        </button>
+      {{/if}}
+    </div>
   </div>
 
   <div class="flex p-4">
