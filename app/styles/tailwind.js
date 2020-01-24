@@ -4,6 +4,10 @@ module.exports = {
       blu: '#2E368F',
       gold: '#F9AE3A',
     },
+    fontFamily: {
+      'body': ['body'],
+      'headline': ['headline'],
+    },
     extend: {}
   },
   variants: {},

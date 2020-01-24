@@ -4,6 +4,26 @@
 
 @tailwind utilities;
 
+@font-face {
+  font-family: 'body';
+  src: url('/fonts/body.woff2') format('woff2'),
+      url('/fonts/body.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'headline';
+  src: url('/fonts/headline.woff2') format('woff2'),
+      url('/fonts/headline.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+.leaflet-tooltip {
+  font-family: body;
+}
+
 .streetlight .ray {
   fill: #F9AE3A;
 }
