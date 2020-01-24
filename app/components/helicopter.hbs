@@ -1,0 +1,25 @@
+{{#let
+  (icon iconUrl="/markers/noun_Helicopter_681909.svg" iconSize=(point @markerLength @markerLength))
+  (component @layers.marker)
+  as |helicopterIcon marker|}}
+  <marker
+    @location={{this.position}}
+    @icon={{helicopterIcon}}
+    @zIndexOffset={{10000}}
+    as |marker|>
+    <marker.tooltip @sticky={{true}}>
+      More $/yr than libraries slated for closure
+    </marker.tooltip>
+  </marker>
+  {{#if @debug}}
+    <marker
+      @location={{this.newPosition}}
+      @icon={{icon iconUrl="/icons/noun_checkboxes_992683.svg" iconSize=(point @markerLength @markerLength)}}
+      @zIndexOffset={{10000}}
+      as |marker|>
+      <marker.tooltip @sticky={{true}}>
+        Future position?
+      </marker.tooltip>
+    </marker>
+  {{/if}}
+{{/let}}

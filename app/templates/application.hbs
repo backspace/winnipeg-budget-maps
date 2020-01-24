@@ -44,6 +44,12 @@
           {{/if}}
         {{/if}}
       {{/each}}
+
+      <Helicopter
+        @layers={{layers}}
+        @markerLength={{this.markerLength}}
+        @debug={{debug}}
+      />
     </LeafletMap>
   {{/let}}
 

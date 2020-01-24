@@ -10,7 +10,9 @@ export default class ApplicationController extends Controller {
   @service router;
 
   @tracked hidden = [];
-  queryParams = ['hidden'];
+  @tracked debug = false;
+
+  queryParams = ['hidden', 'debug'];
 
   @tracked monthsSince2020 = 0;
   @tracked jan2020 = moment({y: 2020, m: 1, d: 1});
