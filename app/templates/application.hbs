@@ -9,22 +9,15 @@
       @onZoomend={{action this.zoomChanged}}
       as |layers|
     >
-      <layers.polyline
-        @attribution="<a href='https://winnipeg.ca/interhom/Budget/2020Budget/pdfs/2020-Multi-year-Budget-Presentation_Community-Services_20191116.pdf'>Closure data</a>, <a href='https://winnipeg.ca/council/'>Councillor photos</a> and <a href='https://data.winnipeg.ca/resource/r4tk-7dip.json'>contacts</a>"
-        @locations={{this.emptyArray}}
-      />
-      {{!-- This is hackery to add more attributions --}}
-
       <layers.tile
         @url="http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png"
-        @attribution='© <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors © <a href= "http://cartodb.com/attributions#basemaps">CartoDB</a>'
+        @attribution='<a href="/sources">Data sources</a> | © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors © <a href= "http://cartodb.com/attributions#basemaps">CartoDB</a>'
       />
 
       {{#each this.sortedWards as |ward|}}
         <layers.geoJSON
           @geoJSON={{ward}}
           @color={{if (eq this.activeWard.properties.name ward.properties.name) "#2E368F" "#F9AE3A"}}
-          @attribution="<a href='https://data.winnipeg.ca/Council-Services/Electoral-Ward/ede3-teb8'>Wards</a>"
           @onClick={{action this.transitionToWardName ward.properties.name}}
           as |boundary|>
           <boundary.tooltip @sticky={{true}}>
