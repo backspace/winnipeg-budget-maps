@@ -21,6 +21,15 @@ export default class ApplicationController extends Controller {
 
   @tracked zoom = 12;
 
+  @tracked slide = 0;
+  slides = 2;
+
+  constructor() {
+    super(...arguments);
+
+    this.playSwiper.perform();
+  }
+
   get activeWard() {
     const activeWardName = this.router.currentRoute.params.name;
 
@@ -111,4 +120,17 @@ export default class ApplicationController extends Controller {
     }
   })
   playTimeline;
+
+  @task(function*() {
+    while (true) {
+      this.slide++;
+
+      if (this.slide === this.slides) {
+        this.slide = 0;
+      }
+
+      yield timeout(5000);
+    }
+  })
+  playSwiper;
 }

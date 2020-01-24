@@ -89,7 +89,7 @@
     <span class="text-right w-40">{{moment-format this.date "MMMM YYYY"}}</span>
   </div>
 
-    <SwiperContainer @pagination={{true}} @loop={{true}} @class="flex h-24 w-full">
+    <SwiperContainer @pagination={{true}} @loop={{true}} @currentSlide={{this.slide}} @class="flex h-24 w-full">
       <SwiperSlide @class="flex h-full">
         <div class="bg-blu p-4 h-full">
           {{svg-jar "noun_streetlight_1345226" alt="streetlight" class="h-full inline streetlight"}}
