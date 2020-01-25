@@ -27,7 +27,7 @@ export default class ApplicationController extends Controller {
   constructor() {
     super(...arguments);
 
-    this.playSwiper.perform();
+    this.swiperTask = this.playSwiper.perform();
   }
 
   get activeWard() {
@@ -133,4 +133,8 @@ export default class ApplicationController extends Controller {
     }
   })
   playSwiper;
+
+  @action cancelSwiper() {
+    this.swiperTask.cancel();
+  }
 }
