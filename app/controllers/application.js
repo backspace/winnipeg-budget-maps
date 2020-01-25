@@ -22,7 +22,7 @@ export default class ApplicationController extends Controller {
   @tracked zoom = 12;
 
   @tracked slide = 0;
-  slides = 2;
+  slides = 3;
 
   constructor() {
     super(...arguments);
