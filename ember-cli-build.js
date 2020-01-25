@@ -22,6 +22,15 @@ module.exports = function(defaults) {
     postcssOptions: {
       compile: {
         plugins: [
+          {
+            module: require('postcss-simple-vars'),
+            options: {
+              variables: {
+                blue: '#2E368F',
+                gold: '#F9AE3A',
+              },
+            },
+          },
           require('tailwindcss')('./app/styles/tailwind.js'),
         ],
       },

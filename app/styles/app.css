@@ -25,11 +25,11 @@
 }
 
 .streetlight .ray {
-  fill: #F9AE3A;
+  fill: $gold;
 }
 
 .streetlight .cover {
-  fill: #F9AE3A;
+  fill: $gold;
 }
 
 .swiper-slide-active .streetlight.dimmed .cover {
@@ -39,7 +39,7 @@
 
 @keyframes fill-gold-to-black {
   0% {
-    fill: #F9AE3A;
+    fill: $gold;
   }
   100% {
     fill: black;
@@ -82,7 +82,7 @@
 }
 
 .swiper-pagination-bullet, .swiper-pagination-bullet-active {
-  background: #2E368F;
+  background: $blue;
 }
 
 .leaflet-div-icon {
