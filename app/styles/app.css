@@ -47,8 +47,8 @@
 }
 
 .swiper-slide-active .streetlight.dimmed .ray {
-  -webkit-animation: fade 3s linear 1s forwards;
-  animation: fade 3s linear 1s forwards;
+  -webkit-animation: fade 2s linear 1s forwards;
+  animation: fade 2s linear 1s forwards;
 }
 
 @keyframes fade {
