@@ -61,6 +61,11 @@
   }
 }
 
+.bus {
+  stroke-width: 6px;
+  fill: transparent;
+}
+
 .swiper-pagination-bullet, .swiper-pagination-bullet-active {
   background: #2E368F;
 }
