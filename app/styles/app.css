@@ -66,6 +66,21 @@
   fill: transparent;
 }
 
+.swiper-slide-active .bus {
+  -webkit-animation: crop 3s ease-out 0.5s forwards;
+  animation: crop 3s ease-out 0.5s forwards;
+}
+
+@keyframes crop {
+  0% {
+    clip-path: inset(0 0 0 0%);
+  }
+
+  100% {
+    clip-path: inset(0 0 0 30%);
+  }
+}
+
 .swiper-pagination-bullet, .swiper-pagination-bullet-active {
   background: #2E368F;
 }
