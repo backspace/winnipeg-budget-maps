@@ -32,16 +32,33 @@
   fill: #F9AE3A;
 }
 
-.streetlight.dimmed path {
-  fill: black;
+.swiper-slide-active .streetlight.dimmed .cover {
+  -webkit-animation: fill-gold-to-black 3s linear 1s forwards;
+  animation: fill-gold-to-black 3s linear 1s forwards;
 }
 
-.streetlight.dimmed .cover {
-  fill: black;
+@keyframes fill-gold-to-black {
+  0% {
+    fill: #F9AE3A;
+  }
+  100% {
+    fill: black;
+  }
 }
 
-.streetlight.dimmed .ray {
-  display: none;
+.swiper-slide-active .streetlight.dimmed .ray {
+  -webkit-animation: fade 3s linear 1s forwards;
+  animation: fade 3s linear 1s forwards;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
 }
 
 .swiper-pagination-bullet, .swiper-pagination-bullet-active {
