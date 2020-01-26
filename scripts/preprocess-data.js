@@ -58,6 +58,20 @@ closedWadingPools.forEach((pool, index) => {
 
 fs.writeFileSync('app/data/facilities.json', JSON.stringify(processedLibraries.concat(processedIndoorPools, processedOutdoorPools, processedWadingPools, processedArenas), null, 2));
 
+
+const gtfs = require('gtfs-stream');
+
+let glenwayFound = false;
+
+fs.createReadStream('./data/google_transit.zip')
+  .pipe(gtfs.enhanced())
+  .on('data', entity => {
+    if (entity.type === 'trip' && entity.data.block_id === 'b_3-11-2' && !glenwayFound) {
+      glenwayFound = true;
+      fs.writeFileSync('app/data/glenway.json', JSON.stringify(entity.data.path));
+    }
+  });
+
 function calculateDistance(a, b) {
   return Math.sqrt(
     Math.pow(b.lat - a.lat, 2) +

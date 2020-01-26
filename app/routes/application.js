@@ -4,6 +4,8 @@ import Wards from '../data/wards';
 
 import Closures from '../data/closures';
 
+import glenway from '../data/glenway';
+
 import L from 'leaflet';
 import moment from 'moment';
 
@@ -27,6 +29,9 @@ export default class ApplicationRoute extends Route {
         return f;
       }),
       facilityTypes: facilities.mapBy('type').uniq(),
+      routes: {
+        glenway
+      },
       wards: Wards,
     };
   }
