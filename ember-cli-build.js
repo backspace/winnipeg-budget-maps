@@ -22,6 +22,7 @@ module.exports = function(defaults) {
     postcssOptions: {
       compile: {
         plugins: [
+          require('autoprefixer'),
           {
             module: require('postcss-nested'),
             options: {

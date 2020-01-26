@@ -33,7 +33,6 @@
 }
 
 .swiper-slide-active .streetlight.dimmed .cover {
-  -webkit-animation: fill-gold-to-black 3s linear 1s forwards;
   animation: fill-gold-to-black 3s linear 1s forwards;
 }
 
@@ -47,7 +46,6 @@
 }
 
 .swiper-slide-active .streetlight.dimmed .ray {
-  -webkit-animation: fade 2s linear 1s forwards;
   animation: fade 2s linear 1s forwards;
 }
 
@@ -67,7 +65,6 @@
 }
 
 .swiper-slide-active .bus {
-  -webkit-animation: crop 3s ease-out 0.5s forwards;
   animation: crop 3s ease-out 0.5s forwards;
 }
 
@@ -82,12 +79,10 @@
 }
 
 .swiper-slide-active .threeoneone .flicker-one {
-  -webkit-animation: letter-flicker 2s linear infinite;
   animation: letter-flicker 2s linear infinite;
 }
 
 .swiper-slide-active .threeoneone .flicker-two {
-  -webkit-animation: text-flicker 3s linear infinite;
   animation: text-flicker 3s linear infinite;
 }
 
@@ -179,27 +174,22 @@
 
 .swiper-slide-active .palette {
   .o2 {
-    -webkit-animation: fade 1s linear 0.5s forwards;
     animation: fade 1s linear 0.5s forwards;
   }
 
   .o3 {
-    -webkit-animation: fade 1s linear 1s forwards;
     animation: fade 1s linear 1s forwards;
   }
 
   .o4 {
-    -webkit-animation: fade 1s linear 1.5s forwards;
     animation: fade 1s linear 1.5s forwards;
   }
 
   .o5 {
-    -webkit-animation: fade 1s linear 2s forwards;
     animation: fade 1s linear 2s forwards;
   }
 
   .o1 {
-    -webkit-animation: fade 1s linear 2.5s forwards;
     animation: fade 1s linear 2.5s forwards;
   }
 }
@@ -217,8 +207,7 @@
   width: 100%;
   height: 100%;
 
-  -webkit-animation: rotate-scale-up 0.65s linear backwards;
-	        animation: rotate-scale-up 0.65s linear backwards;
+  animation: rotate-scale-up 0.65s linear backwards;
 }
 
 /* Adapted: changed initial scale to 3 */
@@ -234,31 +223,14 @@
  * animation rotate-scale-up
  * ----------------------------------------
  */
-@-webkit-keyframes rotate-scale-up {
-  0% {
-    -webkit-transform: scale(3) rotateZ(0);
-            transform: scale(3) rotateZ(0);
-  }
-  50% {
-    -webkit-transform: scale(2) rotateZ(180deg);
-            transform: scale(2) rotateZ(180deg);
-  }
-  100% {
-    -webkit-transform: scale(1) rotateZ(360deg);
-            transform: scale(1) rotateZ(360deg);
-  }
-}
 @keyframes rotate-scale-up {
   0% {
-    -webkit-transform: scale(3) rotateZ(0);
-            transform: scale(3) rotateZ(0);
+    transform: scale(3) rotateZ(0);
   }
   50% {
-    -webkit-transform: scale(2) rotateZ(180deg);
-            transform: scale(2) rotateZ(180deg);
+    transform: scale(2) rotateZ(180deg);
   }
   100% {
-    -webkit-transform: scale(1) rotateZ(360deg);
-            transform: scale(1) rotateZ(360deg);
+    transform: scale(1) rotateZ(360deg);
   }
 }
