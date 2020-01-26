@@ -123,12 +123,7 @@ export default class ApplicationController extends Controller {
 
   @task(function*() {
     while (true) {
-      this.slide++;
-
-      if (this.slide === this.slides) {
-        this.slide = 0;
-      }
-
+      this.slide = (this.slide + 1) % this.slides;
       yield timeout(5000);
     }
   })
