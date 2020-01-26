@@ -23,6 +23,12 @@ module.exports = function(defaults) {
       compile: {
         plugins: [
           {
+            module: require('postcss-nested'),
+            options: {
+              path: ['node_modules'],
+            },
+          },
+          {
             module: require('postcss-simple-vars'),
             options: {
               variables: {
