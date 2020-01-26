@@ -89,59 +89,59 @@
     <span class="text-right w-40">{{moment-format this.date "MMMM YYYY"}}</span>
   </div>
 
-    <SwiperContainer
-      @pagination={{true}}
-      @loop={{true}}
-      @currentSlide={{this.slide}}
-      @grabCursor={{true}}
-      {{on "click" this.cancelSwiper}}
-      @class="flex h-24 w-full"
-    >
-      <SwiperSlide @class="flex h-full">
-        <div class="bg-blu p-4 h-full">
-          {{svg-jar "noun_streetlight_1345226" alt="streetlight" class="h-full inline streetlight dimmed"}}
-          {{svg-jar "noun_streetlight_1345226" alt="streetlight" class="sm:hidden h-full md:inline streetlight"}}
-          {{svg-jar "noun_streetlight_1345226" alt="streetlight" class="sm:hidden h-full md:inline streetlight dimmed"}}
-          {{svg-jar "noun_streetlight_1345226" alt="streetlight" class="sm:hidden h-full md:inline streetlight"}}
-          {{svg-jar "noun_streetlight_1345226" alt="streetlight" class="sm:hidden h-full md:inline streetlight"}}
-        </div>
-        <div class="pl-4 bg-gold text-blu h-full flex-grow flex items-center">
-          <span>
-            turning off two out of every five streetlights
-          </span>
-        </div>
-      </SwiperSlide>
-      <SwiperSlide @class="flex h-full">
-        <div class="bg-blu p-4 h-full text-gold">
-          {{svg-jar "noun_Bus_1540233" alt="bus" class="h-full inline bus stroke-current"}}
-        </div>
-        <div class="pl-4 bg-gold text-blu h-full flex-grow flex items-center">
-          <span>
-            ending bus service an hour earlier on Saturdays and Sundays
-          </span>
-        </div>
-      </SwiperSlide>
-      <SwiperSlide @class="flex h-full">
-        <div class="bg-blu px-4 h-full text-gold text-2xl font-headline flex items-center threeoneone">
-          <span><span class="flicker-two">31</span><span class="flicker-one">1</span></span>
-        </div>
-        <div class="pl-4 bg-gold text-blu h-full flex-grow flex items-center">
-          <span>
-            more waiting on hold, no desk at City Hall
-          </span>
-        </div>
-      </SwiperSlide>
-      <SwiperSlide @class="flex h-full">
-        <div class="bg-blu h-full text-gold text-2xl  flex items-center leisure">
-          {{svg-jar "palette" alt="bus" class="h-16 inline palette fill-current" width="100px"}}
-        </div>
-        <div class="pl-4 bg-gold text-blu h-full flex-grow flex items-center">
-          <span>
-            50% cut to Leisure Guide programming
-          </span>
-        </div>
-      </SwiperSlide>
-    </SwiperContainer>
+  <SwiperContainer
+    @pagination={{true}}
+    @loop={{true}}
+    @currentSlide={{this.slide}}
+    @grabCursor={{true}}
+    {{on "click" this.cancelSwiper}}
+    @class="flex h-24 w-full"
+  >
+    <SwiperSlide @class="flex h-full">
+      <div class="bg-blu p-4 h-full">
+        {{svg-jar "noun_streetlight_1345226" alt="streetlight" class="h-full inline streetlight dimmed"}}
+        {{svg-jar "noun_streetlight_1345226" alt="streetlight" class="sm:hidden h-full md:inline streetlight"}}
+        {{svg-jar "noun_streetlight_1345226" alt="streetlight" class="sm:hidden h-full md:inline streetlight dimmed"}}
+        {{svg-jar "noun_streetlight_1345226" alt="streetlight" class="sm:hidden h-full md:inline streetlight"}}
+        {{svg-jar "noun_streetlight_1345226" alt="streetlight" class="sm:hidden h-full md:inline streetlight"}}
+      </div>
+      <div class="pl-4 bg-gold text-blu h-full flex-grow flex items-center">
+        <span>
+          turning off two out of every five streetlights
+        </span>
+      </div>
+    </SwiperSlide>
+    <SwiperSlide @class="flex h-full">
+      <div class="bg-blu p-4 h-full text-gold">
+        {{svg-jar "noun_Bus_1540233" alt="bus" class="h-full inline bus stroke-current"}}
+      </div>
+      <div class="pl-4 bg-gold text-blu h-full flex-grow flex items-center">
+        <span>
+          ending bus service an hour earlier on Saturdays and Sundays
+        </span>
+      </div>
+    </SwiperSlide>
+    <SwiperSlide @class="flex h-full">
+      <div class="bg-blu px-4 h-full text-gold text-2xl font-headline flex items-center threeoneone">
+        <span><span class="flicker-two">31</span><span class="flicker-one">1</span></span>
+      </div>
+      <div class="pl-4 bg-gold text-blu h-full flex-grow flex items-center">
+        <span>
+          more waiting on hold, no desk at City Hall
+        </span>
+      </div>
+    </SwiperSlide>
+    <SwiperSlide @class="flex h-full">
+      <div class="bg-blu h-full text-gold text-2xl  flex items-center leisure">
+        {{svg-jar "palette" alt="bus" class="h-16 inline palette fill-current" width="100px"}}
+      </div>
+      <div class="pl-4 bg-gold text-blu h-full flex-grow flex items-center">
+        <span>
+          50% cut to Leisure Guide programming
+        </span>
+      </div>
+    </SwiperSlide>
+  </SwiperContainer>
 
   {{outlet}}
 </div>
