@@ -13,32 +13,28 @@
     <br>
     <a class="underline" href='mailto:{{@model.email}}'>{{@model.email}}</a>
     {{#if @model.cuts}}
-      <p>
-        Cuts:
-        <ul>
-          {{#each @model.cuts as |cut|}}
-            <li>{{cut}}</li>
-          {{/each}}
-        </ul>
-      </p>
+      <h2 class="font-headline">cuts</h2>
+      <ul>
+        {{#each @model.cuts as |cut|}}
+          <li>{{cut}}</li>
+        {{/each}}
+      </ul>
     {{/if}}
     {{#if @model.closures}}
-      <p>
-        Closures:
-        <ul>
-          {{#each @model.closures as |closure|}}
-            <li>
-              {{closure.name}}: {{moment-format closure.closure "MMMM YYYY"~}}
-              {{#if closure.syntheticClosureDateString}}
-                <span>*<EmberTooltip @text="The Community Services department proposes closing 47% of pools by 2023 but didn’t specify which, so pools were chosen based on proximity to others, and dates are chosen arbitrarily across the four years" /></span>
-              {{/if}}
-              {{#if closure.notes}}
-                <span>*<EmberTooltip @text={{closure.notes}} /></span>
-              {{/if}}
-            </li>
-          {{/each}}
-        </ul>
-      </p>
+      <h2 class="font-headline">closures</h2>
+      <ul>
+        {{#each @model.closures as |closure|}}
+          <li>
+            {{closure.name}}: {{moment-format closure.closure "MMMM YYYY"~}}
+            {{#if closure.syntheticClosureDateString}}
+              <span>*<EmberTooltip @text="The Community Services department proposes closing 47% of pools by 2023 but didn’t specify which, so pools were chosen based on proximity to others, and dates are chosen arbitrarily across the four years" /></span>
+            {{/if}}
+            {{#if closure.notes}}
+              <span>*<EmberTooltip @text={{closure.notes}} /></span>
+            {{/if}}
+          </li>
+        {{/each}}
+      </ul>
     {{/if}}
   </div>
 </BottomContainer>
