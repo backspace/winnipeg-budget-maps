@@ -59,13 +59,8 @@
   }
 }
 
-.bus {
-  stroke-width: 6px;
-  fill: transparent;
-}
-
-.swiper-slide-active .bus {
-  animation: crop 3s ease-out 0.5s forwards;
+.swiper-slide-active .bus .headlight {
+  animation: fade 2s ease-in 1s forwards;
 }
 
 @keyframes crop {
