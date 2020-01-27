@@ -25,4 +25,8 @@ laterPoolOpenings.forEach(pool => {
   };
 });
 
+facilityCuts['55 Watt St Fire and Paramedic Station'] = {
+  'Removal of fire engine 2': moment(new Date(2020, 3, 1)),
+};
+
 export default facilityCuts;

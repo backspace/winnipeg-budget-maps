@@ -1,0 +1,533 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "s9qh-5s77",
+      "name" : "Fire Paramedic Station",
+      "attribution" : "City of Winnipeg",
+      "averageRating" : 0,
+      "category" : "Fire and Rescue Response",
+      "createdAt" : 1403211789,
+      "description" : "Location of fire halls, paramedic (ambulance) stations, and combined fire-paramedic stations.",
+      "displayType" : "map",
+      "downloadCount" : 670,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1575201509,
+      "newBackend" : true,
+      "numberOfComments" : 0,
+      "oid" : 22080440,
+      "previewImageId" : "8f1144cc-336c-4498-8191-db3718672b36",
+      "provenance" : "official",
+      "publicationAppendEnabled" : true,
+      "publicationDate" : 1467382823,
+      "publicationGroup" : 1622407,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1577879914,
+      "rowsUpdatedBy" : "9x28-xwwt",
+      "tableId" : 11658408,
+      "totalTimesRated" : 0,
+      "viewCount" : 551,
+      "viewLastModified" : 1492701350,
+      "viewType" : "tabular",
+      "approvals" : [ {
+        "reviewedAt" : 1467382823,
+        "reviewedAutomatically" : true,
+        "state" : "approved",
+        "submissionId" : 649497,
+        "submissionObject" : "public_audience_request",
+        "submissionOutcome" : "change_audience",
+        "submittedAt" : 1467382823,
+        "workflowId" : 2018,
+        "submissionDetails" : {
+          "permissionType" : "READ"
+        },
+        "submissionOutcomeApplication" : {
+          "failureCount" : 0,
+          "status" : "success"
+        },
+        "submitter" : {
+          "id" : "2mb6-i6j3",
+          "displayName" : "Open Data Admin"
+        }
+      } ],
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 261348690,
+        "name" : "Station Number",
+        "dataTypeName" : "number",
+        "fieldName" : "station_number",
+        "position" : 1,
+        "renderTypeName" : "number",
+        "tableColumnId" : 20361116,
+        "width" : 268,
+        "cachedContents" : {
+          "average" : "15.83333333333333",
+          "null" : "0",
+          "top" : [ {
+            "item" : "14",
+            "count" : "1"
+          }, {
+            "item" : "13",
+            "count" : "1"
+          }, {
+            "item" : "31",
+            "count" : "1"
+          }, {
+            "item" : "20",
+            "count" : "1"
+          }, {
+            "item" : "9",
+            "count" : "1"
+          }, {
+            "item" : "11",
+            "count" : "1"
+          }, {
+            "item" : "18",
+            "count" : "1"
+          }, {
+            "item" : "16",
+            "count" : "1"
+          }, {
+            "item" : "21",
+            "count" : "1"
+          }, {
+            "item" : "25",
+            "count" : "1"
+          }, {
+            "item" : "1",
+            "count" : "1"
+          }, {
+            "item" : "36",
+            "count" : "1"
+          }, {
+            "item" : "22",
+            "count" : "1"
+          }, {
+            "item" : "8",
+            "count" : "1"
+          }, {
+            "item" : "6",
+            "count" : "1"
+          }, {
+            "item" : "3",
+            "count" : "1"
+          }, {
+            "item" : "12",
+            "count" : "1"
+          }, {
+            "item" : "5",
+            "count" : "1"
+          }, {
+            "item" : "4",
+            "count" : "1"
+          }, {
+            "item" : "26",
+            "count" : "1"
+          } ],
+          "sum" : "475",
+          "cardinality" : "30"
+        },
+        "format" : { }
+      }, {
+        "id" : 261348691,
+        "name" : "Address",
+        "dataTypeName" : "text",
+        "fieldName" : "address",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 20361117,
+        "width" : 184,
+        "cachedContents" : {
+          "null" : "0",
+          "top" : [ {
+            "item" : "1446 Regent Ave W",
+            "count" : "1"
+          }, {
+            "item" : "320 Whytewold Rd",
+            "count" : "1"
+          }, {
+            "item" : "1057 St Mary's Rd",
+            "count" : "1"
+          }, {
+            "item" : "799 Lilac St",
+            "count" : "1"
+          }, {
+            "item" : "701 Day St",
+            "count" : "1"
+          }, {
+            "item" : "880 Dalhousie Dr",
+            "count" : "1"
+          }, {
+            "item" : "1001 McGregor St",
+            "count" : "1"
+          }, {
+            "item" : "640 Kimberly Ave",
+            "count" : "1"
+          }, {
+            "item" : "864 Marion St",
+            "count" : "1"
+          }, {
+            "item" : "1780 Taylor Ave",
+            "count" : "1"
+          }, {
+            "item" : "10 Allan Blye Dr",
+            "count" : "1"
+          }, {
+            "item" : "603 Redwood Ave",
+            "count" : "1"
+          }, {
+            "item" : "27 Sage Creek Blvd",
+            "count" : "1"
+          }, {
+            "item" : "55 Watt St",
+            "count" : "1"
+          }, {
+            "item" : "1083 Autumnwood Dr",
+            "count" : "1"
+          }, {
+            "item" : "1665 Rothesay St",
+            "count" : "1"
+          }, {
+            "item" : "1501 Church Ave",
+            "count" : "1"
+          }, {
+            "item" : "1354 Border St",
+            "count" : "1"
+          }, {
+            "item" : "1705 Portage Ave",
+            "count" : "1"
+          }, {
+            "item" : "525 Banting Dr",
+            "count" : "1"
+          } ],
+          "cardinality" : "30"
+        },
+        "format" : { }
+      }, {
+        "id" : 261348692,
+        "name" : "Station Type",
+        "dataTypeName" : "text",
+        "fieldName" : "station_type",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 20361118,
+        "width" : 244,
+        "cachedContents" : {
+          "null" : "0",
+          "top" : [ {
+            "item" : "Fire Paramedic Combined",
+            "count" : "19"
+          }, {
+            "item" : "Fire Only",
+            "count" : "8"
+          }, {
+            "item" : "Paramedic Only",
+            "count" : "3"
+          } ],
+          "cardinality" : "3"
+        },
+        "format" : { }
+      }, {
+        "id" : 261348693,
+        "name" : "Station Code",
+        "dataTypeName" : "number",
+        "fieldName" : "station_code",
+        "position" : 4,
+        "renderTypeName" : "number",
+        "tableColumnId" : 20361119,
+        "width" : 244,
+        "cachedContents" : {
+          "average" : "2.366666666666667",
+          "null" : "0",
+          "top" : [ {
+            "item" : "3",
+            "count" : "19"
+          }, {
+            "item" : "1",
+            "count" : "8"
+          }, {
+            "item" : "2",
+            "count" : "3"
+          } ],
+          "sum" : "71",
+          "cardinality" : "3"
+        },
+        "format" : { }
+      }, {
+        "id" : 261348694,
+        "name" : "Location 1",
+        "dataTypeName" : "location",
+        "fieldName" : "location_1",
+        "position" : 5,
+        "renderTypeName" : "location",
+        "tableColumnId" : 20361120,
+        "width" : 220,
+        "format" : { },
+        "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+      }, {
+        "id" : 404498702,
+        "name" : "Wards",
+        "dataTypeName" : "number",
+        "fieldName" : ":@computed_region_6rfj_69jf",
+        "position" : 10,
+        "renderTypeName" : "number",
+        "tableColumnId" : 30224291,
+        "computationStrategy" : {
+          "source_columns" : [ "location_1" ],
+          "type" : "georegion_match_on_point",
+          "parameters" : {
+            "region" : "_6rfj-69jf",
+            "primary_key" : "_feature_id"
+          }
+        },
+        "format" : { }
+      }, {
+        "id" : 404498701,
+        "name" : "Neighborhoods",
+        "dataTypeName" : "number",
+        "fieldName" : ":@computed_region_38v8_cedi",
+        "position" : 11,
+        "renderTypeName" : "number",
+        "tableColumnId" : 30224292,
+        "computationStrategy" : {
+          "source_columns" : [ "location_1" ],
+          "type" : "georegion_match_on_point",
+          "parameters" : {
+            "region" : "_38v8-cedi",
+            "primary_key" : "_feature_id"
+          }
+        },
+        "format" : { }
+      }, {
+        "id" : 404498703,
+        "name" : "Zip Codes",
+        "dataTypeName" : "number",
+        "fieldName" : ":@computed_region_4h47_8kp6",
+        "position" : 12,
+        "renderTypeName" : "number",
+        "tableColumnId" : 30224293,
+        "computationStrategy" : {
+          "source_columns" : [ "location_1" ],
+          "type" : "georegion_match_on_point",
+          "parameters" : {
+            "region" : "_4h47-8kp6",
+            "primary_key" : "_feature_id"
+          }
+        },
+        "format" : { }
+      } ],
+      "displayFormat" : {
+        "bkgdLayers" : [ {
+          "layerKey" : "Google Roadmap",
+          "opacity" : 1
+        } ],
+        "disableGeolocator" : false,
+        "exclusiveLayers" : false,
+        "legendDetails" : {
+          "showConditional" : true,
+          "position" : "bottomLeft"
+        },
+        "viewDefinitions" : [ {
+          "uid" : "self",
+          "highlightColor" : "#ddeaf0",
+          "color" : "#0000ff",
+          "plot" : {
+            "locationId" : 20361120,
+            "titleId" : 20361117,
+            "descriptionColumns" : [ {
+              "tableColumnId" : 20361118
+            } ]
+          },
+          "flyoutsNoLabel" : false,
+          "alias" : "Fire Paramedic Station",
+          "opacity" : 1,
+          "plotStyle" : "point"
+        } ]
+      },
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "rdfSubject" : "0",
+        "rdfClass" : "",
+        "conditionalFormatting" : [ {
+          "condition" : {
+            "tableColumnId" : 20361119,
+            "_key" : "(20361119|EQUALS|1)",
+            "value" : 1,
+            "operator" : "EQUALS"
+          },
+          "color" : "#ff0000",
+          "description" : "Fire"
+        }, {
+          "condition" : {
+            "tableColumnId" : 20361119,
+            "_key" : "(20361119|EQUALS|2)",
+            "value" : 2,
+            "operator" : "EQUALS"
+          },
+          "color" : "#00ff00",
+          "description" : "Paramedic"
+        }, {
+          "condition" : {
+            "tableColumnId" : 20361119,
+            "_key" : "(20361119|EQUALS|3)",
+            "value" : 3,
+            "operator" : "EQUALS"
+          },
+          "color" : "#ff00ff",
+          "description" : "Fire & Paramedic"
+        } ],
+        "custom_fields" : {
+          "Department" : {
+            "Group" : "Information",
+            "Department" : "Fire Paramedic Service"
+          },
+          "Update Frequency" : {
+            "Interval" : "Monthly"
+          },
+          "Licence" : {
+            "Licence" : "Open Government Licence - Winnipeg"
+          }
+        },
+        "rowIdentifier" : "0",
+        "availableDisplayTypes" : [ "map", "table", "fatrow", "page" ],
+        "renderTypeConfig" : {
+          "visible" : {
+            "map" : true
+          },
+          "active" : {
+            "table" : {
+              "id" : "self"
+            }
+          }
+        }
+      },
+      "owner" : {
+        "id" : "2mb6-i6j3",
+        "displayName" : "Open Data Admin",
+        "screenName" : "Open Data Admin",
+        "type" : "interactive",
+        "userSegment" : "site_member",
+        "flags" : [ "acceptedEula" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "2mb6-i6j3",
+        "displayName" : "Open Data Admin",
+        "screenName" : "Open Data Admin",
+        "type" : "interactive",
+        "userSegment" : "site_member",
+        "flags" : [ "acceptedEula" ]
+      },
+      "tags" : [ "fire", "paramedic", "ambulance" ],
+      "flags" : [ "unsaved" ]
+    }
+  },
+  "data" : [ [ "row-jajw_z45e_6jds", "00000000-0000-0000-29D6-064F4EC4C1AA", 0, 1572601712, null, 1572601714, null, "{ }", "27", "27 Sage Creek Blvd", "Fire Paramedic Combined", "3", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.83421839906742", "-97.04794711599655", null, false ], "8", "200", null ]
+, [ "row-mdik_y27h_5kmq", "00000000-0000-0000-8854-8236D3AB7223", 0, 1572601712, null, 1572601714, null, "{ }", "25", "701 Day St", "Fire Paramedic Combined", "3", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.898549240577445", "-97.00313962010975", null, false ], "9", "175", null ]
+, [ "row-xnt9.pns4~ih93", "00000000-0000-0000-821F-5EF862B360FA", 0, 1572601712, null, 1572601714, null, "{ }", "12", "1780 Taylor Ave", "Fire Paramedic Combined", "3", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.84975717072603", "-97.20187262781708", null, false ], "5", "36", null ]
+, [ "row-tas9-bfxf_8bim", "00000000-0000-0000-8E3A-B92DF32A7946", 0, 1572601712, null, 1572601714, null, "{ }", "9", "864 Marion St", "Fire Only", "1", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.88156167867251", "-97.08381913162806", null, false ], "8", "60", null ]
+, [ "row-83ew-ty4j_5y6r", "00000000-0000-0000-4B63-3E0CE369E8B5", 0, 1572601712, null, 1572601714, null, "{ }", "1", "65 Ellen St", "Fire Paramedic Combined", "3", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.89864574792429", "-97.1464472485711", null, false ], "12", "213", null ]
+, [ "row-sifd-26qh~mggr", "00000000-0000-0000-2864-73892C31E85D", 0, 1572601712, null, 1572601714, null, "{ }", "7", "10 Allan Blye Dr", "Fire Only", "1", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.96204271710916", "-97.17313632724309", null, false ], "2", "86", null ]
+, [ "row-ynbc~uuv2~g9ti", "00000000-0000-0000-6803-4F72D7E99C68", 0, 1572601712, null, 1572601714, null, "{ }", "19", "320 Whytewold Rd", "Fire Only", "1", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.880002086296244", "-97.25477020283276", null, false ], "13", "35", null ]
+, [ "row-r925_ihmz~mygz", "00000000-0000-0000-0454-03E3291FDF8B", 0, 1572601712, null, 1572601714, null, "{ }", "5", "845 Sargent Ave", "Fire Paramedic Combined", "3", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.897135626372425", "-97.17088425328033", null, false ], "3", "29", null ]
+, [ "row-2rwp_k64w.cjge", "00000000-0000-0000-D9DA-B235E04DF7EA", 0, 1572601712, null, 1572601714, null, "{ }", "18", "5000 Roblin Blvd", "Fire Paramedic Combined", "3", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.85760021598967", "-97.28440326862777", null, false ], "15", "219", null ]
+, [ "row-fzya.7ycy_vipk", "00000000-0000-0000-A271-5B7BF5071B1A", 0, 1572601712, null, 1572601714, null, "{ }", "16", "1001 McGregor St", "Fire Paramedic Combined", "3", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.94521661269513", "-97.12635921429619", null, false ], "4", "102", null ]
+, [ "row-gpn3-b5ca.5v9k", "00000000-0000-0000-3CD7-EBA0C83A7EA3", 0, 1572601712, null, 1572601714, null, "{ }", "14", "1057 St Mary's Rd", "Fire Paramedic Combined", "3", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.837587800259186", "-97.11179609268567", null, false ], "11", "114", null ]
+, [ "row-6kwq.wgna~vf3s", "00000000-0000-0000-5BFC-6009EF0C7FC8", 0, 1572601712, null, 1572601714, null, "{ }", "10", "1354 Border St", "Fire Paramedic Combined", "3", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.9140119966793", "-97.20204930247459", null, false ], "13", "48", null ]
+, [ "row-7wsp_fh3w_syja", "00000000-0000-0000-173D-97EA9DD03667", 0, 1572601712, null, 1572601714, null, "{ }", "15", "1083 Autumnwood Dr", "Fire Only", "1", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.861495289653256", "-97.07764699330839", null, false ], "8", "157", null ]
+, [ "row-pjms_p7sg~96nc", "00000000-0000-0000-96A9-33897338F4EC", 0, 1572601712, null, 1572601714, null, "{ }", "2", "55 Watt St", "Fire Paramedic Combined", "3", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.904003976695044", "-97.10479855578124", null, false ], "1", "197", null ]
+, [ "row-nysj-k3fj-k3w4", "00000000-0000-0000-FBC4-FC54A15B9C2F", 0, 1572601712, null, 1572601714, null, "{ }", "26", "1525 Dakota St", "Fire Paramedic Combined", "3", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.810700650464284", "-97.09282133756851", null, false ], "11", "211", null ]
+, [ "row-v7z7~vxwq_ugcc", "00000000-0000-0000-B5EA-2518EF52B4BB", 0, 1572601712, null, 1572601714, null, "{ }", "13", "799 Lilac St", "Fire Paramedic Combined", "3", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.856420787468004", "-97.14722976617539", null, false ], "6", "99", null ]
+, [ "row-2g4v~ze7f~352g", "00000000-0000-0000-63A8-55239ED86C05", 0, 1572601712, null, 1572601714, null, "{ }", "3", "337 Des Meurons St", "Fire Only", "1", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.882997218823746", "-97.11152886463857", null, false ], "8", "178", null ]
+, [ "row-nzdd_eu43_b4nu", "00000000-0000-0000-D34F-FBF6DBD4E43F", 0, 1572601712, null, 1572601714, null, "{ }", "23", "880 Dalhousie Dr", "Fire Only", "1", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.78251714143837", "-97.15597422807852", null, false ], "7", "201", null ]
+, [ "row-bbrc~2euc-hupg", "00000000-0000-0000-710A-706496C8E23A", 0, 1572601712, null, 1572601714, null, "{ }", "11", "1705 Portage Ave", "Fire Paramedic Combined", "3", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.880007570559265", "-97.20598836234245", null, false ], "13", "131", null ]
+, [ "row-vgq2.eiwq.zkkh", "00000000-0000-0000-DEC7-F607396FD4C8", 0, 1572601712, null, 1572601714, null, "{ }", "20", "525 Banting Dr", "Fire Paramedic Combined", "3", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.87991762773618", "-97.28807537620854", null, false ], "14", "97", null ]
+, [ "row-2vei~qi74_y4ja", "00000000-0000-0000-6E33-939A68155469", 0, 1572601712, null, 1572601714, null, "{ }", "36", "2490 Portage Ave", "Paramedic Only", "2", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.8747973057951", "-97.25633194438466", null, false ], "13", "216", null ]
+, [ "row-dbw9~kx39~d4zh", "00000000-0000-0000-C517-AA0898422ED1", 0, 1572601712, null, 1572601714, null, "{ }", "24", "1665 Rothesay St", "Fire Paramedic Combined", "3", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.94999617420838", "-97.06788635813281", null, false ], "10", "10", null ]
+, [ "row-keir_9dwy~9dqe", "00000000-0000-0000-6C28-1498192DE4E2", 0, 1572601712, null, 1572601714, null, "{ }", "17", "1501 Church Ave", "Fire Paramedic Combined", "3", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.9397962378579", "-97.17952160159639", null, false ], "12", "122", null ]
+, [ "row-hprq.59mu~jvdr", "00000000-0000-0000-15A0-A868215C76C6", 0, 1572601712, null, 1572601714, null, "{ }", "22", "1567 Waverley St", "Fire Paramedic Combined", "3", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.82031003634898", "-97.18020204718627", null, false ], "5", "84", null ]
+, [ "row-35r9.k76u-im8j", "00000000-0000-0000-E3F2-BF3C3B10D792", 0, 1572601712, null, 1572601714, null, "{ }", "6", "603 Redwood Ave", "Fire Paramedic Combined", "3", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.9222043921713", "-97.14526729552107", null, false ], "4", "144", null ]
+, [ "row-8k23-a69h_pty2", "00000000-0000-0000-9003-D6DC0472A28E", 0, 1572601712, null, 1572601714, null, "{ }", "4", "150 Osborne St", "Fire Only", "1", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.877729730496846", "-97.14379819520072", null, false ], "6", "57", null ]
+, [ "row-4fdz-7wjj.28fw", "00000000-0000-0000-DC3C-30DB38ABADD2", 0, 1572601712, null, 1572601714, null, "{ }", "30", "524 Osborne St", "Paramedic Only", "2", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.86573419560817", "-97.13452428352353", null, false ], "6", "169", null ]
+, [ "row-g93d~8x64-vvfm", "00000000-0000-0000-4767-9C317975C1CB", 0, 1572601712, null, 1572601714, null, "{ }", "21", "1446 Regent Ave W", "Fire Paramedic Combined", "3", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.894809910826034", "-97.04687946342477", null, false ], "9", "44", null ]
+, [ "row-vx9p.m4z5.ghmc", "00000000-0000-0000-5F51-103846ABCBC2", 0, 1572601712, null, 1572601714, null, "{ }", "31", "726 Furby St", "Paramedic Only", "2", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.900166883719", "-97.15725890832299", null, false ], "3", "59", null ]
+, [ "row-5uw2_riw8.m2b3", "00000000-0000-0000-2510-541FE028AC10", 0, 1572601712, null, 1572601714, null, "{ }", "8", "640 Kimberly Ave", "Fire Only", "1", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.92084984981181", "-97.08519082097182", null, false ], "1", "112", null ]
+ ]
+}

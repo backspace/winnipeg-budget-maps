@@ -6,6 +6,8 @@ export default class FacilityMarkerComponent extends Component {
     return {
       'arena': 'arena',
       'indoor-pool': 'swimming',
+      'fire-paramedic-station': 'siren',
+      'fire-station': 'siren',
       'library': 'library',
       'outdoor-pool': 'swimming',
       'wading-pool': 'wading-pool',
