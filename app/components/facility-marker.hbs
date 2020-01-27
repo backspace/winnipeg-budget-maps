@@ -11,11 +11,11 @@
       {{#if @facility.notes}}
         <br>{{@facility.notes}}
       {{else if @facility.closure}}
-        <br>{{if @facility.syntheticClosure 'possible' 'proposed'}} closure {{moment-format @facility.closure "MMMM YYYY"}}
+        <br>{{if @facility.syntheticClosure 'possible' 'proposed'}} closure {{moment-format @facility.closure "MMMM ’YY"}}
       {{/if}}
       {{#if @facility.cuts}}
         {{#each-in @facility.cuts as |cut date|}}
-          <br>{{cut}}: {{moment-format date "MMM YYYY"}}
+          <br>{{cut}}: {{moment-format date "MMM ’YY"}}
         {{/each-in}}
       {{/if}}
     </marker.tooltip>

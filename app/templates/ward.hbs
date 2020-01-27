@@ -23,7 +23,7 @@
             {{facility.name}}
             <ul class="pl-4">
               {{#each-in facility.cuts as |cut date|}}
-                <li>{{cut}}: {{moment-format date "MMM YYYY"}}</li>
+                <li>{{cut}}: {{moment-format date "MMM ’YY"}}</li>
               {{/each-in}}
             </ul>
           </li>
@@ -35,7 +35,7 @@
       <ul>
         {{#each @model.closures as |closure|}}
           <li>
-            {{closure.name}}: {{moment-format closure.closure "MMMM YYYY"~}}
+            {{closure.name}}: {{moment-format closure.closure "MMMM ’YY"~}}
             {{#if closure.syntheticClosureDateString}}
               <span>*<EmberTooltip @text="The Community Services department proposes closing 47% of pools by 2023 but didn’t specify which, so pools were chosen based on proximity to others, and dates are chosen arbitrarily across the four years" /></span>
             {{/if}}
