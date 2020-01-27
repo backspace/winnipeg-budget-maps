@@ -59,6 +59,16 @@
   }
 }
 
+@keyframes fade-mostly {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0.2;
+  }
+}
+
 .swiper-slide-active .bus .headlight {
   animation: fade 2s ease-in 1s forwards;
 }
@@ -186,6 +196,10 @@
 
   .o1 {
     animation: fade 1s linear 2.5s forwards;
+  }
+
+  .olast {
+    animation: fade-mostly 2s linear 3s forwards;
   }
 }
 
