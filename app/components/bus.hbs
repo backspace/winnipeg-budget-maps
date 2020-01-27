@@ -12,9 +12,9 @@
       bus
     </marker.tooltip>
   </markerLayer>
-  {{#if @debug}}
-    <geoJSON
-      @geoJSON={{@path}}
-    />
-  {{/if}}
+  <geoJSON
+    @geoJSON={{@path}}
+    @color="#F9AE3A"
+    @weight="1"
+  />
 {{/let}}
