@@ -96,9 +96,10 @@
     </div>
   </div>
 
-  <div class="flex p-4 bg-gold color-blu border-b border-blu">
-    <button type="button" class="mr-2 p-1 text-blu" {{on "click" (perform this.playTimeline)}}>
-      {{svg-jar "noun_play_631703" class="fill-current h-full" style="transform: scale(1.5)"}}
+  <div class="flex p-4 bg-gold color-blu border-b border-blu items-center">
+    <button type="button" class="mr-2 px-2 py-1 bg-blu text-gold flex items-center border-blu border rounded" {{on "click" (perform this.playTimeline)}}>
+      {{svg-jar "noun_play_631703" class="fill-current h-full inline mr-2 w-3" style="transform: scale(1.5)"}}
+      <span>cuts over time</span>
     </button>
     <input type="range"
       {{on "input" this.updateMonths}}
@@ -108,7 +109,7 @@
       steps="1"
       class="flex-grow">
 
-    <span class="text-right w-40">{{moment-format this.date "MMM ’YY"}}</span>
+    <span class="text-right w-12 ml-2">{{moment-format this.date "MMM ’YY"}}</span>
   </div>
 
   <SwiperContainer
