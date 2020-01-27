@@ -12,11 +12,21 @@
     <a class="underline" href='tel:{{@model.phone}}'>{{@model.phone}}</a>
     <br>
     <a class="underline" href='mailto:{{@model.email}}'>{{@model.email}}</a>
-    {{#if @model.cuts}}
+    {{#if (or @model.wardCuts @model.facilityCuts)}}
       <h2 class="font-headline">cuts</h2>
       <ul>
-        {{#each @model.cuts as |cut|}}
+        {{#each @model.wardCuts as |cut|}}
           <li>{{cut}}</li>
+        {{/each}}
+        {{#each @model.facilityCuts as |facility|}}
+          <li>
+            {{facility.name}}
+            <ul class="pl-4">
+              {{#each-in facility.cuts as |cut date|}}
+                <li>{{cut}}: {{moment-format date "MMM YYYY"}}</li>
+              {{/each-in}}
+            </ul>
+          </li>
         {{/each}}
       </ul>
     {{/if}}

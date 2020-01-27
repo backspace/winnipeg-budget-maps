@@ -3,6 +3,7 @@ import facilities from '../data/facilities';
 import Wards from '../data/wards';
 
 import Closures from '../data/closures';
+import FacilityCuts from '../data/facility-cuts';
 
 import glenway from '../data/glenway';
 
@@ -26,6 +27,9 @@ export default class ApplicationRoute extends Route {
         } else if (Closures[f.name]) {
           f.closure = moment(Closures[f.name]);
         }
+
+        f.cuts = FacilityCuts[f.name];
+
         return f;
       }),
       facilityTypes: facilities.mapBy('type').uniq(),

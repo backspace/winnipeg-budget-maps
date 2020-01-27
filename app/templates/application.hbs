@@ -2,7 +2,8 @@
   {{#let
     (div-icon html="<img src='/markers/x.svg' class='rotate-scale-up'>" iconSize=(point this.markerLength this.markerLength))
     (div-icon html="<img src='/markers/x.svg' class='rotate-scale-up'>" iconSize=(point this.halfMarkerLength this.halfMarkerLength))
-    as |xIcon smallXIcon|}}
+    (div-icon html="<img src='/markers/slash.svg' class='rotate-scale-up'>" iconSize=(point this.markerLength this.markerLength))
+    as |xIcon smallXIcon slashIcon|}}
     <LeafletMap
       @bounds={{if this.activeWard this.activeWard.properties.bounds @model.wards.properties.bounds}}
       class="w-full flex-grow"
@@ -43,6 +44,16 @@
             />
           {{/if}}
         {{/if}}
+        {{#each-in facility.cuts as |cut date|}}
+          {{#if (is-same-or-before date this.date)}}
+            <layers.marker
+              @location={{hash lat=facility.lat lon=facility.lon}}
+              @icon={{slashIcon}}
+              @interactive={{false}}
+              @class="rotate-scale-up"
+            />
+          {{/if}}
+        {{/each-in}}
       {{/each}}
 
       <Helicopter
