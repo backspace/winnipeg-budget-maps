@@ -12,6 +12,16 @@
     <a class="underline" href='tel:{{@model.phone}}'>{{@model.phone}}</a>
     <br>
     <a class="underline" href='mailto:{{@model.email}}'>{{@model.email}}</a>
+    {{#if @model.cuts}}
+      <p>
+        Cuts:
+        <ul>
+          {{#each @model.cuts as |cut|}}
+            <li>{{cut}}</li>
+          {{/each}}
+        </ul>
+      </p>
+    {{/if}}
     {{#if @model.closures}}
       <p>
         Closures:

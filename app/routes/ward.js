@@ -1,6 +1,7 @@
 import Route from '@ember/routing/route';
 import Photos from '../data/councillor-photos';
 import Contacts from '../data/councillor-contacts';
+import Cuts from '../data/cuts';
 
 import resolveAsset from 'ember-cli-resolve-asset';
 
@@ -29,12 +30,17 @@ export default class WardRoute extends Route {
     const closures = [...unsortedClosures];
     closures.sort((a, b) => a.closure.unix() - b.closure.unix());
 
+    const cuts = Object.keys(Cuts).filter(key => {
+      return Cuts[key].includes(name);
+    });
+
     return {
       ward,
       photoUrl,
       phone: contact.phone,
       email,
       closures,
+      cuts,
     }
   }
 }
