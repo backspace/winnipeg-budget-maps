@@ -56,18 +56,22 @@
         {{/each-in}}
       {{/each}}
 
-      <Helicopter
-        @layers={{layers}}
-        @markerLength={{this.markerLength}}
-        @debug={{this.debug}}
-      />
+      {{#unless this.hideHelicopter}}
+        <Helicopter
+          @layers={{layers}}
+          @markerLength={{this.markerLength}}
+          @debug={{this.debug}}
+        />
+      {{/unless}}
 
-      <Bus
-        @layers={{layers}}
-        @path={{@model.routes.glenway}}
-        @markerLength={{this.markerLength}}
-        @debug={{this.debug}}
-      />
+      {{#unless this.hideBus}}
+        <Bus
+          @layers={{layers}}
+          @path={{@model.routes.glenway}}
+          @markerLength={{this.markerLength}}
+          @debug={{this.debug}}
+        />
+      {{/unless}}
     </LeafletMap>
   {{/let}}
 

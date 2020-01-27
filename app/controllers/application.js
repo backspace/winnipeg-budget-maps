@@ -76,7 +76,7 @@ export default class ApplicationController extends Controller {
   }
 
   get facilityTypeStates() {
-    return this.model.facilityTypes.map(type => {
+    return this.model.facilityTypes.concat(['helicopter', 'bus']).map(type => {
       return {
         type,
         hidden: this.hidden.includes(type)
@@ -99,6 +99,14 @@ export default class ApplicationController extends Controller {
     } else {
       this.hidden = [...this.hidden, type];
     }
+  }
+
+  get hideHelicopter() {
+    return this.hidden.includes('helicopter');
+  }
+
+  get hideBus() {
+    return this.hidden.includes('bus');
   }
 
   @action
