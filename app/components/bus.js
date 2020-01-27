@@ -8,6 +8,7 @@ export default class BusComponent extends Component {
   pathForward;
 
   @tracked position;
+  @tracked fact;
 
   constructor() {
     super(...arguments);
@@ -20,6 +21,7 @@ export default class BusComponent extends Component {
 
     this.calculateStepDeltas();
     this.animate.perform();
+    this.cycleFacts.perform();
   }
 
   get iconAnchor() {
@@ -87,6 +89,26 @@ export default class BusComponent extends Component {
   })
   animate;
 
+  @task(function*() {
+    const facts = [
+      'no more paper schedules',
+      'BUStxt schedule information cancelled',
+      'no more DART service for lower-density neighbourhoods',
+      'shorter afternoon rush hour service',
+      'fewer interior bus washes',
+      'no more free Downtown Spirit buses',
+      'shorter service on weekdays and Saturdays',
+    ];
+
+    let factIndex = getRandomInt(0, facts.length);
+
+    while (true) {
+      this.fact = facts[factIndex];
+      factIndex = (factIndex + 1) % facts.length;
+      yield timeout(5000);
+    }
+  })
+  cycleFacts;
 }
 
 // Taken from https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
