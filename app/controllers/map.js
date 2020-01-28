@@ -75,8 +75,6 @@ export default class MapController extends Controller {
     return this.markerLength/2;
   }
 
-  emptyArray = [];
-
   get date() {
     return this.jan2020.clone().add(this.monthsSince2020, 'months');
   }
