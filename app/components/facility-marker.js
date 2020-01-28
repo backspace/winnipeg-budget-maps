@@ -15,7 +15,7 @@ export default class FacilityMarkerComponent extends Component {
   }
 
   get length() {
-    if (this.args.facility.type === 'wading-pool') {
+    if (this.args.facility.type === 'wading-pool' || this.args.facility.type.includes('fire')) {
       return this.args.markerLength/2;
     } else {
       return this.args.markerLength;
