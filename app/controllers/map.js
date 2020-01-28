@@ -60,7 +60,9 @@ export default class MapController extends Controller {
   }
 
   get markerLength() {
-    if (this.zoom < 12) {
+    if (this.zoom < 11) {
+      return 8;
+    } else if (this.zoom < 12) {
       return 12;
     } else if (this.zoom < 14) {
       return 20;
