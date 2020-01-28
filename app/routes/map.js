@@ -21,14 +21,17 @@ export default class MapRoute extends Route {
 
     return {
       facilities: facilities.map(f => {
-        if (f.syntheticClosureDateString) {
-          f.closure = moment(f.syntheticClosureDateString);
-          f.syntheticClosure = true;
-        } else if (Closures[f.name]) {
-          f.closure = moment(Closures[f.name]);
-        }
+        if (!f.alreadyCollated) {
+          if (f.syntheticClosureDateString) {
+            f.closure = moment(f.syntheticClosureDateString);
+            f.syntheticClosure = true;
+          } else if (Closures[f.name]) {
+            f.closure = moment(Closures[f.name]);
+          }
 
-        f.cuts = FacilityCuts[f.name];
+          f.cuts = FacilityCuts[f.name];
+          f.alreadyCollated = true;
+        }
 
         return f;
       }),
