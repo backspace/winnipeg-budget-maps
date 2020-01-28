@@ -1,16 +1,46 @@
-<BottomContainer @class="border-t border-blu">
-  <img
-    class="max-h-full object-contain"
-    src="councillors/bowman2.jpg"
-    alt="Brian Bowman"
-  >
-  <div class="px-2 overflow-y-scroll bg-blu text-gold w-full">
-    Winnipeg
-    <br>
-    Brian Bowman
-    <br>
-    <a class="underline" href='tel:204-986-5665'>204-986-5665</a>
-    <br>
-    <a class="underline" href='mailto:CLK-MayorWebMail@winnipeg.ca'>CLK-MayorWebMail@winnipeg.ca</a>
+<div class="flex items-center justify-center h-screen w-screen p-4">
+  <div class="flex flex-col items-start md:flex-row text-blu p-2 max-w-6xl w-full">
+    <div class="flex items-start">
+      {{svg-jar "logo" class="align-top h-32 md:h-64 min-h-32 min-w-32"}}
+    </div>
+    <div class="flex-grow">
+      <h2 class="font-headline t-xl mb-2">Who are we?</h2>
+      <p class="mb-2">
+        Budget for All Winnipeg is a broad coalition of Winnipeg groups, communities, and individuals who have joined together in response to the proposed City of Winnipeg budget cuts.
+      </p>
+      <p class="mb-4">
+        We demand a city budget for everyone, with increased support for life-sustaining services instead of the proposed cuts.
+      </p>
+      <hr class="border-t-4 border-blu mb-4">
+      <div class="flex flex-col md:flex-row font-headline justify-between mb-4">
+        <a href="#" class="mb-4">
+          <EmberTooltip @text="Coming soon!" @tooltipClass="font-body" />
+          {{svg-jar "calendar" class="inline mr-2"}}
+          Our calendar
+        </a>
+        <LinkTo @route="map" @class="mb-4">
+          {{svg-jar "map" class="inline mr-2"}}
+          Map of cuts by ward
+        </LinkTo>
+        <a href="mailto:wpg4all@gmail.com?subject=How%20can%20I%20get%20involved%3F" class="mb-4">
+          {{svg-jar "hand" class="inline mr-2"}}
+          Get involved!
+        </a>
+      </div>
+      <div class="flex flex-col md:flex-row font-headline mb-4">
+        <a href="https://www.facebook.com/budgetforallwpg/" class="mb-2 mr-4">
+          {{svg-jar "facebook" class="inline w-8 mb-1"}}
+          Facebook
+        </a>
+        <a href="https://twitter.com/budgetforallwpg" class="mb-2 mr-4">
+          {{svg-jar "twitter" class="inline w-8 mb-1"}}
+          Twitter
+        </a>
+        <a href="https://www.instagram.com/budgetforallwpg/" class="mb-2">
+          {{svg-jar "instagram" class="inline w-8 mb-1"}}
+          Instagram
+        </a>
+      </div>
+    </div>
   </div>
-</BottomContainer>
+</div>

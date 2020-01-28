@@ -10,7 +10,7 @@ import glenway from '../data/glenway';
 import L from 'leaflet';
 import moment from 'moment';
 
-export default class ApplicationRoute extends Route {
+export default class MapRoute extends Route {
   model() {
     Wards.features.forEach(ward => {
       const extent = ward.properties.extent;

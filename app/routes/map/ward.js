@@ -1,8 +1,8 @@
 import Route from '@ember/routing/route';
-import Photos from '../data/councillor-photos';
-import Contacts from '../data/councillor-contacts';
-import FacilityCuts from '../data/facility-cuts';
-import WardCuts from '../data/ward-cuts';
+import Photos from '../../data/councillor-photos';
+import Contacts from '../../data/councillor-contacts';
+import FacilityCuts from '../../data/facility-cuts';
+import WardCuts from '../../data/ward-cuts';
 
 import resolveAsset from 'ember-cli-resolve-asset';
 
@@ -11,7 +11,7 @@ export default class WardRoute extends Route {
     const {
       facilities,
       wards,
-    } = this.modelFor('application');
+    } = this.modelFor('map');
 
     const ward = wards.features.find(ward => ward.properties.name === name);
     const councillorName = ward.properties.councillor;

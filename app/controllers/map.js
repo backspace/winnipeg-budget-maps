@@ -6,7 +6,7 @@ import { inject as service } from '@ember/service';
 import { task, timeout } from 'ember-concurrency';
 import moment from 'moment';
 
-export default class ApplicationController extends Controller {
+export default class MapController extends Controller {
   @service router;
 
   @tracked hidden = [];
@@ -116,7 +116,7 @@ export default class ApplicationController extends Controller {
 
   @action
   transitionToWardName(wardName) {
-    this.transitionToRoute('ward', wardName);
+    this.transitionToRoute('map.ward', wardName);
   }
 
   @task(function*() {
