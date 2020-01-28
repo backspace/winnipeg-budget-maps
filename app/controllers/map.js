@@ -30,6 +30,14 @@ export default class MapController extends Controller {
     this.swiperTask = this.playSwiper.perform();
   }
 
+  get mapBounds() {
+    if (this.activeWard) {
+      return this.activeWard.properties.bounds;
+    } else {
+      return this.model.wards.properties.bounds;
+    }
+  }
+
   get activeWard() {
     const activeWardName = this.router.currentRoute.params.name;
 
