@@ -116,7 +116,7 @@ export default class MapController extends Controller {
 
   @action
   transitionToWardName(wardName) {
-    this.transitionToRoute('map.ward', wardName);
+    this.replaceRoute('map.ward', wardName);
   }
 
   @task(function*() {
