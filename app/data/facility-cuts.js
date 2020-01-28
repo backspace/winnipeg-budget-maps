@@ -25,6 +25,8 @@ laterPoolOpenings.forEach(pool => {
   };
 });
 
+facilityCuts['Millennium Library']['No new social workers, crisis training, or lobby space for partnering with social services'] = moment(new Date(2020, 3, 1));
+
 facilityCuts['55 Watt St Fire and Paramedic Station'] = {
   'Removal of fire engine 2': moment(new Date(2020, 3, 1)),
 };
