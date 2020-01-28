@@ -83,6 +83,21 @@
   }
 }
 
+.logo-spin {
+  /* taken from https://codepen.io/x/embed/dXyNPM/?height=667&theme-id=21013&embed-version=1 */
+  animation: spin 2s cubic-bezier(0.65, 1.5, 0.6, 0.95) 0.5s infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 .swiper-slide-active .threeoneone .flicker-one {
   animation: letter-flicker 2s linear infinite;
 }
