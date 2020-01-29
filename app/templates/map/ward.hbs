@@ -35,7 +35,7 @@
       <ul>
         {{#each @model.closures as |closure|}}
           <li>
-            {{closure.name}}: {{moment-format closure.closure "MMMM ’YY"~}}
+            {{closure.name}}: {{moment-format closure.closure "MMM ’YY"~}}
             {{#if closure.syntheticClosureDateString}}
               <span>*<EmberTooltip @text="The Community Services department proposes closing 47% of pools by 2023 but didn’t specify which, so pools were chosen based on proximity to others, and dates are chosen arbitrarily across the four years" /></span>
             {{/if}}
