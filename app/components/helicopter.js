@@ -11,6 +11,7 @@ export default class HelicopterComponent extends Component {
 
   @tracked position;
   @tracked newPosition;
+  @tracked fact;
 
   constructor() {
     super(...arguments);
@@ -18,6 +19,7 @@ export default class HelicopterComponent extends Component {
     this.position = getRandomInBounds(this.bounds);
 
     this.animate.perform();
+    this.cycleFacts.perform();
   }
 
   @task(function*() {
@@ -56,6 +58,30 @@ export default class HelicopterComponent extends Component {
   })
   animate;
 
+  @task(function*() {
+    const facts = [
+      'More $/yr than two libraries slated for closure',
+      '4× cost of workers who prevent sewage river dumps/basement backups',
+      'More $ but less lighting power than ¼ of streetlights',
+      'Costlier than running multiple 24h safer spaces',
+    ];
+
+    let factIndex = getRandomInt(0, facts.length);
+
+    while (true) {
+      this.fact = facts[factIndex];
+      factIndex = (factIndex + 1) % facts.length;
+      yield timeout(5000);
+    }
+  })
+  cycleFacts;
+}
+
+// Taken from https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+function getRandomInt(min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min)) + min; //The maximum is exclusive and the minimum is inclusive
 }
 
 function getRandomInBounds(bounds) {
