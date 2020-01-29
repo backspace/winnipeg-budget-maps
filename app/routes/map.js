@@ -29,7 +29,24 @@ export default class MapRoute extends Route {
             f.closure = moment(Closures[f.name]);
           }
 
-          f.cuts = FacilityCuts[f.name];
+          const facilityCuts = FacilityCuts[f.name];
+
+          if (f.closure && facilityCuts) {
+            f.cuts = Object.keys(facilityCuts).reduce((cuts, cutKey) => {
+              if (f.closure.isBefore(facilityCuts[cutKey])) {
+                cuts[cutKey] = facilityCuts[cutKey];
+              }
+
+              return cuts;
+            }, {});
+
+            if (Object.keys(f.cuts).length === 0) {
+              f.cuts = null;
+            }
+          } else {
+            f.cuts = facilityCuts;
+          }
+
           f.alreadyCollated = true;
         }
 
