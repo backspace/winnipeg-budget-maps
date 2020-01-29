@@ -13,7 +13,7 @@
     <br>
     <a class="underline" href='mailto:{{@model.email}}'>{{@model.email}}</a>
     {{#if (or @model.wardCuts @model.facilityCuts)}}
-      <h2 class="font-headline">cuts</h2>
+      <h2 class="font-headline mt-2">cuts</h2>
       <ul>
         {{#each @model.wardCuts as |cut|}}
           <li>{{cut}}</li>
@@ -31,7 +31,7 @@
       </ul>
     {{/if}}
     {{#if @model.closures}}
-      <h2 class="font-headline">closures</h2>
+      <h2 class="font-headline mt-2">closures</h2>
       <ul>
         {{#each @model.closures as |closure|}}
           <li>
