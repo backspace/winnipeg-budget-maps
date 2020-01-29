@@ -64,6 +64,7 @@ export default class HelicopterComponent extends Component {
       '4× cost of workers who prevent sewage river dumps/basement backups',
       'More $ but less lighting power than ¼ of streetlights',
       'Costlier than running multiple 24h safer spaces',
+      '38× cost of BUStxt transit information system',
     ];
 
     let factIndex = getRandomInt(0, facts.length);
