@@ -98,6 +98,10 @@
   }
 }
 
+.swiper-slide-active svg.water .drop {
+  animation: fade-mostly 2s linear 1s forwards;
+}
+
 .swiper-slide-active .threeoneone .flicker-one {
   animation: letter-flicker 2s linear infinite;
 }
