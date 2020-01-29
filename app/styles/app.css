@@ -110,6 +110,11 @@
   animation: text-flicker 3s linear infinite;
 }
 
+.swiper-slide-active svg.waste .sewage {
+  opacity: 0;
+  animation: fade 1s linear 1s forwards reverse;
+}
+
 /* Adapted from https://codemyui.com/css-flickering-effect-neon-text/ */
 
 @keyframes text-flicker {

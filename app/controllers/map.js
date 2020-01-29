@@ -22,7 +22,7 @@ export default class MapController extends Controller {
   @tracked zoom = 12;
 
   @tracked slide = 0;
-  slides = 5;
+  slides = 6;
 
   constructor() {
     super(...arguments);
