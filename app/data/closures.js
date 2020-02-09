@@ -17,4 +17,6 @@ export default {
   'Transcona Kinsmen Centennial Pool': new Date(2022, 0, 1),
 
   '864 Marion St Fire Hall': new Date(2020, 3, 1),
+
+  'Peguis Trail Fitness Centre': new Date(2021, 6, 1),
 };

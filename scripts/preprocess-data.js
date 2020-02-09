@@ -35,6 +35,8 @@ const processedFireAndParamedicStations = extractRows(fireAndParamedicStations.f
   return station;
 });
 
+const processedFitnessCentres = extractRows(require('../data/fitness-leisure.json').data, 'fitness', 24).filter(centre => centre.name === 'Peguis Trail Fitness Centre');
+
 const closedWadingPools = [];
 const remainingWadingPools = [...processedWadingPools];
 
@@ -74,7 +76,8 @@ fs.writeFileSync('app/data/facilities.json', JSON.stringify(
     processedWadingPools,
     processedArenas,
     processedFireStations,
-    processedFireAndParamedicStations
+    processedFireAndParamedicStations,
+    processedFitnessCentres
   ),
   null, 2));
 

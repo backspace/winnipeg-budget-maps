@@ -1,0 +1,791 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "6bfx-4qpd",
+      "name" : "Fitness Leisure Centre",
+      "attribution" : "City of Winnipeg",
+      "averageRating" : 0,
+      "category" : "Recreation",
+      "createdAt" : 1403213881,
+      "description" : "Locations of fitness and leisure centres.",
+      "displayType" : "map",
+      "downloadCount" : 738,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1575201521,
+      "licenseId" : "OGL_CANADA",
+      "newBackend" : true,
+      "numberOfComments" : 0,
+      "oid" : 22080539,
+      "previewImageId" : "5de9ec2a-fd47-41af-beaa-d7e16a0c1f2d",
+      "provenance" : "official",
+      "publicationAppendEnabled" : true,
+      "publicationDate" : 1467383047,
+      "publicationGroup" : 1622457,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1580558354,
+      "rowsUpdatedBy" : "9x28-xwwt",
+      "tableId" : 11658463,
+      "totalTimesRated" : 0,
+      "viewCount" : 458,
+      "viewLastModified" : 1504812212,
+      "viewType" : "tabular",
+      "approvals" : [ {
+        "reviewedAt" : 1467383047,
+        "reviewedAutomatically" : true,
+        "state" : "approved",
+        "submissionId" : 649500,
+        "submissionObject" : "public_audience_request",
+        "submissionOutcome" : "change_audience",
+        "submittedAt" : 1467383047,
+        "workflowId" : 2018,
+        "submissionDetails" : {
+          "permissionType" : "READ"
+        },
+        "submissionOutcomeApplication" : {
+          "failureCount" : 0,
+          "status" : "success"
+        },
+        "submitter" : {
+          "id" : "2mb6-i6j3",
+          "displayName" : "Open Data Admin"
+        }
+      } ],
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 261349679,
+        "name" : "Name",
+        "dataTypeName" : "text",
+        "fieldName" : "name",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 20361810,
+        "width" : 148,
+        "cachedContents" : {
+          "null" : "0",
+          "top" : [ {
+            "item" : "Deer Lodge Tennis Club",
+            "count" : "1"
+          }, {
+            "item" : "Fort Rouge Leisure Centre",
+            "count" : "1"
+          }, {
+            "item" : "Bourkevale Lawn Bowling",
+            "count" : "1"
+          }, {
+            "item" : "St. James Civic Centre",
+            "count" : "1"
+          }, {
+            "item" : "Freight House Recreation and Leisure Centre",
+            "count" : "1"
+          }, {
+            "item" : "Turtle Island Neighbourhood Centre",
+            "count" : "1"
+          }, {
+            "item" : "Peguis Trail Fitness Centre",
+            "count" : "1"
+          }, {
+            "item" : "Magnus Eliason Recreation Centre",
+            "count" : "1"
+          }, {
+            "item" : "St. John's Leisure Centre",
+            "count" : "1"
+          }, {
+            "item" : "Mayfair Recreation Centre",
+            "count" : "1"
+          }, {
+            "item" : "East End Cultural and Leisure Centre",
+            "count" : "1"
+          } ],
+          "cardinality" : "11"
+        },
+        "format" : { }
+      }, {
+        "id" : 261349680,
+        "name" : "Address",
+        "dataTypeName" : "text",
+        "fieldName" : "address",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 20361811,
+        "width" : 184,
+        "cachedContents" : {
+          "null" : "0",
+          "top" : [ {
+            "item" : "510 King St",
+            "count" : "1"
+          }, {
+            "item" : "1400 Rothesay St",
+            "count" : "1"
+          }, {
+            "item" : "200 Isabel St",
+            "count" : "1"
+          }, {
+            "item" : "625 Osborne St",
+            "count" : "1"
+          }, {
+            "item" : "601 Aikins St",
+            "count" : "1"
+          }, {
+            "item" : "100 Ferry Rd",
+            "count" : "1"
+          }, {
+            "item" : "2050 Ness Ave",
+            "count" : "1"
+          }, {
+            "item" : "430 Langside St",
+            "count" : "1"
+          }, {
+            "item" : "2055 Ness Ave",
+            "count" : "1"
+          }, {
+            "item" : "40 Mayfair Pl",
+            "count" : "1"
+          }, {
+            "item" : "575 Larsen Ave",
+            "count" : "1"
+          } ],
+          "cardinality" : "11"
+        },
+        "format" : { }
+      }, {
+        "id" : 261349681,
+        "name" : "Weight Room",
+        "dataTypeName" : "checkbox",
+        "fieldName" : "weight_room",
+        "position" : 3,
+        "renderTypeName" : "checkbox",
+        "tableColumnId" : 20361812,
+        "width" : 232,
+        "cachedContents" : {
+          "null" : "0",
+          "top" : [ {
+            "item" : false,
+            "count" : "8"
+          }, {
+            "item" : true,
+            "count" : "3"
+          } ],
+          "cardinality" : "2"
+        },
+        "format" : { }
+      }, {
+        "id" : 261349682,
+        "name" : "Lockers",
+        "dataTypeName" : "checkbox",
+        "fieldName" : "lockers",
+        "position" : 4,
+        "renderTypeName" : "checkbox",
+        "tableColumnId" : 20361813,
+        "width" : 184,
+        "cachedContents" : {
+          "null" : "0",
+          "top" : [ {
+            "item" : false,
+            "count" : "8"
+          }, {
+            "item" : true,
+            "count" : "3"
+          } ],
+          "cardinality" : "2"
+        },
+        "format" : { }
+      }, {
+        "id" : 261349683,
+        "name" : "Lockers Info",
+        "dataTypeName" : "text",
+        "fieldName" : "lockers_info",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 20361814,
+        "width" : 244,
+        "cachedContents" : {
+          "null" : "8",
+          "top" : [ {
+            "item" : "bring your own lock",
+            "count" : "3"
+          } ],
+          "cardinality" : "1"
+        },
+        "format" : { }
+      }, {
+        "id" : 261349684,
+        "name" : "Showers",
+        "dataTypeName" : "checkbox",
+        "fieldName" : "showers",
+        "position" : 6,
+        "renderTypeName" : "checkbox",
+        "tableColumnId" : 20361815,
+        "width" : 184,
+        "cachedContents" : {
+          "null" : "0",
+          "top" : [ {
+            "item" : false,
+            "count" : "9"
+          }, {
+            "item" : true,
+            "count" : "2"
+          } ],
+          "cardinality" : "2"
+        },
+        "format" : { }
+      }, {
+        "id" : 261349685,
+        "name" : "Room Rentals",
+        "dataTypeName" : "checkbox",
+        "fieldName" : "room_rentals",
+        "position" : 7,
+        "renderTypeName" : "checkbox",
+        "tableColumnId" : 20361816,
+        "width" : 244,
+        "cachedContents" : {
+          "null" : "0",
+          "top" : [ {
+            "item" : true,
+            "count" : "7"
+          }, {
+            "item" : false,
+            "count" : "4"
+          } ],
+          "cardinality" : "2"
+        },
+        "format" : { }
+      }, {
+        "id" : 261349686,
+        "name" : "Room Rentals Info",
+        "dataTypeName" : "text",
+        "fieldName" : "room_rentals_info",
+        "position" : 8,
+        "renderTypeName" : "text",
+        "tableColumnId" : 20361817,
+        "width" : 304,
+        "cachedContents" : {
+          "null" : "4",
+          "top" : [ {
+            "item" : "Multi-Purpose Room",
+            "count" : "1"
+          }, {
+            "item" : "Multi-Purpose Room / Gymnasium / Kitchen",
+            "count" : "1"
+          }, {
+            "item" : "Multi-Purpose Room / Classrooms",
+            "count" : "1"
+          }, {
+            "item" : "Craftroom / Multi-purpose Room",
+            "count" : "1"
+          }, {
+            "item" : "Auditorium / Boardroom - Basement / Kitchen / Preschool Centre /Mezzanine #1 / Mezzanine #2",
+            "count" : "1"
+          }, {
+            "item" : "Auditorium / Fitness Studio / Multi-Purpose Room / Kitchen / Main Floor Boardroom / 2nd Floor Boardroom",
+            "count" : "1"
+          }, {
+            "item" : "Multi-Purpose Room / Culture Room / Classrooms",
+            "count" : "1"
+          } ],
+          "cardinality" : "7"
+        },
+        "format" : { }
+      }, {
+        "id" : 261349687,
+        "name" : "Programs",
+        "dataTypeName" : "checkbox",
+        "fieldName" : "programs",
+        "position" : 9,
+        "renderTypeName" : "checkbox",
+        "tableColumnId" : 20361818,
+        "width" : 196,
+        "cachedContents" : {
+          "null" : "0",
+          "top" : [ {
+            "item" : true,
+            "count" : "9"
+          }, {
+            "item" : false,
+            "count" : "2"
+          } ],
+          "cardinality" : "2"
+        },
+        "format" : { }
+      }, {
+        "id" : 261349688,
+        "name" : "Programs Info",
+        "dataTypeName" : "text",
+        "fieldName" : "programs_info",
+        "position" : 10,
+        "renderTypeName" : "text",
+        "tableColumnId" : 20361819,
+        "width" : 256,
+        "cachedContents" : {
+          "null" : "2",
+          "top" : [ {
+            "item" : "Children Drop In /  Youth Action Centre",
+            "count" : "1"
+          }, {
+            "item" : "Registered Programs / Youth Action Centre",
+            "count" : "1"
+          }, {
+            "item" : "Adult Leisure / Adult Active Living / Adaptive / Children & Preschool / Youth",
+            "count" : "1"
+          }, {
+            "item" : "Adult Active Living",
+            "count" : "1"
+          }, {
+            "item" : "Adult Leisure / Adult Active Living / Adaptive / Children & Preschool",
+            "count" : "1"
+          }, {
+            "item" : "Registered programs for Adult Active Living, Children & Preschool, Adaptive",
+            "count" : "1"
+          }, {
+            "item" : "Graffitti Art Program (G.A.P.) / Ma Mawi Wi Chi Itata Centre: Positive Athletics and Cultural Experience (PACE) Program / Winnipeg School Division / Adult Learning Centre",
+            "count" : "1"
+          }, {
+            "item" : "Free Play programs & Drop In",
+            "count" : "1"
+          }, {
+            "item" : "Registered programs for Groups, Single & Doubles League, Friday Juniors & Summer tennis camps",
+            "count" : "1"
+          } ],
+          "cardinality" : "9"
+        },
+        "format" : { }
+      }, {
+        "id" : 261349689,
+        "name" : "Facility Info",
+        "dataTypeName" : "text",
+        "fieldName" : "facility_info",
+        "position" : 11,
+        "renderTypeName" : "text",
+        "tableColumnId" : 20361820,
+        "width" : 256,
+        "cachedContents" : {
+          "null" : "8",
+          "top" : [ {
+            "item" : "Clubhouse / 4 cushioned courts enclosed by windscreens / Backboard / Ball machine  Racquet string service",
+            "count" : "1"
+          }, {
+            "item" : "Community Use Computers",
+            "count" : "1"
+          }, {
+            "item" : "Indoor Track",
+            "count" : "1"
+          } ],
+          "cardinality" : "3"
+        },
+        "format" : { }
+      }, {
+        "id" : 261349690,
+        "name" : "Website",
+        "dataTypeName" : "url",
+        "fieldName" : "website",
+        "position" : 12,
+        "renderTypeName" : "url",
+        "tableColumnId" : 20361821,
+        "width" : 184,
+        "cachedContents" : {
+          "largest" : {
+            "url" : "http://winnipeg.ca/cms/recreation/facilities/leisurecentres/turtleisland.stm"
+          },
+          "non_null" : 11,
+          "null" : 0,
+          "top" : [ {
+            "item" : {
+              "url" : "http://winnipeg.ca/cms/recreation/facilities/leisurecentres/deer_lodge.stm"
+            },
+            "count" : 20
+          }, {
+            "item" : {
+              "url" : "http://winnipeg.ca/cms/recreation/facilities/leisurecentres/stjamescivic.stm"
+            },
+            "count" : 19
+          }, {
+            "item" : {
+              "url" : "http://winnipeg.ca/cms/recreation/facilities/leisurecentres/magnuseliason.stm"
+            },
+            "count" : 18
+          }, {
+            "item" : {
+              "url" : "http://winnipeg.ca/cms/recreation/facilities/leisurecentres/turtleisland.stm"
+            },
+            "count" : 17
+          }, {
+            "item" : {
+              "url" : "http://winnipeg.ca/cms/recreation/facilities/leisurecentres/eastendcultural.stm"
+            },
+            "count" : 16
+          }, {
+            "item" : {
+              "url" : "http://winnipeg.ca/cms/recreation/facilities/leisurecentres/stjohnsleisure.stm"
+            },
+            "count" : 15
+          }, {
+            "item" : {
+              "url" : "http://winnipeg.ca/cms/recreation/facilities/leisurecentres/fortrougeleisurecentre.stm"
+            },
+            "count" : 14
+          }, {
+            "item" : {
+              "url" : "http://winnipeg.ca/cms/recreation/facilities/leisurecentres/freighthouse.stm"
+            },
+            "count" : 13
+          }, {
+            "item" : {
+              "url" : "http://winnipeg.ca/cms/recreation/facilities/leisurecentres/peguistrail.stm"
+            },
+            "count" : 12
+          }, {
+            "item" : {
+              "url" : "http://winnipeg.ca/cms/recreation/facilities/leisurecentres/bourkevale.stm"
+            },
+            "count" : 11
+          }, {
+            "item" : {
+              "url" : "http://winnipeg.ca/cms/recreation/facilities/leisurecentres/mayfair.stm"
+            },
+            "count" : 10
+          } ],
+          "smallest" : {
+            "url" : "http://winnipeg.ca/cms/recreation/facilities/leisurecentres/bourkevale.stm"
+          }
+        },
+        "format" : { },
+        "subColumnTypes" : [ "url", "description" ]
+      }, {
+        "id" : 261349691,
+        "name" : "Owned By",
+        "dataTypeName" : "text",
+        "fieldName" : "owned_by",
+        "position" : 13,
+        "renderTypeName" : "text",
+        "tableColumnId" : 20361822,
+        "width" : 196,
+        "cachedContents" : {
+          "null" : "0",
+          "top" : [ {
+            "item" : "City",
+            "count" : "10"
+          }, {
+            "item" : "River East Transcona School Division",
+            "count" : "1"
+          } ],
+          "cardinality" : "2"
+        },
+        "format" : { }
+      }, {
+        "id" : 261349692,
+        "name" : "Operated By",
+        "dataTypeName" : "text",
+        "fieldName" : "operated_by",
+        "position" : 14,
+        "renderTypeName" : "text",
+        "tableColumnId" : 20361823,
+        "width" : 232,
+        "cachedContents" : {
+          "null" : "0",
+          "top" : [ {
+            "item" : "City",
+            "count" : "11"
+          } ],
+          "cardinality" : "1"
+        },
+        "format" : { }
+      }, {
+        "id" : 261349693,
+        "name" : "Maintained By",
+        "dataTypeName" : "text",
+        "fieldName" : "maintained_by",
+        "position" : 15,
+        "renderTypeName" : "text",
+        "tableColumnId" : 20361824,
+        "width" : 256,
+        "cachedContents" : {
+          "null" : "0",
+          "top" : [ {
+            "item" : "City",
+            "count" : "11"
+          } ],
+          "cardinality" : "1"
+        },
+        "format" : { }
+      }, {
+        "id" : 261349694,
+        "name" : "Complex ID",
+        "dataTypeName" : "number",
+        "fieldName" : "complex_id",
+        "position" : 16,
+        "renderTypeName" : "number",
+        "tableColumnId" : 20361825,
+        "width" : 220,
+        "cachedContents" : {
+          "average" : "104.6363636363636",
+          "null" : "0",
+          "top" : [ {
+            "item" : "20",
+            "count" : "1"
+          }, {
+            "item" : "86",
+            "count" : "1"
+          }, {
+            "item" : "22",
+            "count" : "1"
+          }, {
+            "item" : "71",
+            "count" : "1"
+          }, {
+            "item" : "191",
+            "count" : "1"
+          }, {
+            "item" : "162",
+            "count" : "1"
+          }, {
+            "item" : "163",
+            "count" : "1"
+          }, {
+            "item" : "94",
+            "count" : "1"
+          }, {
+            "item" : "102",
+            "count" : "1"
+          }, {
+            "item" : "189",
+            "count" : "1"
+          }, {
+            "item" : "51",
+            "count" : "1"
+          } ],
+          "sum" : "1151",
+          "cardinality" : "11"
+        },
+        "format" : { }
+      }, {
+        "id" : 261349695,
+        "name" : "Location 1",
+        "dataTypeName" : "location",
+        "fieldName" : "location_1",
+        "position" : 17,
+        "renderTypeName" : "location",
+        "tableColumnId" : 20361826,
+        "width" : 220,
+        "format" : { },
+        "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+      }, {
+        "id" : 406531637,
+        "name" : "Wards",
+        "dataTypeName" : "number",
+        "fieldName" : ":@computed_region_6rfj_69jf",
+        "position" : 22,
+        "renderTypeName" : "number",
+        "tableColumnId" : 80244063,
+        "computationStrategy" : {
+          "source_columns" : [ "location_1" ],
+          "type" : "georegion_match_on_point",
+          "parameters" : {
+            "region" : "_6rfj-69jf",
+            "primary_key" : "_feature_id"
+          }
+        },
+        "format" : { }
+      }, {
+        "id" : 406531638,
+        "name" : "Neighborhoods",
+        "dataTypeName" : "number",
+        "fieldName" : ":@computed_region_38v8_cedi",
+        "position" : 23,
+        "renderTypeName" : "number",
+        "tableColumnId" : 80244064,
+        "computationStrategy" : {
+          "source_columns" : [ "location_1" ],
+          "type" : "georegion_match_on_point",
+          "parameters" : {
+            "region" : "_38v8-cedi",
+            "primary_key" : "_feature_id"
+          }
+        },
+        "format" : { }
+      }, {
+        "id" : 406531639,
+        "name" : "Zip Codes",
+        "dataTypeName" : "number",
+        "fieldName" : ":@computed_region_4h47_8kp6",
+        "position" : 24,
+        "renderTypeName" : "number",
+        "tableColumnId" : 80244065,
+        "computationStrategy" : {
+          "source_columns" : [ "location_1" ],
+          "type" : "georegion_match_on_point",
+          "parameters" : {
+            "region" : "_4h47-8kp6",
+            "primary_key" : "_feature_id"
+          }
+        },
+        "format" : { }
+      } ],
+      "displayFormat" : {
+        "bkgdLayers" : [ {
+          "layerKey" : "Google Roadmap",
+          "opacity" : 1
+        } ],
+        "disableGeolocator" : false,
+        "exclusiveLayers" : false,
+        "viewDefinitions" : [ {
+          "uid" : "self",
+          "highlightColor" : "#ddeaf0",
+          "color" : "#0000ff",
+          "plot" : {
+            "locationId" : 20361826,
+            "titleId" : 20361810,
+            "descriptionColumns" : [ {
+              "tableColumnId" : 20361811
+            }, { } ]
+          },
+          "flyoutsNoLabel" : false,
+          "alias" : "Fitness Leisure Centre",
+          "opacity" : 1,
+          "plotStyle" : "point"
+        } ]
+      },
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Canada Open Government Licence",
+        "termsLink" : "http://open.canada.ca/en/open-government-licence-canada"
+      },
+      "metadata" : {
+        "rdfSubject" : "0",
+        "rdfClass" : "",
+        "custom_fields" : {
+          "Department" : {
+            "Group" : "Information",
+            "Department" : "Community Services"
+          },
+          "Update Frequency" : {
+            "Interval" : "Monthly"
+          },
+          "Licence" : {
+            "Licence" : "Open Government Licence - Winnipeg"
+          }
+        },
+        "rowIdentifier" : "0",
+        "availableDisplayTypes" : [ "map", "table", "fatrow", "page" ],
+        "renderTypeConfig" : {
+          "visible" : {
+            "map" : true,
+            "table" : true
+          },
+          "active" : {
+            "table" : {
+              "id" : "self"
+            }
+          }
+        }
+      },
+      "owner" : {
+        "id" : "2mb6-i6j3",
+        "displayName" : "Open Data Admin",
+        "screenName" : "Open Data Admin",
+        "type" : "interactive",
+        "userSegment" : "site_member",
+        "flags" : [ "acceptedEula" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "2mb6-i6j3",
+        "displayName" : "Open Data Admin",
+        "screenName" : "Open Data Admin",
+        "type" : "interactive",
+        "userSegment" : "site_member",
+        "flags" : [ "acceptedEula" ]
+      },
+      "tags" : [ "fitness", "leisure", "public facility" ],
+      "flags" : [ "unsaved" ]
+    }
+  },
+  "data" : [ [ "row-mqx9~7hib_ezgy", "00000000-0000-0000-56D3-4D46909C8429", 0, 1559396132, null, 1559396133, null, "{ }", "Magnus Eliason Recreation Centre", "430 Langside St", false, false, null, false, true, "Multi-Purpose Room / Gymnasium / Kitchen", true, "Children Drop In /  Youth Action Centre", "Community Use Computers", [ "http://winnipeg.ca/cms/recreation/facilities/leisurecentres/magnuseliason.stm", null ], "City", "City", "City", "189", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.8917579670487", "-97.156911698187", null, false ], "3", "59", null ]
+, [ "row-b9a3.snb3_jd4g", "00000000-0000-0000-1170-92AABFA8B795", 0, 1572601724, null, 1572601726, null, "{ }", "East End Cultural and Leisure Centre", "575 Larsen Ave", false, false, null, false, false, null, true, "Registered Programs / Youth Action Centre", null, [ "http://winnipeg.ca/cms/recreation/facilities/leisurecentres/eastendcultural.stm", null ], "City", "City", "City", "94", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.91284368794095", "-97.09772408190102", null, false ], "1", "197", null ]
+, [ "row-fqk5.5zy3.fge5", "00000000-0000-0000-F74B-3AEB4A390052", 0, 1572601724, null, 1572601726, null, "{ }", "Fort Rouge Leisure Centre", "625 Osborne St", true, true, "bring your own lock", false, true, "Auditorium / Fitness Studio / Multi-Purpose Room / Kitchen / Main Floor Boardroom / 2nd Floor Boardroom", true, "Registered programs for Adult Active Living, Children & Preschool, Adaptive", null, [ "http://winnipeg.ca/cms/recreation/facilities/leisurecentres/fortrougeleisurecentre.stm", null ], "City", "City", "City", "51", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.86343477318488", "-97.13503079283343", null, false ], "6", "99", null ]
+, [ "row-fuhn.wrud-jqcf", "00000000-0000-0000-0433-5B10761D6AD2", 0, 1572601724, null, 1572601726, null, "{ }", "Bourkevale Lawn Bowling", "100 Ferry Rd", false, false, null, false, true, "Multi-Purpose Room", false, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/leisurecentres/bourkevale.stm", null ], "City", "City", "City", "20", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.87492729414465", "-97.22080729245732", null, false ], "13", "32", null ]
+, [ "row-pjiy.nhk2-jz9n", "00000000-0000-0000-7C22-23E96CF52468", 0, 1572601724, null, 1572601726, null, "{ }", "Turtle Island Neighbourhood Centre", "510 King St", false, false, null, false, true, "Multi-Purpose Room / Culture Room / Classrooms", true, "Graffitti Art Program (G.A.P.) / Ma Mawi Wi Chi Itata Centre: Positive Athletics and Cultural Experience (PACE) Program / Winnipeg School Division / Adult Learning Centre", null, [ "http://winnipeg.ca/cms/recreation/facilities/leisurecentres/turtleisland.stm", null ], "City", "City", "City", "71", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.91075575598853", "-97.13670609615068", null, false ], "4", "37", null ]
+, [ "row-hw7j-v6pk_uxyj", "00000000-0000-0000-06D2-9DC406330F19", 0, 1572601724, null, 1572601726, null, "{ }", "Mayfair Recreation Centre", "40 Mayfair Pl", false, false, null, false, false, null, true, "Free Play programs & Drop In", null, [ "http://winnipeg.ca/cms/recreation/facilities/leisurecentres/mayfair.stm", null ], "City", "City", "City", "191", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.88240128239898", "-97.13785454331928", null, false ], "6", "57", null ]
+, [ "row-yr7n.4wgc_xbt8", "00000000-0000-0000-6B3A-82022BF4833E", 0, 1572601724, null, 1572601726, null, "{ }", "St. James Civic Centre", "2055 Ness Ave", false, false, null, false, true, "Auditorium / Boardroom - Basement / Kitchen / Preschool Centre /Mezzanine #1 / Mezzanine #2", true, "Adult Leisure / Adult Active Living / Adaptive / Children & Preschool", null, [ "http://winnipeg.ca/cms/recreation/facilities/leisurecentres/stjamescivic.stm", null ], "City", "City", "City", "162", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.885789547222736", "-97.23476435833894", null, false ], "13", "165", null ]
+, [ "row-68qt-3wzs~9bw5", "00000000-0000-0000-8F35-78CD4A9BCAE8", 0, 1572601724, null, 1572601726, null, "{ }", "Peguis Trail Fitness Centre", "1400 Rothesay St", true, true, "bring your own lock", false, false, null, true, "Adult Active Living", "Indoor Track", [ "http://winnipeg.ca/cms/recreation/facilities/leisurecentres/peguistrail.stm", null ], "River East Transcona School Division", "City", "City", "102", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.94284500650329", "-97.07719504492002", null, false ], "10", "12", null ]
+, [ "row-hehq_ndre~en97", "00000000-0000-0000-6B33-F39ABC2A8A89", 0, 1572601724, null, 1572601726, null, "{ }", "Deer Lodge Tennis Club", "2050 Ness Ave", false, false, null, true, false, null, true, "Registered programs for Groups, Single & Doubles League, Friday Juniors & Summer tennis camps", "Clubhouse / 4 cushioned courts enclosed by windscreens / Backboard / Ball machine  Racquet string service", [ "http://winnipeg.ca/cms/recreation/facilities/leisurecentres/deer_lodge.stm", null ], "City", "City", "City", "22", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.88417925614795", "-97.23202161380463", null, false ], "13", "165", null ]
+, [ "row-8tbk~apta_v4zy", "00000000-0000-0000-00B1-AD3B0D874926", 0, 1572601724, null, 1572601726, null, "{ }", "Freight House Recreation and Leisure Centre", "200 Isabel St", true, true, "bring your own lock", true, true, "Craftroom / Multi-purpose Room", false, null, null, [ "http://winnipeg.ca/cms/recreation/facilities/leisurecentres/freighthouse.stm", null ], "City", "City", "City", "163", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.90459859628892", "-97.15014205044585", null, false ], "12", "38", null ]
+, [ "row-xpdz.ks2k~2f3d", "00000000-0000-0000-44A9-43CB9047FEE6", 0, 1572601724, null, 1572601726, null, "{ }", "St. John's Leisure Centre", "601 Aikins St", false, false, null, false, true, "Multi-Purpose Room / Classrooms", true, "Adult Leisure / Adult Active Living / Adaptive / Children & Preschool / Youth", null, [ "http://winnipeg.ca/cms/recreation/facilities/leisurecentres/stjohnsleisure.stm", null ], "City", "City", "City", "86", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}", "49.92760361365355", "-97.12731013765219", null, false ], "4", "121", null ]
+ ]
+}

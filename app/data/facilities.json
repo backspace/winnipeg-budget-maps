@@ -1290,5 +1290,12 @@
     "lon": -97.04687946342477,
     "type": "fire-paramedic-station",
     "ward": "Transcona"
+  },
+  {
+    "name": "Peguis Trail Fitness Centre",
+    "lat": 49.94284500650329,
+    "lon": -97.07719504492002,
+    "type": "fitness",
+    "ward": "North Kildonan"
   }
 ]
