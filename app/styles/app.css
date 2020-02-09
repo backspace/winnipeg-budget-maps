@@ -69,6 +69,23 @@
   }
 }
 
+.swiper-slide-active .library .book1 {
+  animation: fade 1s ease-in 1s forwards;
+}
+
+.swiper-slide-active .library .book2 {
+  animation: fade 1.5s ease-in 1s forwards;
+}
+
+.swiper-slide-active .library .book3 {
+  animation: fade 2s ease-in 1s forwards;
+}
+
+.swiper-slide-active .library .book4 {
+  animation: fade 2.5s ease-in 1s forwards;
+}
+
+
 .swiper-slide-active .bus .headlight {
   animation: fade 2s ease-in 1s forwards;
 }

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="233px" height="229px" viewBox="79.5 8.5 233 229" enable-background="new 79.5 8.5 233 229" xml:space="preserve">
+<g>
+	<path d="M232.936,110.05"/>
+	<polyline points="289.428,120.487 304.463,120.487 304.463,19.436 91.538,19.436 91.538,120.487 105.669,120.487 105.669,39.492
+		123.377,39.492 123.377,62.755 133.434,62.755 133.434,39.492 151.136,39.492 151.136,50.513 161.186,50.513 161.186,39.492
+		175.068,39.492 178.893,39.492 191.306,39.492 191.268,39.372 208.113,33.923 234.162,114.459 217.318,119.909 192.775,44.036
+		192.775,120.487 237.834,120.487 	"/>
+	<polygon points="281.875,167.635 281.875,225.19 291.93,225.19 291.93,148.19 281.875,148.19 	"/>
+	<rect x="267.992" y="171.459" width="10.058" height="53.729"/>
+	<rect x="212.474" y="148.19" width="10.058" height="76.997"/>
+	<polygon points="264.168,167.635 264.168,148.19 254.115,148.19 254.115,155.389 254.115,225.19 264.168,225.19 	"/>
+	<rect x="240.236" y="159.215" width="10.051" height="65.976"/>
+	<polygon points="236.41,148.19 226.355,148.19 226.355,225.19 236.41,225.19 236.41,155.389 	"/>
+	<rect x="123.377" y="66.581" width="10.057" height="53.731"/>
+	<polygon points="119.552,43.317 109.495,43.317 109.495,120.314 119.552,120.314 119.552,62.755 	"/>
+	<polyline points="157.261,225.363 208.648,225.363 208.648,148.91 184.105,224.785 167.265,219.338 193.311,138.799
+		210.158,144.246 210.117,144.366 222.531,144.366 226.355,144.366 240.236,144.366 240.236,155.389 250.291,155.389
+		250.291,144.366 267.992,144.366 267.992,167.635 278.05,167.635 278.05,144.366 295.754,144.366 295.754,225.363 304.463,225.363
+		304.463,124.312 91.538,124.312 91.538,225.363 105.669,225.363 	"/>
+
+		<rect x="150.195" y="176.762" transform="matrix(0.3078 -0.9515 0.9515 0.3078 -42.3466 305.3765)" width="77.004" height="10.058"/>
+	<rect x="178.893" y="43.317" width="10.057" height="76.995"/>
+
+		<rect x="174.212" y="71.89" transform="matrix(-0.3077 -0.9515 0.9515 -0.3077 204.9763 302.9759)" width="76.998" height="10.055"/>
+	<polygon points="147.311,43.317 137.259,43.317 137.259,62.755 137.259,120.314 147.311,120.314 147.311,50.513 	"/>
+	<rect x="151.136" y="54.338" width="10.052" height="65.976"/>
+	<polygon points="165.011,43.317 165.011,50.513 165.011,120.314 175.068,120.314 175.068,43.317 	"/>
+</g>
+<g>
+	<rect class="book1" x="247.622" y="55.333" stroke="#2E368F" stroke-width="3" stroke-miterlimit="10" width="47.43" height="12.833"/>
+	<rect class="book2" x="242.282" y="68.167" stroke="#2E368F" stroke-width="3" stroke-miterlimit="10" width="47.43" height="12.833"/>
+	<rect class="book3" x="252.116" y="81" stroke="#2E368F" stroke-width="3" stroke-miterlimit="10" width="47.43" height="12.833"/>
+	<rect class="book4" x="238.236" y="93.834" stroke="#2E368F" stroke-width="3" stroke-miterlimit="10" width="47.43" height="12.833"/>
+	<rect class="book5" x="242.725" y="106.667" stroke="#2E368F" stroke-width="3" stroke-miterlimit="10" width="47.43" height="12.833"/>
+</g>
+<g>
+	<rect class="book1" x="109.264" y="160.5" stroke="#2E368F" stroke-width="3" stroke-miterlimit="10" width="47.43" height="12.834"/>
+	<rect class="book2" x="103.924" y="173.334" stroke="#2E368F" stroke-width="3" stroke-miterlimit="10" width="47.43" height="12.833"/>
+	<rect class="book3" x="113.758" y="186.167" stroke="#2E368F" stroke-width="3" stroke-miterlimit="10" width="47.43" height="12.833"/>
+	<rect class="book4" x="99.878" y="199" stroke="#2E368F" stroke-width="3" stroke-miterlimit="10" width="47.43" height="12.834"/>
+	<rect class="book5" x="104.367" y="211.834" stroke="#2E368F" stroke-width="3" stroke-miterlimit="10" width="47.43" height="12.834"/>
+</g>
+</svg>
