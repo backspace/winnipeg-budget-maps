@@ -93,7 +93,6 @@ export default class BusComponent extends Component {
     const facts = [
       'no more paper schedules',
       'BUStxt schedule information cancelled',
-      'no more DART service for lower-density neighbourhoods',
       'shorter afternoon rush hour service',
       'fewer interior bus washes',
       'no more free Downtown Spirit buses',
