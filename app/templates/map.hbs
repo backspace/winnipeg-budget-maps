@@ -72,6 +72,13 @@
           @debug={{this.debug}}
         />
       {{/unless}}
+      {{#each-in @model.cutRoutes as |number route|}}
+        <layers.geoJSON
+          @geoJSON={{route.path}}
+          @color="#2E368F"
+          @weight="1"
+        />
+      {{/each-in}}
     </LeafletMap>
   {{/let}}
 

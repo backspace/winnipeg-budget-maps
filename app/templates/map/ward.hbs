@@ -46,5 +46,13 @@
         {{/each}}
       </ul>
     {{/if}}
+    {{#if @model.routeCuts}}
+      <h2 class="font-headline mt-2">transit cuts</h2>
+      <ul>
+        {{#each @model.routeCuts as |cut|}}
+          <li>{{cut}}</li>
+        {{/each}}
+      </ul>
+    {{/if}}
   </div>
 </BottomContainer>

@@ -3,6 +3,8 @@ import Photos from '../../data/councillor-photos';
 import Contacts from '../../data/councillor-contacts';
 import FacilityCuts from '../../data/facility-cuts';
 import WardCuts from '../../data/ward-cuts';
+import RouteCuts from '../../data/route-cuts';
+import WardRoutes from '../../data/ward-routes';
 
 import resolveAsset from 'ember-cli-resolve-asset';
 
@@ -38,6 +40,10 @@ export default class WardRoute extends Route {
       return WardCuts[key].includes(name);
     });
 
+    const routeCuts = WardRoutes[name].map(routeString => {
+      return `${routeString}: ${RouteCuts[routeString]}`;
+    });
+
     return {
       ward,
       photoUrl,
@@ -46,6 +52,7 @@ export default class WardRoute extends Route {
       closures,
       facilityCuts,
       wardCuts,
+      routeCuts,
     }
   }
 }

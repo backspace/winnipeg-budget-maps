@@ -4,20 +4,35 @@ import Wards from '../data/wards';
 
 import Closures from '../data/closures';
 import FacilityCuts from '../data/facility-cuts';
+import RouteCuts from '../data/route-cuts';
 
 import glenway from '../data/glenway';
+
+import fetch from 'fetch';
 
 import L from 'leaflet';
 import moment from 'moment';
 
 export default class MapRoute extends Route {
-  model() {
+  async model() {
     Wards.features.forEach(ward => {
       const extent = ward.properties.extent;
       ward.properties.bounds = boundsFromExtent(extent);
     });
 
     Wards.properties.bounds = boundsFromExtent(Wards.properties.extent);
+
+    const cutRouteStrings = Object.keys(RouteCuts);
+    const routePaths = await Promise.all(cutRouteStrings.map(routeString => fetch(`/route-paths/${routeString}.json`).then(response => response.json())));
+
+    const cutRoutes = cutRouteStrings.reduce((cutRoutes, routeString, index) => {
+      cutRoutes[routeString] = {
+        path: routePaths[index],
+        number: routeString,
+      };
+
+      return cutRoutes;
+    }, {});
 
     return {
       facilities: facilities.map(f => {
@@ -56,6 +71,7 @@ export default class MapRoute extends Route {
       routes: {
         glenway
       },
+      cutRoutes,
       wards: Wards,
     };
   }
