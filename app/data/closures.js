@@ -15,6 +15,4 @@ export default {
   'Eldon Ross Pool': new Date(2020, 8, 1),
   'Kinsmen Sherbrook Pool': new Date(2022, 0, 1),
   'Transcona Kinsmen Centennial Pool': new Date(2022, 0, 1),
-
-  '864 Marion St Fire Hall': new Date(2020, 3, 1),
 };

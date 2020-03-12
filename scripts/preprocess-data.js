@@ -23,18 +23,6 @@ const processedOutdoorPools = extractRows(require('../data/outdoor-pools.json').
 const processedWadingPools = extractRows(require('../data/wading-pools.json').data, 'wading-pool', 28);
 const processedArenas = extractRows(require('../data/arenas.json').data, 'arena', 15);
 
-const fireAndParamedicStations = require('../data/fire-paramedic.json').data;
-
-const processedFireStations = extractRows(fireAndParamedicStations.filter(row => row[10] === 'Fire Only'), 'fire-station', 12, 9).map(station => {
-  station.name = `${station.name} Fire Hall`;
-  return station;
-});
-
-const processedFireAndParamedicStations = extractRows(fireAndParamedicStations.filter(row => row[10] === 'Fire Paramedic Combined'), 'fire-paramedic-station', 12, 9).map(station => {
-  station.name = `${station.name} Fire and Paramedic Station`;
-  return station;
-});
-
 const closedWadingPools = [];
 const remainingWadingPools = [...processedWadingPools];
 
@@ -73,8 +61,6 @@ fs.writeFileSync('app/data/facilities.json', JSON.stringify(
     processedOutdoorPools,
     processedWadingPools,
     processedArenas,
-    processedFireStations,
-    processedFireAndParamedicStations,
   ),
   null, 2));
 
