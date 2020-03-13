@@ -18,8 +18,6 @@ fs.writeFileSync('app/data/wards.json', JSON.stringify(Wards, null, 2));
 const inside = require('point-in-geopolygon');
 
 const processedLibraries = extractRows(require('../data/libraries.json').data, 'library', 19);
-const processedIndoorPools = extractRows(require('../data/indoor-pools.json').data, 'indoor-pool', 45);
-const processedOutdoorPools = extractRows(require('../data/outdoor-pools.json').data, 'outdoor-pool', 37);
 const processedWadingPools = extractRows(require('../data/wading-pools.json').data, 'wading-pool', 28);
 const processedArenas = extractRows(require('../data/arenas.json').data, 'arena', 15);
 
@@ -57,8 +55,6 @@ closedWadingPools.forEach((pool, index) => {
 
 fs.writeFileSync('app/data/facilities.json', JSON.stringify(
   processedLibraries.concat(
-    processedIndoorPools,
-    processedOutdoorPools,
     processedWadingPools,
     processedArenas,
   ),

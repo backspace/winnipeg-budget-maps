@@ -17,14 +17,6 @@ libraries.forEach(library => {
   }
 });
 
-const laterPoolOpenings = ['Margaret Grant Pool', 'St. James Civic Centre Pool', 'Seven Oaks Pool'];
-
-laterPoolOpenings.forEach(pool => {
-  facilityCuts[pool] = {
-    'Delay winter morning openings to 11:30am': moment(new Date(2021, 0, 1)),
-  };
-});
-
 facilityCuts['Millennium Library']['No new social workers, crisis training, or lobby space for partnering with social services'] = moment(new Date(2020, 3, 1));
 
 export default facilityCuts;
