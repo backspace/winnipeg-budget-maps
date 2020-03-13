@@ -29,6 +29,7 @@ export default class MapRoute extends Route {
       cutRoutes[routeString] = {
         path: routePaths[index],
         number: routeString,
+        cuts: RouteCuts[routeString],
       };
 
       return cutRoutes;

@@ -1,0 +1,14 @@
+{{#let
+  (component @layers.geoJSON)
+  as |geoJSON|}}
+  <geoJSON
+    @geoJSON={{@route.path}}
+    @color="#2E368F"
+    @weight="1"
+    as |layer|
+  >
+    <layer.tooltip>
+      Bus route {{@route.number}}: {{@route.cuts}}
+    </layer.tooltip>
+  </geoJSON>
+{{/let}}
