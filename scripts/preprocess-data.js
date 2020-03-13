@@ -26,7 +26,7 @@ const processedArenas = extractRows(require('../data/arenas.json').data, 'arena'
 const closedWadingPools = [];
 const remainingWadingPools = [...processedWadingPools];
 
-while (closedWadingPools.length < 38) {
+while (closedWadingPools.length < 27) {
   let minimumDistance = Number.MAX_VALUE;
   let closestPair;
 

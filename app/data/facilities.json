@@ -395,8 +395,7 @@
     "lat": 49.85704506421516,
     "lon": -97.14544274777957,
     "type": "wading-pool",
-    "ward": "Fort Rouge - East Fort Garry",
-    "syntheticClosureDateString": "2021-07-01 23:00:00"
+    "ward": "Fort Rouge - East Fort Garry"
   },
   {
     "name": "Lomond Park Wading Pool",
@@ -434,16 +433,14 @@
     "lat": 49.92462544770564,
     "lon": -97.13721176369974,
     "type": "wading-pool",
-    "ward": "Mynarski",
-    "syntheticClosureDateString": "2023-07-01 23:00:00"
+    "ward": "Mynarski"
   },
   {
     "name": "Earl Grey Community Centre Wading Pool",
     "lat": 49.86689679989561,
     "lon": -97.15084685552841,
     "type": "wading-pool",
-    "ward": "Fort Rouge - East Fort Garry",
-    "syntheticClosureDateString": "2020-07-01 23:00:00"
+    "ward": "Fort Rouge - East Fort Garry"
   },
   {
     "name": "Ducharme Park Wading Pool",
@@ -479,8 +476,7 @@
     "lat": 49.93476351549268,
     "lon": -97.1888054680931,
     "type": "wading-pool",
-    "ward": "Point Douglas",
-    "syntheticClosureDateString": "2020-07-01 23:00:00"
+    "ward": "Point Douglas"
   },
   {
     "name": "Bronx Park Community Centre Wading Pool",
@@ -494,8 +490,7 @@
     "lat": 49.90164925165612,
     "lon": -97.18959968793219,
     "type": "wading-pool",
-    "ward": "Daniel McIntyre",
-    "syntheticClosureDateString": "2021-07-01 23:00:00"
+    "ward": "Daniel McIntyre"
   },
   {
     "name": "Vermillion Park Wading Pool",
@@ -531,8 +526,7 @@
     "lat": 49.86507696149414,
     "lon": -97.11857867065396,
     "type": "wading-pool",
-    "ward": "Fort Rouge - East Fort Garry",
-    "syntheticClosureDateString": "2022-07-01 23:00:00"
+    "ward": "Fort Rouge - East Fort Garry"
   },
   {
     "name": "Lions Wading Pool",
@@ -577,8 +571,7 @@
     "lat": 49.88388014154437,
     "lon": -97.155216173433,
     "type": "wading-pool",
-    "ward": "Fort Rouge - East Fort Garry",
-    "syntheticClosureDateString": "2023-07-01 23:00:00"
+    "ward": "Fort Rouge - East Fort Garry"
   },
   {
     "name": "Weston Park Wading Pool",
@@ -617,8 +610,7 @@
     "lat": 49.91426116213934,
     "lon": -97.13600704896913,
     "type": "wading-pool",
-    "ward": "Mynarski",
-    "syntheticClosureDateString": "2020-07-01 23:00:00"
+    "ward": "Mynarski"
   },
   {
     "name": "Lizzie Park Wading Pool",
@@ -684,8 +676,7 @@
     "lat": 49.85427379268317,
     "lon": -97.19002139859418,
     "type": "wading-pool",
-    "ward": "River Heights - Fort Garry",
-    "syntheticClosureDateString": "2022-07-01 23:00:00"
+    "ward": "River Heights - Fort Garry"
   },
   {
     "name": "Luxton Community Centre Wading Pool",
@@ -745,16 +736,14 @@
     "lat": 49.86567585476028,
     "lon": -97.1892063825687,
     "type": "wading-pool",
-    "ward": "River Heights - Fort Garry",
-    "syntheticClosureDateString": "2023-07-01 23:00:00"
+    "ward": "River Heights - Fort Garry"
   },
   {
     "name": "Morse Place Community Centre Wading Pool",
     "lat": 49.91278622150586,
     "lon": -97.08422364852079,
     "type": "wading-pool",
-    "ward": "Elmwood - East Kildonan",
-    "syntheticClosureDateString": "2021-07-01 23:00:00"
+    "ward": "Elmwood - East Kildonan"
   },
   {
     "name": "Pascoe Park Wading Pool",
