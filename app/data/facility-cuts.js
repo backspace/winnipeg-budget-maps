@@ -4,7 +4,7 @@ import moment from 'moment';
 const facilityCuts = {};
 
 const libraries = facilities.filter(f => f.type === 'library');
-const sundayLibraryClosures = ['Millennium Library', 'Henderson Library', 'Pembina Trail Library', 'St. Boniface Library', 'Sir William Stephenson Library'];
+const sundayLibraryClosures = ['Millennium Library', 'Henderson Library', 'Pembina Trail Library', 'St. Boniface Library', 'Sir William Stephenson Library', 'Westwood Library'];
 
 libraries.forEach(library => {
   const name = library.name;
