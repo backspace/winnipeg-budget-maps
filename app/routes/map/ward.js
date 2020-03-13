@@ -41,7 +41,7 @@ export default class WardRoute extends Route {
     });
 
     const routeCuts = WardRoutes[name].map(routeString => {
-      return `${routeString}: ${RouteCuts[routeString]}`;
+      return `Route ${routeString}: ${RouteCuts[routeString]}`;
     });
 
     return {
