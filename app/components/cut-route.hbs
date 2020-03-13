@@ -3,12 +3,19 @@
   as |geoJSON|}}
   <geoJSON
     @geoJSON={{@route.path}}
-    @color="#2E368F"
-    @weight="1"
+    @color="transparent"
+    @weight="10"
+    @onMouseover={{action this.over}}
+    @onMouseout={{action this.out}}
     as |layer|
   >
     <layer.tooltip @className="route">
       Bus route {{@route.number}}: {{@route.cuts}}
     </layer.tooltip>
   </geoJSON>
+  <geoJSON
+    @geoJSON={{@route.path}}
+    @color="#2E368F"
+    @weight={{if this.hovering "3" "1"}}
+  />
 {{/let}}
