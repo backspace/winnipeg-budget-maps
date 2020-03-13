@@ -10,7 +10,7 @@ export default {
   '84': 'Saturdays 530a–1145p → 11a–715p',
   '85': 'Weekdays end 11p → 7p, Saturdays and Sundays eliminated',
   '89': 'Weekdays end 145a → 7p, Saturdays eliminated',
-  '92': 'Weekdays end 1230a → 7p, Saturday 645a–1130p → 11a–7p, Sundays eliminated',
+  '92': 'Weekdays end 1230a → 7p, Saturdays 645a–1130p → 11a–7p, Sundays eliminated',
   '93': 'Saturdays and Sundays eliminated',
   '94': 'Weekdays end 1230a → 2230p',
   '95': 'Weekdays end 845p → 7p, Saturdays and Sundays eliminated',
