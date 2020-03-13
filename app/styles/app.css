@@ -24,6 +24,11 @@
   font-family: body;
 }
 
+.leaflet-tooltip.route {
+  width: 10rem;
+  white-space: normal;
+}
+
 .streetlight .ray {
   fill: $gold;
 }
